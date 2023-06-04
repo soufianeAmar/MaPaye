@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Personne_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Autof669289a-6116-43dd-9e5d-794f5a7de359">
+              <TabbedGroup Id="Item33">
+                <LayoutGroup Id="Item7">
+                  <TabbedGroup Id="Item9">
+                    <LayoutGroup Id="Item8">
+                      <LayoutGroup Id="Auto3352c8c6-46f8-49d8-94b1-737e2b977c96">
+                        <TabbedGroup Id="Item14">
+                          <LayoutGroup Id="Item11">
+                            <LayoutItem Id="TAUX_IEP" RelativeSize="13.304721030042918" />
+                            <LayoutItem Id="Nbr_Ans_Trv_Ext_Etat" RelativeSize="9.6566523605150216" />
+                            <LayoutItem Id="Nbr_Ans_Trv_Ext_Prv" RelativeSize="10.729613733905579" />
+                            <LayoutItem Id="TAUX_IEP_Ext" RelativeSize="66.309012875536482" />
+                          </LayoutGroup>
+                        </TabbedGroup>
+                      </LayoutGroup>
+                    </LayoutGroup>
+                  </TabbedGroup>
+                </LayoutGroup>
+              </TabbedGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="MaPaye">
+  <ActionDesign>
+    <Actions>
+      <Action Id="Logoff" Caption="Fermer la session" />
+      <Action Id="Logon" Caption="Ouvrir une session" />
+      <Action Id="ShowInReport" ImageName="dossier-impression" ShowItemsOnClick="True" />
+    </Actions>
+    <ActionToContainerMapping>
+      <ActionContainer Id="Afficher" Removed="True" />
+      <ActionContainer Id="ImportationDonnées">
+        <ActionLink ActionId="VideCorbeille" Index="4" IsNewNode="True" />
+      </ActionContainer>
+      <ActionContainer Id="Reports">
+        <ActionLink ActionId="ExecuteReport" Index="0" Removed="True" />
+        <ActionLink ActionId="ShowInReport" Index="1" Removed="True" />
+        <ActionLink ActionId="ShowReportDesigner" Index="2" Removed="True" />
+      </ActionContainer>
+      <ActionContainer Id="Tools">
+        <ActionLink ActionId="EditModel" Index="0" />
+        <ActionLink ActionId="Calculer Paye à l'Envers" Index="1" />
+        <ActionLink ActionId="ImporterBanques" Index="2" />
+        <ActionLink ActionId="ImporterBareme" Index="3" />
+        <ActionLink ActionId="ImporterCorps" Index="4" />
+        <ActionLink ActionId="VideCorbeille" Index="4" Removed="True" />
+        <ActionLink ActionId="ImporterEmployes" Index="5" />
+        <ActionLink ActionId="ImporterFonctions" Index="6" />
+        <ActionLink ActionId="ImporterUnités" Index="7" />
+        <ActionLink ActionId="ImporterTypesContrats" Index="8" />
+        <ActionLink ActionId="ImporterServices" Index="9" />
+        <ActionLink ActionId="ImporterPayes" Index="10" />
+        <ActionLink ActionId="CopyModelDifference" Index="11" />
+        <ActionLink ActionId="ExportData" Index="12" />
+        <ActionLink ActionId="ImportSqlData" Index="13" />
+        <ActionLink ActionId="CreateModelDifferences" Index="14" />
+        <ActionLink ActionId="ExportModelDifferences" Index="15" />
+        <ActionLink ActionId="CreateDashboard" Index="16" />
+      </ActionContainer>
+      <ActionContainer Id="Unspecified">
+        <ActionLink ActionId="ExporetrEtats" Removed="True" />
+        <ActionLink ActionId="ImporterEtats" Removed="True" />
+      </ActionContainer>
+      <ActionContainer Id="View">
+        <ActionLink ActionId="Refresh" Index="0" IsNewNode="True" Removed="True" />
+        <ActionLink ActionId="ExecuteReport" Index="1" IsNewNode="True" />
+        <ActionLink ActionId="ShowInReport" Index="2" IsNewNode="True" />
+        <ActionLink ActionId="ShowReportDesigner" Index="3" IsNewNode="True" />
+        <ActionLink ActionId="ExporetrEtats" Index="4" IsNewNode="True" />
+        <ActionLink ActionId="ImporterEtats" Index="5" IsNewNode="True" />
+      </ActionContainer>
+    </ActionToContainerMapping>
+  </ActionDesign>
+  <BOModel>
+    <Class Name="DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters">
+      <OwnMembers>
+        <Member Name="Password" Caption="Mot de Passe" />
+        <Member Name="UserName" Caption="Nom d'Utilistateur" />
+      </OwnMembers>
+    </Class>
+    <Class Name="MaPaye.Module.CustomLogonParameter">
+      <OwnMembers>
+        <Member Name="database" Caption="Exercice" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <Localization>
+    <LocalizationGroup Name="Controls">
+      <LocalizationGroup Name="DevExpress.XtraLayout">
+        <LocalizationItem Name="UndoHintCaption" Value="Annuler" />
+      </LocalizationGroup>
+    </LocalizationGroup>
+  </Localization>
+  <NavigationItems RelatedReportsGroupCaption="Rapports">
+    <Items>
+      <Item Id="Administration" ImageName="cabinet-dossiers" Index="0">
+        <Items>
+          <Item Id="Dossier_ListView" Index="0" />
+          <Item Id="Exercice_ListView" Index="1" />
+          <Item Id="SecuritySystemUser_ListView" ViewId="SecuritySystemUser_ListView" ObjectKey="" ImageName="PassWord" Index="2" IsNewNode="True" />
+          <Item Id="SecuritySystemRole_ListView" ViewId="SecuritySystemRole_ListView" ObjectKey="" ImageName="User" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Default" Index="2">
+        <Items>
+          <Item Id="Categorie_Rapport_ListView" Removed="True" />
+          <Item Id="MyDetails" Removed="True" />
+          <Item Id="SecuritySystemRole_ListView" Removed="True" />
+          <Item Id="SecuritySystemUser_ListView" Removed="True" />
+        </Items>
+      </Item>
+      <Item Id="Utilisateurs" ImageName="homme-olive-utilisateurs" Index="5" Visible="False" IsNewNode="True" />
+      <Item Id="Reports" ImageName="Rapport">
+        <Items>
+          <Item Id="Reports" ImageName="dossier-impression" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options Skin="Office 2010 Silver" UIType="MultipleWindowSDI">
+    <LayoutManagerOptions CaptionHorizontalAlignment="Near" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="15.1.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="15.1.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="AuthenticationStandardLogonParameters_DetailView">
+      <Items>
+        <StaticText Id="@e74f1ca4-3dcd-4600-af24-c4b72f281660" Caption="IDMP" Text="Nom d'utilisateur : Admin, Mot de passe : 123" IsNewNode="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Center" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions" RelativeSize="100" Caption="Main">
+          <LayoutGroup Id="RootGroup" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Center" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions" RelativeSize="100" Caption="RootGroup">
+            <LayoutGroup Id="ImageGroup" TextAlignMode="AlignWithChildren" RelativeSize="12.0617110799439" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Center" CaptionVerticalAlignment="Default" Caption="ImageGroup(3)">
+              <LayoutItem Id="LogonImage" SizeConstraintsType="Default" RelativeSize="100" TextAlignMode="AutoSize" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Center" CaptionVerticalAlignment="Default" ViewItem="LogonImage" />
+            </LayoutGroup>
+            <LayoutGroup Id="EditorsGroup" RelativeSize="87.9382889200561" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Center" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions" Caption="EditorsGroup">
+              <LayoutItem Id="LogonText" ShowCaption="False" ViewItem="LogonText" SizeConstraintsType="Default" Index="0" RelativeSize="10.094637223974763" TextAlignMode="CustomSize" IsNewNode="True" />
+              <LayoutItem Id="@e74f1ca4-3dcd-4600-af24-c4b72f281660" ViewItem="@e74f1ca4-3dcd-4600-af24-c4b72f281660" CaptionHorizontalAlignment="Default" SizeConstraintsType="Default" Index="1" RelativeSize="7.5709779179810726" TextAlignMode="CustomSize" IsNewNode="True" />
+              <LayoutItem Id="UserName" ViewItem="UserName" SizeConstraintsType="Default" Index="2" RelativeSize="7.5709779179810726" IsNewNode="True" />
+              <LayoutItem Id="Password" ViewItem="Password" SizeConstraintsType="Default" Index="3" RelativeSize="74.763406940063092" IsNewNode="True" />
+              <LayoutGroup Id="Editors" RelativeSize="92" ImageName="" Removed="True">
+                <LayoutItem Id="Notification" TextAlignMode="UseParentOptions" ViewItem="Notification" CaptionHorizontalAlignment="Default" SizeConstraintsType="Default" Index="0" RelativeSize="6" IsNewNode="True" />
+                <LayoutItem Id="Password" SizeConstraintsType="Default" RelativeSize="88" ViewItem="Password" />
+                <LayoutItem Id="UserName" SizeConstraintsType="Default" RelativeSize="5" ViewItem="UserName" />
+              </LayoutGroup>
+              <LayoutGroup Id="Text" TextAlignMode="AlignLocal" RelativeSize="7" ImageName="" Removed="True">
+                <LayoutItem Id="LogonText" SizeConstraintsType="Default" RelativeSize="100" ViewItem="LogonText" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="CustomLogonParameter_DetailView">
+      <Items>
+        <StaticText Id="@9e77d772-ea67-4fbe-ac9b-7ce97168f550" Text="Nom d'utilisateur : Admin, Mot de passe : 123" Caption="IDMP" IsNewNode="True" />
+        <StaticText Id="Information" Text="Nom d'utilisateur : Admin, Mot de passe : 123" IsNewNode="True" />
+        <StaticImage Id="LogonImage" ImageName="Security_Image" SizeMode="AutoSize" HorizontalAlign="NotSet" VerticalAlign="Middle" IsNewNode="True" />
+        <StaticText Id="LogonText" Text="Welcome! Please enter your user name and password below." IsNewNode="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Main" TextAlignMode="AlignWithChildren" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Center" CaptionVerticalAlignment="Default" RelativeSize="100" Direction="Horizontal">
+          <LayoutItem Id="LogonImage" TextAlignMode="UseParentOptions" ViewItem="LogonImage" CaptionHorizontalAlignment="Default" SizeConstraintsType="Default" Index="0" RelativeSize="23.281907433380084" IsNewNode="True" />
+          <LayoutGroup Id="Auto1b3eea70-3cc8-430e-aef9-ea81abafb244" ShowCaption="False" Index="1" RelativeSize="76.718092566619916" Caption="Auto1b3eea70-3cc8-430e-aef9-ea81abafb244" IsNewNode="True">
+            <LayoutItem Id="LogonText" TextAlignMode="UseParentOptions" ViewItem="LogonText" CaptionHorizontalAlignment="Default" SizeConstraintsType="Default" Index="0" RelativeSize="10.094637223974763" IsNewNode="True" />
+            <LayoutItem Id="@9e77d772-ea67-4fbe-ac9b-7ce97168f550" ViewItem="@9e77d772-ea67-4fbe-ac9b-7ce97168f550" CaptionHorizontalAlignment="Default" SizeConstraintsType="Default" Index="1" RelativeSize="7.5709779179810726" IsNewNode="True" />
+            <LayoutItem Id="UserName" TextAlignMode="UseParentOptions" ViewItem="UserName" CaptionHorizontalAlignment="Default" SizeConstraintsType="Default" Index="2" RelativeSize="7.5709779179810726" IsNewNode="True" />
+            <LayoutItem Id="Password" TextAlignMode="UseParentOptions" ViewItem="Password" CaptionHorizontalAlignment="Default" SizeConstraintsType="Default" Index="3" RelativeSize="7.5709779179810726" IsNewNode="True" />
+            <LayoutGroup Id="SimpleEditors" ShowCaption="False" Index="4" RelativeSize="67.192429022082024" IsNewNode="True">
+              <LayoutItem Id="database" TextAlignMode="UseParentOptions" ViewItem="database" CaptionHorizontalAlignment="Default" SizeConstraintsType="Default" Index="0" RelativeSize="100" IsNewNode="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="SimpleEditors" Caption="SimpleEditors" TextAlignMode="UseParentOptions" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Center" CaptionVerticalAlignment="Default" RelativeSize="87.795275590551185" Direction="Horizontal" Index="1" Removed="True">
+            <LayoutGroup Id="CustomLogonParameter" Removed="True" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Exercice_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Main" TextAlignMode="UseParentOptions" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Center" CaptionVerticalAlignment="Default" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" TextAlignMode="UseParentOptions" Caption="SimpleEditors" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Center" CaptionVerticalAlignment="Default" RelativeSize="100">
+            <LayoutGroup Id="Exercice" TextAlignMode="UseParentOptions" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Center" CaptionVerticalAlignment="Default" RelativeSize="100" Direction="Vertical">
+              <LayoutGroup Id="Exercice_col1" TextAlignMode="UseParentOptions" RelativeSize="94" Caption="Exercice_col1" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Center" CaptionVerticalAlignment="Default">
+                <LayoutGroup Id="Autocacaf860-f4f5-44d3-9dee-6247d1f99aed" ShowCaption="False" Caption="Autocacaf860-f4f5-44d3-9dee-6247d1f99aed(5)" Direction="Horizontal" Index="0" RelativeSize="5" IsNewNode="True">
+                  <LayoutGroup Id="Auto8289d239-7ae5-4924-b41c-c0c0706a00c6" ShowCaption="False" Caption="Auto8289d239-7ae5-4924-b41c-c0c0706a00c6(6)" Index="0" RelativeSize="50" IsNewNode="True">
+                    <LayoutItem Id="db_name" ViewItem="db_name" SizeConstraintsType="Default" Index="0" RelativeSize="100" IsNewNode="True" />
+                  </LayoutGroup>
+                  <LayoutItem Id="Item2" ShowCaption="False" SizeConstraintsType="Default" Index="1" RelativeSize="49" CaptionHorizontalAlignment="Default" TextAlignMode="UseParentOptions" ViewItem="" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutGroup Id="Auto72d310d0-685e-4f92-8484-62a723b6e335" ShowCaption="False" Caption="Auto72d310d0-685e-4f92-8484-62a723b6e335(9)" Direction="Horizontal" Index="1" RelativeSize="4" IsNewNode="True">
+                  <LayoutItem Id="dossier" ViewItem="dossier" SizeConstraintsType="Default" Index="0" RelativeSize="56" IsNewNode="True" />
+                  <LayoutItem Id="exercice" ViewItem="exercice" SizeConstraintsType="Default" Index="1" RelativeSize="43" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutItem Id="exercice" ViewItem="exercice" SizeConstraintsType="Default" Index="1" RelativeSize="11" Removed="True" />
+                <LayoutGroup Id="Auto78072d6f-a278-43ae-9a43-e7a0ba060703" ShowCaption="False" Caption="Auto78072d6f-a278-43ae-9a43-e7a0ba060703(12)" Index="2" RelativeSize="90" IsNewNode="True">
+                  <LayoutGroup Id="Auto43b7786d-87c7-4f52-8470-a3f68dd2e18c" ShowCaption="False" Caption="Auto43b7786d-87c7-4f52-8470-a3f68dd2e18c(13)" Direction="Horizontal" Index="0" RelativeSize="5" IsNewNode="True">
+                    <LayoutItem Id="chemin" ViewItem="chemin" SizeConstraintsType="Default" Index="0" RelativeSize="79" IsNewNode="True" />
+                    <LayoutItem Id="cParcourir" SizeConstraintsType="Default" Index="1" RelativeSize="20" ShowCaption="False" TextAlignMode="UseParentOptions" ViewItem="" CaptionHorizontalAlignment="Default" IsNewNode="True" />
+                  </LayoutGroup>
+                  <LayoutGroup Id="Autocd14683e-bc5b-414b-9f31-0b22a0970860" ShowCaption="False" Caption="Autocd14683e-bc5b-414b-9f31-0b22a0970860(16)" Direction="Horizontal" Index="1" RelativeSize="94" IsNewNode="True">
+                    <LayoutGroup Id="Auto793d7faa-b942-4c45-b3ac-a471090d722e" ShowCaption="False" Caption="Auto793d7faa-b942-4c45-b3ac-a471090d722e(17)" Index="0" RelativeSize="36" TextAlignMode="AlignLocal" IsNewNode="True">
+                      <LayoutItem Id="importation" ShowCaption="False" ViewItem="importation" CaptionHorizontalAlignment="Default" SizeConstraintsType="Default" Index="0" RelativeSize="4" IsNewNode="True" />
+                      <LayoutItem Id="accessible" ShowCaption="False" ViewItem="accessible" SizeConstraintsType="Default" Index="1" RelativeSize="95" IsNewNode="True" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="Auto6e7ecb2f-d479-4939-a72c-a7cf8dcac03b" ShowCaption="False" Caption="Auto6e7ecb2f-d479-4939-a72c-a7cf8dcac03b(20)" Index="1" RelativeSize="63" IsNewNode="True">
+                      <LayoutItem Id="exercice_precedent" ViewItem="exercice_precedent" CaptionHorizontalAlignment="Default" SizeConstraintsType="Default" Index="0" RelativeSize="4" IsNewNode="True" />
+                      <LayoutItem Id="designation" ViewItem="designation" SizeConstraintsType="Default" Index="1" RelativeSize="95" IsNewNode="True" />
+                    </LayoutGroup>
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutItem Id="designation" ViewItem="designation" Removed="True" />
+                <LayoutItem Id="dossier" RelativeSize="9" ViewItem="dossier" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Exercice_col2" RelativeSize="13" Caption="Exercice_col2" ImageName="" Direction="Horizontal" Removed="True">
+                <LayoutItem Id="chemin" ViewItem="chemin" Removed="True" />
+                <LayoutItem Id="db_name" ViewItem="db_name" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="SecuritySystemUser_Roles_ListView" AllowEdit="True" />
+  </Views>
+</Application>

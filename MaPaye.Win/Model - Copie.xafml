@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="MaPaye">
+  <ActionDesign>
+    <Actions>
+      <Action Id="Archiver la base données encours" Caption="Archiver BD" />
+      <Action Id="Logoff" Caption="Fermer la session" />
+      <Action Id="Logon" Caption="Ouvrir une session" />
+      <Action Id="Restaurer la base données encours" Caption="Restaurer BD" />
+      <Action Id="ShowInReport" ImageName="dossier-impression" />
+    </Actions>
+    <ActionToContainerMapping>
+      <ActionContainer Id="ImportationDonnées">
+        <ActionLink ActionId="Link" Index="-1" IsNewNode="True" />
+        <ActionLink ActionId="Unlink" Index="-1" IsNewNode="True" />
+      </ActionContainer>
+      <ActionContainer Id="Reports">
+        <ActionLink ActionId="ExecuteReport" Removed="True" />
+        <ActionLink ActionId="ShowInReport" Removed="True" />
+        <ActionLink ActionId="ShowReportDesigner" Removed="True" />
+      </ActionContainer>
+      <ActionContainer Id="Tools">
+        <ActionLink ActionId="CreateDashboard" Index="0" />
+        <ActionLink ActionId="EditModel" Index="1" />
+        <ActionLink ActionId="Archiver la base données encours" Index="2" IsNewNode="True" />
+        <ActionLink ActionId="Restaurer la base données encours" Index="3" IsNewNode="True" />
+        <ActionLink ActionId="ImporterBanques" Index="4" />
+        <ActionLink ActionId="ImporterBareme" Index="5" />
+        <ActionLink ActionId="ImporterCorps" Index="6" />
+        <ActionLink ActionId="ImporterEmployes" Index="7" />
+        <ActionLink ActionId="ImporterFonctions" Index="8" />
+        <ActionLink ActionId="ImporterServices" Index="9" />
+      </ActionContainer>
+      <ActionContainer Id="Unspecified">
+        <ActionLink ActionId="Archiver la base données encours" Removed="True" />
+        <ActionLink ActionId="Importer des etats" Removed="True" />
+        <ActionLink ActionId="Restaurer la base données encours" Removed="True" />
+      </ActionContainer>
+      <ActionContainer Id="View">
+        <ActionLink ActionId="Refresh" Index="0" />
+        <ActionLink ActionId="ShowInReport" Index="1" IsNewNode="True" />
+        <ActionLink ActionId="ShowReportDesigner" Index="2" IsNewNode="True" />
+        <ActionLink ActionId="ExecuteReport" Index="3" IsNewNode="True" />
+        <ActionLink ActionId="Importer des etats" IsNewNode="True" />
+      </ActionContainer>
+    </ActionToContainerMapping>
+  </ActionDesign>
+  <BOModel>
+    <Class Name="DevExpress.ExpressApp.Reports.ReportData" ImageName="dossier-impression">
+      <OwnMembers>
+        <Member Name="Categorie" IsCustom="True" Caption="Catégorie" Type="MaPaye.Module.Categorie_Rapport" LookupProperty="Categorie_Fr" IsNewNode="True" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters">
+      <OwnMembers>
+        <Member Name="Password" Caption="Mot de Passe" />
+        <Member Name="UserName" Caption="Nom d'Utilistateur" />
+      </OwnMembers>
+    </Class>
+    <Class Name="LSWinModule.Security.CustomLogonParameter">
+      <OwnMembers>
+        <Member Name="database" Caption="Exercice" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="Administration" ImageName="cabinet-dossiers" Index="0">
+        <Items>
+          <Item Id="SecuritySystemRole_ListView" ViewId="SecuritySystemRole_ListView" ObjectKey="" ImageName="User" IsNewNode="True" />
+          <Item Id="SecuritySystemUser_ListView" ViewId="SecuritySystemUser_ListView" ObjectKey="" ImageName="PassWord" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Baremes" Index="1" />
+      <Item Id="Données de Base" Index="2" />
+      <Item Id="Default" Index="3">
+        <Items>
+          <Item Id="Categorie_Rapport_ListView" Removed="True" />
+          <Item Id="MyDetails" Removed="True" />
+          <Item Id="SecuritySystemRole_ListView" Removed="True" />
+          <Item Id="SecuritySystemUser_ListView" Removed="True" />
+          <Item Id="SimpleUser_ListView" Removed="True" />
+        </Items>
+      </Item>
+      <Item Id="Reports" Caption="Impression" ImageName="dossier-impression" Index="4">
+        <Items>
+          <Item Id="Reports" Index="0" />
+          <Item Id="Categorie_Rapport_ListView" ViewId="Categorie_Rapport_ListView" ObjectKey="" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Utilisateurs" ImageName="homme-olive-utilisateurs" Index="5" Visible="False" IsNewNode="True" />
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="12.1.4.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="12.1.4.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="Exercice_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Main" TextAlignMode="UseParentOptions">
+          <LayoutGroup Id="SimpleEditors" TextAlignMode="UseParentOptions">
+            <LayoutGroup Id="Exercice" TextAlignMode="UseParentOptions">
+              <LayoutGroup Id="Exercice_col1" TextAlignMode="UseParentOptions" RelativeSize="86">
+                <LayoutGroup Id="Autocacaf860-f4f5-44d3-9dee-6247d1f99aed" ShowCaption="False" Caption="" Direction="Horizontal" Index="0" RelativeSize="31" IsNewNode="True">
+                  <LayoutGroup Id="Auto8289d239-7ae5-4924-b41c-c0c0706a00c6" ShowCaption="False" Caption="" Index="0" RelativeSize="50" IsNewNode="True">
+                    <LayoutItem Id="db_name" ViewItem="db_name" SizeConstraintsType="Default" Index="0" RelativeSize="40" IsNewNode="True" />
+                    <LayoutItem Id="dossier" ViewItem="dossier" SizeConstraintsType="Default" Index="1" RelativeSize="30" IsNewNode="True" />
+                    <LayoutItem Id="exercice" ViewItem="exercice" SizeConstraintsType="Default" Index="2" RelativeSize="30" IsNewNode="True" />
+                  </LayoutGroup>
+                  <LayoutItem Id="Item2" ShowCaption="False" ViewItem="" SizeConstraintsType="Default" Index="1" RelativeSize="50" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutGroup Id="Autoe038280f-d859-42c4-b3a2-bf779564412b" RelativeSize="14" Index="1">
+                  <LayoutItem Id="chemin" RelativeSize="85" ViewItem="chemin" />
+                  <LayoutGroup Id="Item1" TextAlignMode="AlignLocal" RelativeSize="14" />
+                </LayoutGroup>
+                <LayoutItem Id="exercice" RelativeSize="9" Index="1" ViewItem="exercice" Removed="True" />
+                <LayoutItem Id="accessible" RelativeSize="53" Index="2" ViewItem="accessible" />
+                <LayoutItem Id="db_name" ViewItem="db_name" Removed="True" />
+                <LayoutItem Id="dossier" RelativeSize="9" ViewItem="dossier" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="ReportData_DetailView">
+      <Items>
+        <PropertyEditor Id="Categorie" PropertyName="Categorie" IsNewNode="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Main" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" Caption="SimpleEditors" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions" RelativeSize="100">
+            <LayoutGroup Id="ReportData" Caption="ReportData" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignMode="UseParentOptions" RelativeSize="100">
+              <LayoutItem Id="ReportName" SizeConstraintsType="Default" RelativeSize="8" TextAlignMode="UseParentOptions" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" ViewItem="ReportName" />
+              <LayoutGroup Id="Autoe6729897-1c23-489e-8418-ffdb268fba3d" ShowCaption="False" Caption="" Direction="Horizontal" Index="1" RelativeSize="8" IsNewNode="True">
+                <LayoutItem Id="DataTypeCaption" ViewItem="DataTypeCaption" SizeConstraintsType="Default" Index="0" RelativeSize="49" IsNewNode="True" />
+                <LayoutItem Id="Categorie" ViewItem="Categorie" SizeConstraintsType="Default" Index="1" RelativeSize="50" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutItem Id="DataTypeCaption" ViewItem="DataTypeCaption" SizeConstraintsType="Default" Index="1" RelativeSize="6" Removed="True" />
+              <LayoutItem Id="IsInplaceReport" SizeConstraintsType="Default" RelativeSize="82" TextAlignMode="UseParentOptions" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" Index="2" ViewItem="IsInplaceReport" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="ReportData_ListView" IsGroupPanelVisible="True">
+      <Columns>
+        <ColumnInfo Id="Categorie" PropertyName="Categorie" Index="2" GroupIndex="0" IsNewNode="True" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

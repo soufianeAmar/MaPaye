@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <ActionDesign>
+    <Actions>
+      <Action Id="Cancel" Caption="Annuler" />
+      <Action Id="DialogCancel" Caption="Annuler" />
+      <Action Id="FullTextSearch" Caption="Filtrer par un texte" ToolTip="Filtrer les enregistrements par texte" />
+      <Action Id="SetFilter" Caption="Filtre" />
+    </Actions>
+  </ActionDesign>
+  <BOModel>
+    <Class Name="DevExpress.ExpressApp.SystemModule.ViewDashboardOrganizationItem" Caption="Affichage">
+      <OwnMembers>
+        <Member Name="ViewDescriptor" Caption="Affichage" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.Person">
+      <OwnMembers>
+        <Member Name="Birthday" Caption="Date de Naissance" />
+        <Member Name="FirstName" Caption="Nom" />
+        <Member Name="LastName" Caption="Prénom" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <Localization>
+    <LocalizationGroup Name="Captions">
+      <LocalizationItem Name="View" Value="Affichage" />
+    </LocalizationGroup>
+    <LocalizationGroup Name="DialogButtons">
+      <LocalizationItem Name="Abort" Value="&amp;Annuler" />
+      <LocalizationItem Name="Cancel" Value="&amp;Annuler" />
+      <LocalizationItem Name="Ignore" Value="&amp;Ignorer" />
+      <LocalizationItem Name="No" Value="&amp;Non" />
+      <LocalizationItem Name="Yes" Value="&amp;Oui" />
+    </LocalizationGroup>
+    <LocalizationGroup Name="Enums">
+      <LocalizationGroup Name="DevExpress.ExpressApp.Editors.ViewItemVisibility">
+        <LocalizationItem Name="Show" Value="Afficher" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.ExpressApp.Templates.ActionsToolbarVisibility">
+        <LocalizationItem Name="Show" Value="Afficher" />
+      </LocalizationGroup>
+    </LocalizationGroup>
+  </Localization>
+  <Views>
+    <DetailView Id="parametre_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Main">
+          <LayoutGroup Id="SimpleEditors" Caption="SimpleEditors">
+            <LayoutGroup Id="parametre" Caption="Paramètres">
+              <LayoutGroup Id="parametre_col2" Caption="parametre_col2">
+                <TabbedGroup Id="Item11">
+                  <LayoutGroup Id="Item1" Caption="Organisme">
+                    <TabbedGroup Id="Item12">
+                      <LayoutGroup Id="Item7" Caption="Coordonnés">
+                        <LayoutGroup Id="8602ad13-6ba0-4107-bf21-c32f0770aa93" Caption="8602ad13-6ba0-4107-bf21-c32f0770aa93(8)" />
+                      </LayoutGroup>
+                      <LayoutGroup Id="Item4" Caption="Banque" />
+                      <LayoutGroup Id="Item3" Caption="Adresse" />
+                    </TabbedGroup>
+                  </LayoutGroup>
+                  <LayoutGroup Id="Item6" Caption="Paramètres" />
+                  <LayoutGroup Id="Item2" Caption="Valeurs de base de la paye">
+                    <LayoutGroup Id="Autoc08ce5f5-b065-4a3c-8e9e-acf96c15b27e" Caption="Autoc08ce5f5-b065-4a3c-8e9e-acf96c15b27e(82)">
+                      <LayoutGroup Id="Auto3c5183e5-410c-4a91-aa81-3dd888365363" Caption="Auto3c5183e5-410c-4a91-aa81-3dd888365363(83)">
+                        <LayoutGroup Id="Auto49d4dd2b-039e-4b3b-b022-6e0cf4f6d87c" Caption="Auto49d4dd2b-039e-4b3b-b022-6e0cf4f6d87c(84)" />
+                      </LayoutGroup>
+                    </LayoutGroup>
+                    <LayoutGroup Id="Auto6bea6ef6-a456-43db-8e65-9e7b013eaa7d" Caption="Auto6bea6ef6-a456-43db-8e65-9e7b013eaa7d(93)" />
+                  </LayoutGroup>
+                </TabbedGroup>
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Paye_DetailView">
+      <Layout>
+        <LayoutGroup Id="Auto99ff01e0-9d62-4bae-8e23-8a5b89099677" Caption="Auto99ff01e0-9d62-4bae-8e23-8a5b89099677(1)" />
+        <LayoutGroup Id="Auto95b68b6f-c1c7-413e-a66d-3c081644cee7" Caption="Auto95b68b6f-c1c7-413e-a66d-3c081644cee7(6)" />
+        <TabbedGroup Id="Item22">
+          <LayoutGroup Id="Item21" Caption="Paye">
+            <LayoutGroup Id="Autof8d6adc1-20d1-4e8d-9e74-5b00c8e84d2d" Caption="Autof8d6adc1-20d1-4e8d-9e74-5b00c8e84d2d(75)">
+              <LayoutGroup Id="Autoaacf4c7c-6bc5-4ecd-b9a4-a3a5bc478b98" Caption="Autoaacf4c7c-6bc5-4ecd-b9a4-a3a5bc478b98(19)">
+                <LayoutGroup Id="Paye_col1" Caption="Paye_col1">
+                  <LayoutGroup Id="Autocc2c2747-ef4a-4d1d-8176-507cdf7cfc98" Caption="Autocc2c2747-ef4a-4d1d-8176-507cdf7cfc98">
+                    <LayoutGroup Id="Auto32fbab9b-191e-475c-8919-f01432975dfb" Caption="Auto32fbab9b-191e-475c-8919-f01432975dfb(24)">
+                      <LayoutGroup Id="Auto337ca3f9-7002-4b85-9a2c-f8c6365897ab" Caption="Auto337ca3f9-7002-4b85-9a2c-f8c6365897ab(26)" />
+                      <LayoutGroup Id="Autoaec3d109-064e-48b4-a5b5-345000e632b3" Caption="Autoaec3d109-064e-48b4-a5b5-345000e632b3(30)">
+                        <LayoutGroup Id="Auto9efd1e98-befa-43a9-b29a-9154c53b906e" Caption="Auto9efd1e98-befa-43a9-b29a-9154c53b906e(31)" />
+                        <LayoutGroup Id="Auto77dc9704-1b2b-4082-af26-9d1c41b46938" Caption="Auto77dc9704-1b2b-4082-af26-9d1c41b46938(35)" />
+                      </LayoutGroup>
+                    </LayoutGroup>
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Auto95a7fa44-47bd-431e-befc-0970712546ad" Caption="Auto95a7fa44-47bd-431e-befc-0970712546ad(35)">
+                  <LayoutGroup Id="Item6" Caption="Item6" />
+                </LayoutGroup>
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="Item4" Caption="Paramètres de Calcul">
+            <LayoutGroup Id="Autoa2b2d340-df44-47d3-8044-9163d98aa543" Caption="Autoa2b2d340-df44-47d3-8044-9163d98aa543(39)">
+              <LayoutGroup Id="Auto181f3258-df34-4f38-a6db-f8a75677d7a1" Caption="Auto181f3258-df34-4f38-a6db-f8a75677d7a1(40)">
+                <LayoutGroup Id="Autocd61b683-2a36-4ced-89a6-8190cee73511" Caption="Autocd61b683-2a36-4ced-89a6-8190cee73511(41)">
+                  <LayoutGroup Id="Autod1d8d742-5c01-4eec-8244-8bcfe52a96ed" Caption="Autod1d8d742-5c01-4eec-8244-8bcfe52a96ed(40)" />
+                  <LayoutGroup Id="Auto1c8591d3-a9f7-4b28-88f5-46e53129a187" Caption="Auto1c8591d3-a9f7-4b28-88f5-46e53129a187(43)">
+                    <LayoutGroup Id="Auto02f6d0a4-c2ca-485a-b346-4efb1b71a4f2" Caption="Auto02f6d0a4-c2ca-485a-b346-4efb1b71a4f2(44)" />
+                    <LayoutGroup Id="Auto22508e59-4377-4608-b8f9-c6ab0ea96445" Caption="Auto22508e59-4377-4608-b8f9-c6ab0ea96445(49)" />
+                  </LayoutGroup>
+                </LayoutGroup>
+              </LayoutGroup>
+            </LayoutGroup>
+            <TabbedGroup Id="Item1">
+              <LayoutGroup Id="Item11" Caption="Taux" />
+              <LayoutGroup Id="Item2" Caption="Calcul Congé" />
+            </TabbedGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="Item15" Caption="Information de l'Employé">
+            <LayoutGroup Id="Auto6ba9404a-ea0d-4dc8-8164-f696b66b49fb" Caption="Auto6ba9404a-ea0d-4dc8-8164-f696b66b49fb(72)">
+              <LayoutGroup Id="Autod0bd27bb-b075-417d-aae3-d0cdb87053b2" Caption="Autod0bd27bb-b075-417d-aae3-d0cdb87053b2(75)" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="Item3" Caption="Observations et Résultats">
+            <LayoutGroup Id="Autoc2b9f67b-cdac-48f2-bb35-cabb8b0987f2" Caption="Autoc2b9f67b-cdac-48f2-bb35-cabb8b0987f2(76)" />
+            <LayoutGroup Id="Auto3fd34cff-f95e-4911-ac68-6bd1e3ee6858" Caption="Auto3fd34cff-f95e-4911-ac68-6bd1e3ee6858(80)" />
+          </LayoutGroup>
+        </TabbedGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Person_DetailView">
+      <Items>
+        <PropertyEditor Id="Birthday" Caption="Date de Naissance" />
+        <PropertyEditor Id="FirstName" Caption="Nom" />
+        <PropertyEditor Id="LastName" Caption="Prénom" />
+      </Items>
+    </DetailView>
+    <ListView Id="Person_ListView">
+      <Columns>
+        <ColumnInfo Id="FirstName" Caption="Nom" />
+        <ColumnInfo Id="LastName" Caption="Prénom" />
+        <ColumnInfo Id="Birthday" Caption="Date de Naissance" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Personne_DetailView">
+      <Items>
+        <PropertyEditor Id="Birthday" Caption="Date de Naissance" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Main">
+          <LayoutGroup Id="SimpleEditors" Caption="SimpleEditors" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Personne_ListView">
+      <Columns>
+        <ColumnInfo Id="Birthday" Caption="Date de Naissance" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

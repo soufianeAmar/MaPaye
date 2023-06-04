@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <ModelEditorSettings Id="ModelEditorSettings">
+    <ModelEditorControl Id="ModelEditorControl" SearchControllVisible="0" />
+  </ModelEditorSettings>
+  <Views Id="Views">
+    <DetailView Id="SecuritySystemRole_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors1" ShowCaption="False" RelativeSize="15.053763440860216">
+            <LayoutItem Id="Name" SizeConstraintsType="Default" RelativeSize="38.095238095238095" />
+            <LayoutItem Id="IsAdministrative" SizeConstraintsType="Default" RelativeSize="27.38095238095238" />
+            <LayoutItem Id="CanEditModel" SizeConstraintsType="Default" RelativeSize="34.523809523809526" />
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs1" RelativeSize="84.946236559139791">
+            <LayoutGroup Id="Users" ShowCaption="True" TextAlignMode="AlignWithChildren" RelativeSize="100">
+              <LayoutItem Id="Users" TextAlignMode="AutoSize" SizeConstraintsType="Default" Index="0" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="TypePermissions" ShowCaption="True" TextAlignMode="AlignWithChildren" RelativeSize="100">
+              <LayoutItem Id="TypePermissions" TextAlignMode="AutoSize" SizeConstraintsType="Default" Index="0" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="ChildRoles" ShowCaption="True" TextAlignMode="AlignWithChildren" RelativeSize="100">
+              <LayoutItem Id="ChildRoles" TextAlignMode="AutoSize" SizeConstraintsType="Default" Index="0" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="ParentRoles" ShowCaption="True" TextAlignMode="AlignWithChildren" RelativeSize="100">
+              <LayoutItem Id="ParentRoles" TextAlignMode="AutoSize" SizeConstraintsType="Default" Index="0" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="Item1" ShowCaption="True" CaptionLocation="Top" CaptionHorizontalAlignment="Default" TextAlignMode="AlignWithChildren" Index="4" RelativeSize="100">
+              <LayoutItem Id="TypePermissionMatrix" ViewItem="TypePermissionMatrix" CaptionHorizontalAlignment="Default" SizeConstraintsType="Default" Index="0" RelativeSize="100" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="SecuritySystemTypePermissionsObjectOwner_TypePermissionMatrix_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="AllowRead" Index="1" />
+        <ColumnInfo Id="Category" Index="2" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Personne_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Autof669289a-6116-43dd-9e5d-794f5a7de359" Caption="Autof669289a-6116-43dd-9e5d-794f5a7de359(17)">
+              <TabbedGroup Id="Item33">
+                <LayoutGroup Id="Indems" Caption="Eléments de la Paye">
+                  <LayoutGroup Id="Auto0e9f7112-19ad-4fac-be6d-693d53df454c" Caption="Auto0e9f7112-19ad-4fac-be6d-693d53df454c(47)">
+                    <LayoutGroup Id="Item2" Caption="Item2" />
+                  </LayoutGroup>
+                  <LayoutGroup Id="Item35" Caption="Item35" />
+                </LayoutGroup>
+                <LayoutGroup Id="247fc80e-fc92-425f-83aa-b0a3dbdc635c" Caption="Informations de l'Employé">
+                  <LayoutGroup Id="Person_col1">
+                    <LayoutGroup Id="Autodb300d62-f3f5-4455-b83a-4c8a3e63ad18" Caption="Autodb300d62-f3f5-4455-b83a-4c8a3e63ad18(45)">
+                      <LayoutGroup Id="Autod0c1a4b7-baec-4aab-8370-2240a2533ac7" Caption="Autod0c1a4b7-baec-4aab-8370-2240a2533ac7(47)">
+                        <LayoutGroup Id="Auto5e15866d-bfbe-4aa3-88d4-343ddfe7cdc5" Caption="Auto5e15866d-bfbe-4aa3-88d4-343ddfe7cdc5(48)">
+                          <LayoutGroup Id="Auto306b945c-852a-4357-830c-bcfabb8bb4b4" Caption="Auto306b945c-852a-4357-830c-bcfabb8bb4b4(57)">
+                            <TabbedGroup Id="Item6">
+                              <LayoutGroup Id="Autode89127e-3593-42a5-bfff-e8ec823f2334" Caption="Informations Générales">
+                                <LayoutGroup Id="Auto0aa241b2-f3c7-4048-b0ed-340867ba11cf" Caption="Auto0aa241b2-f3c7-4048-b0ed-340867ba11cf(58)">
+                                  <LayoutGroup Id="Auto7dd838c6-ae32-479e-9853-7ca0a5f92c90" Caption="Auto7dd838c6-ae32-479e-9853-7ca0a5f92c90(59)" />
+                                  <LayoutGroup Id="Auto8dd83f82-213d-4872-a786-e0414dc779e7" Caption="Auto8dd83f82-213d-4872-a786-e0414dc779e7(61)">
+                                    <LayoutGroup Id="Auto0bf4db15-3210-488d-8602-b94f8210eed7" Caption="Auto0bf4db15-3210-488d-8602-b94f8210eed7(62)" />
+                                    <LayoutGroup Id="Auto51a3ee46-0aa3-489e-888d-c376d2a1ac94" Caption="Auto51a3ee46-0aa3-489e-888d-c376d2a1ac94(65)" />
+                                  </LayoutGroup>
+                                </LayoutGroup>
+                                <LayoutGroup Id="Auto4134ac3c-0fff-4cd1-9718-26b1d829a401" Caption="Auto4134ac3c-0fff-4cd1-9718-26b1d829a401(62)" />
+                              </LayoutGroup>
+                              <LayoutGroup Id="Item3" Caption="Informations Administratives">
+                                <LayoutGroup Id="Auto6346b3e0-487f-47a2-9d42-c6144ec327fa" Caption="Auto6346b3e0-487f-47a2-9d42-c6144ec327fa(67)">
+                                  <LayoutGroup Id="Autod41c6268-5d20-44f9-8277-058f59f05a9e" Caption="Autod41c6268-5d20-44f9-8277-058f59f05a9e(71)" />
+                                </LayoutGroup>
+                              </LayoutGroup>
+                              <LayoutGroup Id="Item21" Caption="Informations de Paiement">
+                                <LayoutGroup Id="Auto04724665-2707-4542-b8e8-8d6ebc372fd6" Caption="Auto04724665-2707-4542-b8e8-8d6ebc372fd6(77)">
+                                  <LayoutGroup Id="Autoe09b6d71-e8dc-40c3-9a58-5065bebf6075" Caption="Autoe09b6d71-e8dc-40c3-9a58-5065bebf6075(78)">
+                                    <LayoutGroup Id="Item12" Caption="Compte CCP">
+                                      <LayoutGroup Id="Autof2520dff-7f7c-4905-8337-f774bd18d83f" Caption="Autof2520dff-7f7c-4905-8337-f774bd18d83f(64)" />
+                                      <LayoutGroup Id="Auto9c4ec7d1-6faa-4c59-ac1e-8c58337b470b" Caption="Auto9c4ec7d1-6faa-4c59-ac1e-8c58337b470b(84)" />
+                                    </LayoutGroup>
+                                    <LayoutGroup Id="Item4" Caption="Compte Bancaire">
+                                      <LayoutGroup Id="Autoa2e5eebf-d624-4dd2-a6e0-fc7916f255c5" Caption="Autoa2e5eebf-d624-4dd2-a6e0-fc7916f255c5(70)" />
+                                    </LayoutGroup>
+                                  </LayoutGroup>
+                                </LayoutGroup>
+                              </LayoutGroup>
+                              <LayoutGroup Id="Item19" Caption="Contrats" />
+                              <LayoutGroup Id="Item5" Caption="Pièces jointes et Observations">
+                                <LayoutGroup Id="Auto2cde03f5-e787-4734-9862-0fedfd27a78f" Caption="Auto2cde03f5-e787-4734-9862-0fedfd27a78f(138)" />
+                              </LayoutGroup>
+                            </TabbedGroup>
+                          </LayoutGroup>
+                        </LayoutGroup>
+                      </LayoutGroup>
+                    </LayoutGroup>
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Item7" Caption="Informations de la Paye">
+                  <TabbedGroup Id="Item9">
+                    <LayoutGroup Id="Item8" Caption="Informations de Base">
+                      <LayoutGroup Id="Auto3352c8c6-46f8-49d8-94b1-737e2b977c96" Caption="Auto3352c8c6-46f8-49d8-94b1-737e2b977c96(84)">
+                        <TabbedGroup Id="Item14">
+                          <LayoutGroup Id="Item11" Caption="Informations de l'experience" />
+                          <LayoutGroup Id="Auto952af102-4690-44be-bfd8-180bf5cee54e" Caption="Autres">
+                            <LayoutGroup Id="Auto1a8a39eb-3593-489c-bcc9-eb2fd0ce3c8e" Caption="Auto1a8a39eb-3593-489c-bcc9-eb2fd0ce3c8e(94)">
+                              <LayoutGroup Id="Auto0dc722b7-7203-4447-bdf2-4ff5a5323d19" Caption="Auto0dc722b7-7203-4447-bdf2-4ff5a5323d19(96)">
+                                <LayoutGroup Id="Autob63e5ced-c0a7-4e0e-9f15-5fd949c48451" Caption="Autob63e5ced-c0a7-4e0e-9f15-5fd949c48451(102)">
+                                  <LayoutGroup Id="Autoc85baae0-5d3a-4466-8009-acbfdb98e724" Caption="Autoc85baae0-5d3a-4466-8009-acbfdb98e724(116)" />
+                                </LayoutGroup>
+                              </LayoutGroup>
+                            </LayoutGroup>
+                          </LayoutGroup>
+                        </TabbedGroup>
+                      </LayoutGroup>
+                    </LayoutGroup>
+                  </TabbedGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Item10" Caption="Informations de congé">
+                  <LayoutGroup Id="Auto94953c04-0797-4f67-afea-49bd16f85f4b" Caption="Auto94953c04-0797-4f67-afea-49bd16f85f4b(131)">
+                    <TabbedGroup Id="Item16">
+                      <LayoutGroup Id="Auto65b90242-4d1e-47b4-8ff7-8a86e042081e" Caption="Congé Annuel">
+                        <LayoutGroup Id="Autofddb5e86-d434-4f97-90f3-baf5781fe959" Caption="Autofddb5e86-d434-4f97-90f3-baf5781fe959(129)" />
+                      </LayoutGroup>
+                      <LayoutGroup Id="Item20" Caption="Congé de Récupération">
+                        <LayoutGroup Id="Autoc722ca44-89f6-49f6-9182-08f5ba2fcf42" Caption="Autoc722ca44-89f6-49f6-9182-08f5ba2fcf42(134)" />
+                      </LayoutGroup>
+                    </TabbedGroup>
+                  </LayoutGroup>
+                </LayoutGroup>
+              </TabbedGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="Auto374c2413-2c53-4303-809a-44d11428e011">
+              <LayoutGroup Id="Auto0d770932-a7a8-4b4c-a60a-514df063fabc">
+                <LayoutGroup Id="Auto45f06541-0829-4b4f-950b-1fc79a231848">
+                  <LayoutGroup Id="Autoedbbf391-eb56-4cf9-bf90-ba9a161e24f4">
+                    <LayoutGroup Id="Auto36efbc96-ad5b-460b-ad0b-de6f791a67d2" Caption="Auto36efbc96-ad5b-460b-ad0b-de6f791a67d2(18)">
+                      <LayoutGroup Id="Autofab3dffe-4dc7-425d-b219-3300aee06e7d" Caption="Autofab3dffe-4dc7-425d-b219-3300aee06e7d(19)" />
+                      <LayoutGroup Id="Autoa6a50122-392f-4722-98f9-80e7f7f1b397" Caption="Autoa6a50122-392f-4722-98f9-80e7f7f1b397(24)">
+                        <LayoutGroup Id="Auto7a2e9978-6cb6-4c5a-a532-0059c2cef14c" Caption="Auto7a2e9978-6cb6-4c5a-a532-0059c2cef14c(25)" />
+                      </LayoutGroup>
+                    </LayoutGroup>
+                  </LayoutGroup>
+                </LayoutGroup>
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

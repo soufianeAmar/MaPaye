@@ -1,0 +1,614 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F777A197-C301-47E1-9654-227C6BBA0881}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MaPaye.Module</RootNamespace>
+    <AssemblyName>MaPaye.Module</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'EasyTest|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\EasyTest\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;EASYTEST</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.ExpressApp.ConditionalAppearance.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.Demos.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.Security.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v12.1.Core">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Data.v12.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.AuditTrail.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.FileAttachment.Win.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.Reports.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.ExpressApp.Reports.Win.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.Xpo.v12.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.v12.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Objects.v12.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Validation.v12.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Win.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Persistent.Base.v12.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Persistent.BaseImpl.v12.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v12.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Charts.v12.1.Core, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v12.1.Core, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPivotGrid.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Reports.v12.1.Designer, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v12.1.Extensions, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="lsactvtn.Net, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MaPaye.Win\bin\Debug\lsactvtn.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.ConnectionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ConnectionInfoExtended, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.ConnectionInfoExtended.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Management.Sdk.Sfc, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.Management.Sdk.Sfc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Smo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.Smo.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.SmoExtended, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.SmoExtended.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\..\System.Data.SQLite.DLL</HintPath>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Baremes\BaremePMG.cs" />
+    <Compile Include="Baremes\BaremeShiftNuit.cs" />
+    <Compile Include="Calculs\ShiftNuitMois.cs" />
+    <Compile Include="Calculs\PrimePMG.cs" />
+    <Compile Include="Calculs\CalculerCle.cs" />
+    <Compile Include="Calculs\CalculerNbrAnnee.cs" />
+    <Compile Include="Calculs\CalculerNbrMois.cs" />
+    <Compile Include="Calculs\Convertisseur_Ar_Fr.cs" />
+    <Compile Include="Calculs\AbsAutoEntree.cs" />
+    <Compile Include="Calculs\AbsAutoSortie.cs" />
+    <Compile Include="Calculs\CalculEvers.cs" />
+    <Compile Include="Calculs\PrimeShiftNuit.cs" />
+    <Compile Include="Calculs\PMGMois.cs" />
+    <Compile Include="Core.cs" />
+    <Compile Include="CustomLogonParameter.cs" />
+    <Compile Include="FindServerDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindServerDlg.designer.cs">
+      <DependentUpon>FindServerDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion\CalculInverse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion\CalculInverse.Designer.cs">
+      <DependentUpon>CalculInverse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion\ContratPersonne.cs" />
+    <Compile Include="PayeFilter.cs" />
+    <Compile Include="PayeFilter.Designer.cs">
+      <DependentUpon>PayeFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenerationFormulesIndem\Indemnite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenerationFormulesIndem\Indemnite.Designer.cs">
+      <DependentUpon>Indemnite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenerationFormulesIndem\ElementPaye.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenerationFormulesIndem\ElementPaye.Designer.cs">
+      <DependentUpon>ElementPaye.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenerationFormulesIndem\Operateur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenerationFormulesIndem\Operateur.Designer.cs">
+      <DependentUpon>Operateur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomizeWindowController.cs" />
+    <Compile Include="CustomizeWindowController.Designer.cs">
+      <DependentUpon>CustomizeWindowController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Données de base\Categorie_Rapport.cs" />
+    <Compile Include="Données de base\Sexe.cs" />
+    <Compile Include="Données de base\TypeContrat.cs" />
+    <Compile Include="Forms\ProgressControll.cs" />
+    <Compile Include="Forms\ProgressForm.cs" />
+    <Compile Include="Forms\ProgressForm.designer.cs">
+      <DependentUpon>ProgressForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenerationFormulesIndem\GenererFormuleCalcul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenerationFormulesIndem\GenererFormuleCalcul.Designer.cs">
+      <DependentUpon>GenererFormuleCalcul.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion\Bordereau.cs" />
+    <Compile Include="Gestion\Das_Personnes.cs" />
+    <Compile Include="Gestion\DAS.cs" />
+    <Compile Include="Données de base\Motif_Etat_Matrice.cs" />
+    <Compile Include="Données de base\Prime_Scolarite.cs" />
+    <Compile Include="Calculs\PortfolioFileData.cs" />
+    <Compile Include="Données de base\Type_Absence.cs" />
+    <Compile Include="Données de base\Banque.cs" />
+    <Compile Include="Baremes\Bareme.cs" />
+    <Compile Include="Données de base\Situation_Conjoint.cs" />
+    <Compile Include="Données de base\Corps.cs" />
+    <Compile Include="Données de base\Situation_Employe.cs" />
+    <Compile Include="Données de base\Indem_Fonction.cs" />
+    <Compile Include="Données de base\parametre.cs" />
+    <Compile Include="Données de base\Fonction.cs" />
+    <Compile Include="Données de base\Indem.cs" />
+    <Compile Include="Données de base\Situation_Familiale.cs" />
+    <Compile Include="Données de base\Raison_Sortie.cs" />
+    <Compile Include="Données de base\Mode_Paiement.cs" />
+    <Compile Include="Calculs\ExcelReader.cs" />
+    <Compile Include="Gestion\Cloture.cs" />
+    <Compile Include="Gestion\DAS_G.cs" />
+    <Compile Include="Gestion\Gestion_Pret.cs" />
+    <Compile Include="Gestion\Mois_Pret.cs" />
+    <Compile Include="Gestion\Recapes_Aout.cs" />
+    <Compile Include="Gestion\Recapes_Avr.cs" />
+    <Compile Include="Gestion\Recapes_Dec.cs" />
+    <Compile Include="Gestion\Recapes_Fev.cs" />
+    <Compile Include="Gestion\Recapes_Janv.cs" />
+    <Compile Include="Gestion\Recapes_Juill.cs" />
+    <Compile Include="Gestion\Recapes_Juin.cs" />
+    <Compile Include="Gestion\Recapes_Mai.cs" />
+    <Compile Include="Gestion\Recapes_Mars.cs" />
+    <Compile Include="Gestion\Recapes_Nouv.cs" />
+    <Compile Include="Gestion\Recapes_Oct.cs" />
+    <Compile Include="Gestion\Recapes_Sept.cs" />
+    <Compile Include="Gestion\Recape_Annuelle.cs" />
+    <Compile Include="ImportationDonnées.cs" />
+    <Compile Include="ImportationDonnées.designer.cs">
+      <DependentUpon>ImportationDonnées.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LongOperation\LongOperationController.cs" />
+    <Compile Include="LongOperation\SessionEventArgs.cs" />
+    <Compile Include="MultiEdit\MultiEditViewController.cs" />
+    <Compile Include="MultiEdit\MultiEditViewController.designer.cs">
+      <DependentUpon>MultiEditViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutilsBDD.cs" />
+    <Compile Include="OutilsBDD.designer.cs">
+      <DependentUpon>OutilsBDD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permissions\MultiEditPermission.cs" />
+    <Compile Include="Gestion\Rappel.cs" />
+    <Compile Include="Gestion\paye_indem.cs" />
+    <Compile Include="Gestion\Indem_Personne.cs" />
+    <Compile Include="Gestion\Paye.cs" />
+    <Compile Include="Gestion\Rappel_indem.cs" />
+    <Compile Include="Module.cs" />
+    <Compile Include="Module.Designer.cs">
+      <DependentUpon>Module.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion\Personne.cs" />
+    <Compile Include="Données de base\MoisActuel.cs" />
+    <Compile Include="Calculs\Arrondi_Decimal.cs" />
+    <Compile Include="Gestion\Periodes_DAS.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Données de base\Service.cs" />
+    <Compile Include="Données de base\Unite.cs" />
+    <Compile Include="ServerList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerList.designer.cs">
+      <DependentUpon>ServerList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Updater.cs" />
+    <Compile Include="ViewController1.cs" />
+    <Compile Include="ViewController1.Designer.cs">
+      <DependentUpon>ViewController1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exportation.cs" />
+    <Compile Include="Exportation.Designer.cs">
+      <DependentUpon>Exportation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewController2.cs" />
+    <Compile Include="ViewController2.Designer.cs">
+      <DependentUpon>ViewController2.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FindServerDlg.resx">
+      <DependentUpon>FindServerDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion\CalculInverse.resx">
+      <DependentUpon>CalculInverse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayeFilter.resx">
+      <DependentUpon>PayeFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenerationFormulesIndem\Indemnite.resx">
+      <DependentUpon>Indemnite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenerationFormulesIndem\ElementPaye.resx">
+      <DependentUpon>ElementPaye.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenerationFormulesIndem\Operateur.resx">
+      <DependentUpon>Operateur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomizeWindowController.resx">
+      <DependentUpon>CustomizeWindowController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exportation.resx">
+      <DependentUpon>Exportation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ProgressForm.lt.resx">
+      <DependentUpon>ProgressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ProgressForm.resx">
+      <DependentUpon>ProgressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenerationFormulesIndem\GenererFormuleCalcul.resx">
+      <DependentUpon>GenererFormuleCalcul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportationDonnées.resx">
+      <DependentUpon>ImportationDonnées.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model.DesignedDiffs.xafml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Module.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultiEdit\MultiEditViewController.lt.resx">
+      <DependentUpon>MultiEditViewController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultiEdit\MultiEditViewController.resx">
+      <DependentUpon>MultiEditViewController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutilsBDD.resx">
+      <DependentUpon>OutilsBDD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="ServerList.resx">
+      <DependentUpon>ServerList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewController1.resx">
+      <DependentUpon>ViewController1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewController2.resx">
+      <DependentUpon>ViewController2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\39-money-money-money.jpg" />
+    <EmbeddedResource Include="Images\agency.png" />
+    <EmbeddedResource Include="Images\agency_32x32.png" />
+    <EmbeddedResource Include="Images\ajouter-utilisateurs.png" />
+    <EmbeddedResource Include="Images\ajouter-utilisateurs_32x32.png" />
+    <EmbeddedResource Include="Images\annee.png" />
+    <EmbeddedResource Include="Images\annee_32x32.png" />
+    <EmbeddedResource Include="Images\archive_add.png" />
+    <EmbeddedResource Include="Images\archive_add_32x32.png" />
+    <EmbeddedResource Include="Images\argent-portefeuille.png" />
+    <EmbeddedResource Include="Images\argent-portefeuille_32x32.png" />
+    <EmbeddedResource Include="Images\banque-icone.png" />
+    <EmbeddedResource Include="Images\banque-icone_32x32.png" />
+    <EmbeddedResource Include="Images\bareme.png" />
+    <EmbeddedResource Include="Images\bareme_32x32.png" />
+    <EmbeddedResource Include="Images\beos-espace-travail.png" />
+    <EmbeddedResource Include="Images\beos-espace-travail_32x32.png" />
+    <EmbeddedResource Include="Images\bus.png" />
+    <EmbeddedResource Include="Images\Business.png" />
+    <EmbeddedResource Include="Images\Business_32x32.png" />
+    <EmbeddedResource Include="Images\bus_32x32.png" />
+    <EmbeddedResource Include="Images\caisse.png" />
+    <EmbeddedResource Include="Images\caisse16.png" />
+    <EmbeddedResource Include="Images\caisse_32x32.png" />
+    <EmbeddedResource Include="Images\Calcul_global.png" />
+    <EmbeddedResource Include="Images\Calcul_global_32x32.png" />
+    <EmbeddedResource Include="Images\Calcul_Indiv.png" />
+    <EmbeddedResource Include="Images\Calcul_Indiv_32x32.png" />
+    <EmbeddedResource Include="Images\Calcul_paye.ico" />
+    <EmbeddedResource Include="Images\Calcul_paye.png" />
+    <EmbeddedResource Include="Images\Calcul_paye_32x32.png" />
+    <EmbeddedResource Include="Images\calendrier-date.png" />
+    <EmbeddedResource Include="Images\calendrier-date_32x32.png" />
+    <EmbeddedResource Include="Images\Chargement_Rateb4.png" />
+    <EmbeddedResource Include="Images\cheq.png" />
+    <EmbeddedResource Include="Images\cheq_32x32.png" />
+    <EmbeddedResource Include="Images\config-date.png" />
+    <EmbeddedResource Include="Images\config-date_32x32.png" />
+    <EmbeddedResource Include="Images\conjoint.png" />
+    <EmbeddedResource Include="Images\conjoint_32x32.png" />
+    <EmbeddedResource Include="Images\corps.png" />
+    <EmbeddedResource Include="Images\corps_32x32.png" />
+    <EmbeddedResource Include="Images\data_management.png" />
+    <EmbeddedResource Include="Images\data_management_32x32.png" />
+    <EmbeddedResource Include="Images\doctor.png" />
+    <EmbeddedResource Include="Images\doctor_32x32.png" />
+    <EmbeddedResource Include="Images\document.png" />
+    <EmbeddedResource Include="Images\document_32x32.png" />
+    <EmbeddedResource Include="Images\dossier-dossiers-icone.png" />
+    <EmbeddedResource Include="Images\dossier-dossiers-icone_32x32.png" />
+    <EmbeddedResource Include="Images\dossier-impression.png" />
+    <EmbeddedResource Include="Images\dossier-impression_32x32.png" />
+    <EmbeddedResource Include="Images\editclear-icone-3928-96.png" />
+    <EmbeddedResource Include="Images\emp.png" />
+    <EmbeddedResource Include="Images\emp_32x32.png" />
+    <EmbeddedResource Include="Images\encourag.png" />
+    <EmbeddedResource Include="Images\encourag_32x32.png" />
+    <EmbeddedResource Include="Images\entete.png" />
+    <EmbeddedResource Include="Images\entete_32x32.png" />
+    <EmbeddedResource Include="Images\entreprise.png" />
+    <EmbeddedResource Include="Images\entreprise_32x32.png" />
+    <EmbeddedResource Include="Images\especes-monnaie-sac.png" />
+    <EmbeddedResource Include="Images\especes-monnaie-sac_32x32.png" />
+    <EmbeddedResource Include="Images\excel.png" />
+    <EmbeddedResource Include="Images\excel_32x32.png" />
+    <EmbeddedResource Include="Images\Export.png" />
+    <EmbeddedResource Include="Images\Export_32x32.png" />
+    <EmbeddedResource Include="Images\feuille.png" />
+    <EmbeddedResource Include="Images\feuille_32x32.png" />
+    <EmbeddedResource Include="Images\filter_data.png" />
+    <EmbeddedResource Include="Images\filter_data_32x32.png" />
+    <EmbeddedResource Include="Images\homme-olive-utilisateurs.png" />
+    <EmbeddedResource Include="Images\homme-olive-utilisateurs_32x32.png" />
+    <EmbeddedResource Include="Images\Import.png" />
+    <EmbeddedResource Include="Images\Import_32x32.png" />
+    <EmbeddedResource Include="Images\Import_emp.png" />
+    <EmbeddedResource Include="Images\Import_emp_32x32.png" />
+    <EmbeddedResource Include="Images\ind_fct.png" />
+    <EmbeddedResource Include="Images\ind_fct_32x32.png" />
+    <EmbeddedResource Include="Images\limportation.png" />
+    <EmbeddedResource Include="Images\limportation_32x32.png" />
+    <EmbeddedResource Include="Images\liste.png" />
+    <EmbeddedResource Include="Images\liste_32x32.png" />
+    <EmbeddedResource Include="Images\LOGO LEADERSOFT 128.PNG" />
+    <EmbeddedResource Include="Images\LOGO LEADERSOFT 270.PNG" />
+    <EmbeddedResource Include="Images\LOGO LEADERSOFT 32.PNG" />
+    <EmbeddedResource Include="Images\LOGO LEADERSOFT 64.PNG" />
+    <EmbeddedResource Include="Images\maison.png" />
+    <EmbeddedResource Include="Images\maison_32x32.png" />
+    <EmbeddedResource Include="Images\mathematiques.png" />
+    <EmbeddedResource Include="Images\mathematiques_32x32.png" />
+    <EmbeddedResource Include="Images\modifier-texte-icone.png" />
+    <EmbeddedResource Include="Images\money_bag.png" />
+    <EmbeddedResource Include="Images\money_bag_32x32.png" />
+    <EmbeddedResource Include="Images\monnaies.png" />
+    <EmbeddedResource Include="Images\monnaies_32x32.png" />
+    <EmbeddedResource Include="Images\mutuel.png" />
+    <EmbeddedResource Include="Images\mutuel_32x32.png" />
+    <EmbeddedResource Include="Images\nouvelle-formule.png" />
+    <EmbeddedResource Include="Images\nouvelle-formule_32x32.png" />
+    <EmbeddedResource Include="Images\ordinateur-bureau.png" />
+    <EmbeddedResource Include="Images\ordinateur-bureau_32x32.png" />
+    <EmbeddedResource Include="Images\point.png" />
+    <EmbeddedResource Include="Images\point_32x32.png" />
+    <EmbeddedResource Include="Images\programme.png" />
+    <EmbeddedResource Include="Images\programme_32x32.png" />
+    <EmbeddedResource Include="Images\RATEB.jpg" />
+    <EmbeddedResource Include="Images\Rateb4.png" />
+    <EmbeddedResource Include="Images\Rateb4_32x32.png" />
+    <EmbeddedResource Include="Images\receveur.png" />
+    <EmbeddedResource Include="Images\receveur_32x32.png" />
+    <EmbeddedResource Include="Images\reseau-son-organisation.png" />
+    <EmbeddedResource Include="Images\reseau-son-organisation_32x32.png" />
+    <EmbeddedResource Include="Images\resp.png" />
+    <EmbeddedResource Include="Images\resp_32x32.png" />
+    <EmbeddedResource Include="Images\school.png" />
+    <EmbeddedResource Include="Images\school_32x32.png" />
+    <EmbeddedResource Include="Images\sexe.png" />
+    <EmbeddedResource Include="Images\sexe_32x32.png" />
+    <EmbeddedResource Include="Images\sit-famille.png" />
+    <EmbeddedResource Include="Images\sit-famille_32x32.png" />
+    <EmbeddedResource Include="Images\sit.png" />
+    <EmbeddedResource Include="Images\sit_32x32.png" />
+    <EmbeddedResource Include="Images\sortie.png" />
+    <EmbeddedResource Include="Images\sortie_32x32.png" />
+    <EmbeddedResource Include="Images\surveiller-options.png" />
+    <EmbeddedResource Include="Images\surveiller-options_32x32.png" />
+    <EmbeddedResource Include="Images\unité.png" />
+    <EmbeddedResource Include="Images\unité_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\Role.png" />
+    <EmbeddedResource Include="Images\Role_32x32.png" />
+    <EmbeddedResource Include="Images\rendez-vous-manque.png" />
+    <EmbeddedResource Include="Images\rendez-vous-manque_32x32.png" />
+    <EmbeddedResource Include="Images\SystemConfig.png" />
+    <EmbeddedResource Include="Images\SystemConfig_32x32.png" />
+    <None Include="Properties\DataSources\Indem.datasource" />
+    <None Include="Properties\DataSources\Indem1.datasource" />
+    <EmbeddedResource Include="Images\taskbar.png" />
+    <EmbeddedResource Include="Images\taskbar_32x32.png" />
+    <EmbeddedResource Include="Images\Register.png" />
+    <EmbeddedResource Include="Images\Register_32x32.png" />
+    <EmbeddedResource Include="Images\PassWord.png" />
+    <EmbeddedResource Include="Images\PassWord_32x32.png" />
+    <EmbeddedResource Include="Images\User.png" />
+    <EmbeddedResource Include="Images\User_32x32.png" />
+    <EmbeddedResource Include="Images\Recape.png" />
+    <EmbeddedResource Include="Images\Recape_32x32.png" />
+    <EmbeddedResource Include="Images\reminders.png" />
+    <EmbeddedResource Include="Images\reminders_32x32.png" />
+    <EmbeddedResource Include="Images\calculator.png" />
+    <EmbeddedResource Include="Images\calculator_32x32.png" />
+    <EmbeddedResource Include="Images\Cloture.png" />
+    <EmbeddedResource Include="Images\Cloture_32x32.png" />
+    <EmbeddedResource Include="Images\Rapport.png" />
+    <EmbeddedResource Include="Images\Rapport_32x32.png" />
+    <EmbeddedResource Include="Images\DAS.png" />
+    <EmbeddedResource Include="Images\DAS_32x32.png" />
+    <EmbeddedResource Include="Images\Bordereau.png" />
+    <EmbeddedResource Include="Images\Bordereau_32x32.png" />
+    <EmbeddedResource Include="Images\Documents Edit 2.png" />
+    <EmbeddedResource Include="Images\cabinet-dossiers.png" />
+    <EmbeddedResource Include="Images\cabinet-dossiers_32x32.png" />
+    <EmbeddedResource Include="Images\electronic_billing_machine.png" />
+    <EmbeddedResource Include="Images\electronic_billing_machine_32x32.png" />
+    <EmbeddedResource Include="Images\personal_loan.png" />
+    <EmbeddedResource Include="Images\personal_loan_32x32.png" />
+    <EmbeddedResource Include="Images\kexi-icone.png" />
+    <EmbeddedResource Include="Images\kexi-icone_32x32.png" />
+    <EmbeddedResource Include="Images\Absence.png" />
+    <EmbeddedResource Include="Images\Absence_32x32.png" />
+    <None Include="Images\MaPayeSplash.jpg" />
+    <EmbeddedResource Include="Images\Import_Disquet.png" />
+    <EmbeddedResource Include="Images\Import_Disquet_32x32.png" />
+    <EmbeddedResource Include="Images\Multi_Edit.png" />
+    <EmbeddedResource Include="Images\Multi_Edit_32x32.png" />
+    <EmbeddedResource Include="Images\export_file.png" />
+    <EmbeddedResource Include="Images\export_file_32x32.png" />
+    <EmbeddedResource Include="Images\import_file.png" />
+    <EmbeddedResource Include="Images\import_file_32x32.png" />
+    <EmbeddedResource Include="Images\corbeille_pleine.png" />
+    <EmbeddedResource Include="Images\corbeille_pleine_32x32.png" />
+    <EmbeddedResource Include="Images\attachment.png" />
+    <EmbeddedResource Include="Images\attachment_32x32.png" />
+    <EmbeddedResource Include="Images\Nuit.png" />
+    <EmbeddedResource Include="Images\Nuit_32x32.png" />
+    <EmbeddedResource Include="Images\Production.png" />
+    <EmbeddedResource Include="Images\Production_32x32.png" />
+    <EmbeddedResource Include="Images\dossier.png" />
+    <EmbeddedResource Include="Images\dossier_32x32.png" />
+    <EmbeddedResource Include="Images\exercice.png" />
+    <EmbeddedResource Include="Images\exercice_32x32.png" />
+    <Content Include="Images\RATEB.Version4.png" />
+    <EmbeddedResource Include="Model.DesignedDiffs.Localization.fr.xafml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PRIVE.12 New\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MaPayeAdmin\MaPayeAdmin.csproj">
+      <Project>{9AFEBD57-6CA1-4621-A8E5-D4198D13CBFB}</Project>
+      <Name>MaPayeAdmin</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

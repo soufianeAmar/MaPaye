@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <ActionDesign>
+    <Actions>
+      <Action Id="DialogCancel" Caption="Annuler" />
+      <Action Id="FullTextSearch" NullValuePrompt="Texte à rechercher..." ShortCaption="Rechercher" />
+      <Action Id="SaveAndClose" Caption="Enregistrer et fermer" />
+    </Actions>
+  </ActionDesign>
+  <BOModel>
+    <Class Name="DevExpress.ExpressApp.SystemModule.ViewDashboardOrganizationItem" Caption="Affichage">
+      <OwnMembers>
+        <Member Name="ViewDescriptor" Caption="Affichage" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <Localization>
+    <LocalizationGroup Name="Captions">
+      <LocalizationItem Name="View" Value="Affichage" />
+    </LocalizationGroup>
+    <LocalizationGroup Name="Controls">
+      <LocalizationGroup Name="DevExpress.Printing">
+        <LocalizationItem Name="Button_Apply" Value="Appliquer" />
+        <LocalizationItem Name="Button_Cancel" Value="Annuler" />
+        <LocalizationItem Name="MenuItem_View" Value="&amp;Afficher" />
+        <LocalizationItem Name="Msg_CustomDrawWarning" Value="Avertissement!" />
+        <LocalizationItem Name="TB_TTip_Customize" Value="Personnaliser" />
+        <LocalizationItem Name="TB_TTip_Search" Value="Rechercher" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.XtraBars">
+        <LocalizationItem Name="CancelButton" Value="Annuler" />
+        <LocalizationItem Name="CustomizeButton" Value="&amp;Personnaliser..." />
+        <LocalizationItem Name="CustomizeWindowCaption" Value="Personnalisation" />
+        <LocalizationItem Name="ResetBarCaption" Value="Personnaliser" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.XtraEditors">
+        <LocalizationItem Name="Apply" Value="Appliquer" />
+        <LocalizationItem Name="Cancel" Value="Annuler" />
+        <LocalizationItem Name="NavigatorCancelEditButtonHint" Value="Annuler l'Edition" />
+        <LocalizationItem Name="NavigatorEditButtonHint" Value="Edition" />
+        <LocalizationItem Name="ProgressCancel" Value="Annuler" />
+        <LocalizationItem Name="SaveLayoutDialogTitle" Value="Enregistrer la mise en page" />
+        <LocalizationItem Name="XtraMessageBoxCancelButtonText" Value="&amp;Annuler" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.XtraGrid">
+        <LocalizationItem Name="CardViewQuickCustomizationButton" Value="Personnaliser" />
+        <LocalizationItem Name="CardViewQuickCustomizationButtonFilter" Value="Filtrer" />
+        <LocalizationItem Name="CardViewQuickCustomizationButtonSort" Value="Tri par :" />
+        <LocalizationItem Name="CustomFilterDialogCancelButton" Value="&amp;Annuler" />
+        <LocalizationItem Name="CustomizationCaption" Value="Personnalisation" />
+        <LocalizationItem Name="CustomizationColumns" Value="Colonnes" />
+        <LocalizationItem Name="FilterBuilderApplyButton" Value="&amp;Appliquer" />
+        <LocalizationItem Name="FilterBuilderCancelButton" Value="&amp;Annuler" />
+        <LocalizationItem Name="FilterPanelCustomizeButton" Value="Modifier le filtre" />
+        <LocalizationItem Name="GroupSummaryEditorFormCancelButton" Value="Annuler" />
+        <LocalizationItem Name="LayoutViewButtonApply" Value="&amp;Appliquer" />
+        <LocalizationItem Name="LayoutViewButtonCancel" Value="&amp;Annuler" />
+        <LocalizationItem Name="LayoutViewButtonLoadLayout" Value="&amp; Charger la disposition..." />
+        <LocalizationItem Name="LayoutViewCustomizeBtnHint" Value="Personnalisation" />
+        <LocalizationItem Name="LayoutViewFormSaveLayoutCaption" Value="Enregistrer la mise en page" />
+        <LocalizationItem Name="LayoutViewGroupCustomization" Value="Personnalisation" />
+        <LocalizationItem Name="LayoutViewGroupView" Value="Affichage" />
+        <LocalizationItem Name="LayoutViewLabelShowFilterPanel" Value="Afficher le Panneau de Filtre :" />
+        <LocalizationItem Name="LayoutViewPageViewLayout" Value="Afficher la disposition" />
+        <LocalizationItem Name="MenuColumnAutoFilterRowHide" Value="Masquer ligne filtre Auto" />
+        <LocalizationItem Name="MenuColumnAutoFilterRowShow" Value="Afficher la Ligne de Filtre Automatique" />
+        <LocalizationItem Name="MenuColumnBestFit" Value="Meilleur ajustement" />
+        <LocalizationItem Name="MenuColumnBestFitAllColumns" Value="Meilleur ajustement (toutes les colonnes)" />
+        <LocalizationItem Name="MenuColumnClearSorting" Value="Désactiverle tri" />
+        <LocalizationItem Name="MenuColumnColumnCustomization" Value="Sélecteur de colonne" />
+        <LocalizationItem Name="MenuColumnFindFilterHide" Value="Masquer le panneau Rechercher" />
+        <LocalizationItem Name="MenuColumnFindFilterShow" Value="Afficher le Panneau de Recherche" />
+        <LocalizationItem Name="MenuColumnGroup" Value="Groupe par cette colonne" />
+        <LocalizationItem Name="MenuColumnGroupBox" Value="Groupe par boîte" />
+        <LocalizationItem Name="MenuColumnRemoveColumn" Value="Supprimer cette colonne" />
+        <LocalizationItem Name="MenuColumnResetGroupSummarySort" Value="Effacer un Sommaire de tri" />
+        <LocalizationItem Name="MenuColumnShowColumn" Value="Afficher cette colonne" />
+        <LocalizationItem Name="MenuColumnSortAscending" Value="Tri croissant" />
+        <LocalizationItem Name="MenuColumnSortDescending" Value="Tri décroissant" />
+        <LocalizationItem Name="MenuColumnSortGroupBySummaryMenu" Value="Trier par Résumé" />
+        <LocalizationItem Name="MenuGroupPanelHide" Value="Masquer le panneau grouper par" />
+        <LocalizationItem Name="MenuGroupPanelShow" Value="Afficher le Panneau Grouper par" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.XtraLayout">
+        <LocalizationItem Name="CustomizationFormTitle" Value="Personnalisation" />
+        <LocalizationItem Name="CustomizationParentName" Value="Personnalisation" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.XtraRichEdit">
+        <LocalizationItem Name="Msg_Saving" Value="Sauver..." />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.XtraTreeList">
+        <LocalizationItem Name="ColumnCustomizationText" Value="Personnalisation" />
+        <LocalizationItem Name="FilterEditorApplyButton" Value="&amp;Appliquer" />
+        <LocalizationItem Name="FilterEditorCancelButton" Value="&amp;Annuler" />
+        <LocalizationItem Name="FilterPanelCustomizeButton" Value="Modifier le filtre" />
+        <LocalizationItem Name="MenuColumnAutoFilterRowHide" Value="Masquer ligne filtre Auto" />
+        <LocalizationItem Name="MenuColumnAutoFilterRowShow" Value="Afficher la Ligne de Filtre Automatique" />
+        <LocalizationItem Name="MenuColumnBestFit" Value="Meilleur ajustement" />
+        <LocalizationItem Name="MenuColumnBestFitAllColumns" Value="Meilleur ajustement (toutes les colonnes)" />
+        <LocalizationItem Name="MenuColumnColumnCustomization" Value="Sélecteur de colonne" />
+        <LocalizationItem Name="MenuColumnSortAscending" Value="Tri croissant" />
+        <LocalizationItem Name="MenuColumnSortDescending" Value="Tri décroissant" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.XtraVerticalGrid">
+        <LocalizationItem Name="RowCustomizationDeleteCategoryText" Value="&amp;Supprimer" />
+        <LocalizationItem Name="RowCustomizationNewCategoryText" Value="&amp;Nouveau..." />
+        <LocalizationItem Name="RowCustomizationText" Value="Personnalisation" />
+      </LocalizationGroup>
+    </LocalizationGroup>
+    <LocalizationGroup Name="DialogButtons">
+      <LocalizationItem Name="Apply" Value="Appliquer" />
+      <LocalizationItem Name="Cancel" Value="&amp;Annuler" />
+    </LocalizationGroup>
+    <LocalizationGroup Name="Enums">
+      <LocalizationGroup Name="DevExpress.ExpressApp.Editors.ViewItemVisibility">
+        <LocalizationItem Name="Show" Value="Afficher" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.ExpressApp.Templates.ActionsToolbarVisibility">
+        <LocalizationItem Name="Show" Value="Afficher" />
+      </LocalizationGroup>
+    </LocalizationGroup>
+    <LocalizationGroup Name="FrameTemplates">
+      <LocalizationGroup Name="DevExpress.ExpressApp.Win.Templates.DetailViewForm">
+        <LocalizationItem Name="barSubItemEdit.Caption" Value="Edition" />
+        <LocalizationItem Name="barSubItemView.Caption" Value="Affichage" />
+        <LocalizationItem Name="cAbout.Caption" Value="À propos" />
+        <LocalizationItem Name="cEdit.Caption" Value="Edition" />
+        <LocalizationItem Name="cReports.TargetPageGroupCaption" Value="Affichage" />
+        <LocalizationItem Name="cSearch.Caption" Value="Rechercher" />
+        <LocalizationItem Name="cUndoRedo.TargetPageGroupCaption" Value="Edition" />
+        <LocalizationItem Name="cView.Caption" Value="Affichage" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.ExpressApp.Win.Templates.MainForm">
+        <LocalizationItem Name="barSubItemEdit.Caption" Value="Edition" />
+        <LocalizationItem Name="barSubItemView.Caption" Value="Affichage" />
+        <LocalizationItem Name="cEdit.Caption" Value="Edition" />
+        <LocalizationItem Name="cPanels.TargetPageCaption" Value="Affichage" />
+        <LocalizationItem Name="cReports.TargetPageGroupCaption" Value="Affichage" />
+        <LocalizationItem Name="cSearch.Caption" Value="Rechercher" />
+        <LocalizationItem Name="cUndoRedo.TargetPageGroupCaption" Value="Edition" />
+        <LocalizationItem Name="cView.Caption" Value="Affichage" />
+        <LocalizationItem Name="cWindows.TargetPageCaption" Value="Affichage" />
+        <LocalizationItem Name="Window.TargetPageCaption" Value="Affichage" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.ExpressApp.Win.Templates.NestedFrameTemplate">
+        <LocalizationItem Name="cEdit.Caption" Value="Edition" />
+        <LocalizationItem Name="cView.Caption" Value="Affichage" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.ExpressApp.Win.Templates.PopupForm">
+        <LocalizationItem Name="cView.Caption" Value="cAffichage" />
+      </LocalizationGroup>
+    </LocalizationGroup>
+    <LocalizationGroup Name="Texts">
+      <LocalizationItem Name="Warning" Value="Avertissement" />
+    </LocalizationGroup>
+  </Localization>
+  <Views>
+    <DetailView Id="AboutInfo_DetailView" Caption="À propos" />
+  </Views>
+</Application>

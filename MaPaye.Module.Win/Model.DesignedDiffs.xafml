@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application PreferredLanguage="fr">
+  <ActionDesign>
+    <Actions>
+      <Action Id="Cancel" Caption="Annuler" />
+      <Action Id="Close" Caption="Fermer" />
+      <Action Id="Delete" Caption="Supprimer" />
+      <Action Id="EditModel" Caption="Editer l'Affichage" />
+      <Action Id="Exit" Caption="Sortir" />
+      <Action Id="New" Caption="Nouveau" />
+    </Actions>
+  </ActionDesign>
+  <Localization>
+    <LocalizationGroup Name="Captions">
+      <LocalizationItem Name="View" Removed="True" />
+    </LocalizationGroup>
+  </Localization>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="15.1.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="15.1.5.0" IsNewNode="True" />
+  </SchemaModules>
+</Application>

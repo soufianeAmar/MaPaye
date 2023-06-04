@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Indem_Personne_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Indem_Personne">
+              <LayoutGroup Id="Indem_Personne_col2">
+                <LayoutItem Id="Base" SizeConstraintsType="Default" Index="1" RelativeSize="3" ViewItem="Base" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="paye_indem_DetailView">
+      <Items Id="Items">
+        <PropertyEditor Id="Paye" Index="5" Removed="True" />
+      </Items>
+    </DetailView>
+  </Views>
+</Application>

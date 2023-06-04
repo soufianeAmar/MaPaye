@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="MaPaye - A_2019">
+  <Views>
+    <DetailView Id="parametre_DetailView">
+      <Items>
+        <StaticText Id="/" Caption="/(263)" />
+        <StaticText Id="Rotation Travail/Congé Récupération" Caption="Rotation Travail/Congé Récupération(260)" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal">
+          <LayoutGroup Id="SimpleEditors" Caption="SimpleEditors">
+            <LayoutGroup Id="parametre" Caption="Paramètres">
+              <LayoutGroup Id="parametre_col2" Caption="parametre_col2">
+                <TabbedGroup Id="Item11">
+                  <LayoutGroup Id="Item1" Caption="Organisme">
+                    <TabbedGroup Id="Item12">
+                      <LayoutGroup Id="Item7" Caption="Coordonnés">
+                        <LayoutGroup Id="8602ad13-6ba0-4107-bf21-c32f0770aa93" Caption="8602ad13-6ba0-4107-bf21-c32f0770aa93(8)">
+                          <LayoutGroup Id="Autoca0fd7f6-132c-49e5-a95e-95d0de522ef5" Caption="Autoca0fd7f6-132c-49e5-a95e-95d0de522ef5(13)">
+                            <LayoutGroup Id="Autoe701a0e3-58ed-4836-bc7b-0a3c11c10ddf" Caption="Autoe701a0e3-58ed-4836-bc7b-0a3c11c10ddf(14)">
+                              <LayoutGroup Id="Item8" Caption="Logo" />
+                            </LayoutGroup>
+                            <LayoutGroup Id="Autofad5b823-5a35-4c69-8ad1-2608d9f8fb9e" Caption="Autofad5b823-5a35-4c69-8ad1-2608d9f8fb9e(28)">
+                              <LayoutGroup Id="Autoda2fc207-c19e-4383-8f35-c936933d5e4b" Caption="Autoda2fc207-c19e-4383-8f35-c936933d5e4b(24)" />
+                            </LayoutGroup>
+                          </LayoutGroup>
+                        </LayoutGroup>
+                      </LayoutGroup>
+                      <LayoutGroup Id="Item4" Caption="Banque">
+                        <LayoutGroup Id="Auto1be0a381-6f33-4ab3-ac55-0b15d1bf209c" Caption="Auto1be0a381-6f33-4ab3-ac55-0b15d1bf209c(38)">
+                          <LayoutGroup Id="Autod0bf106e-3fd4-4387-b3a2-7ad5fc661910" Caption="Autod0bf106e-3fd4-4387-b3a2-7ad5fc661910(37)">
+                            <LayoutGroup Id="Autob9fec131-bc09-4cc8-af8a-5fbfb85e1e66" Caption="Autob9fec131-bc09-4cc8-af8a-5fbfb85e1e66(39)" />
+                          </LayoutGroup>
+                        </LayoutGroup>
+                      </LayoutGroup>
+                      <LayoutGroup Id="Item3" Caption="Adresse">
+                        <LayoutGroup Id="c40639ec-d022-4448-ba1c-32ae896f0ae3" Caption="c40639ec-d022-4448-ba1c-32ae896f0ae3(42)">
+                          <LayoutGroup Id="Auto3ab7a0ab-c665-4d4a-8ad3-b1e3c7206972" Caption="Auto3ab7a0ab-c665-4d4a-8ad3-b1e3c7206972(43)" />
+                          <LayoutGroup Id="Auto8f9abc64-d0be-4a7c-b9ac-fbc7e6110e86" Caption="Auto8f9abc64-d0be-4a7c-b9ac-fbc7e6110e86(46)" />
+                        </LayoutGroup>
+                      </LayoutGroup>
+                    </TabbedGroup>
+                  </LayoutGroup>
+                  <LayoutGroup Id="Item6" Caption="Paramètres">
+                    <LayoutGroup Id="Autof689d347-bef7-420c-8879-04a6a1fe81cb" Caption="Autof689d347-bef7-420c-8879-04a6a1fe81cb(53)">
+                      <LayoutGroup Id="Autoebd51db5-ae29-4122-8b3a-495d2cf15286" Caption="Autoebd51db5-ae29-4122-8b3a-495d2cf15286(54)">
+                        <LayoutGroup Id="Auto80c67f63-022f-45aa-8ce7-b2c2f91afcc3" Caption="Auto80c67f63-022f-45aa-8ce7-b2c2f91afcc3(54)">
+                          <LayoutGroup Id="Autoad8402eb-252c-4f7f-ae2a-dc7be0670d5a" Caption="Autoad8402eb-252c-4f7f-ae2a-dc7be0670d5a(55)">
+                            <TabbedGroup Id="Item10">
+                              <LayoutGroup Id="Item3" Caption="Jours et Heures de Travail">
+                                <LayoutGroup Id="Autocc148157-63a9-4935-b61a-d8da83f0ec35" Caption="Autocc148157-63a9-4935-b61a-d8da83f0ec35(64)" />
+                              </LayoutGroup>
+                              <LayoutGroup Id="Item5" Caption="Calcul de l'experience">
+                                <LayoutGroup Id="Autob497ab8d-2403-4073-819c-69659966348e" Caption="Autob497ab8d-2403-4073-819c-69659966348e(104)">
+                                  <LayoutGroup Id="Auto4e6e9450-d4df-4e62-9eab-fd3a132ccff2" Caption="Auto4e6e9450-d4df-4e62-9eab-fd3a132ccff2(81)">
+                                    <LayoutGroup Id="Auto31b72025-37a9-4b2f-8a5c-4a24bfafc970" Caption="Auto31b72025-37a9-4b2f-8a5c-4a24bfafc970(82)">
+                                      <LayoutGroup Id="Autoe3f50677-63df-4738-a8c0-9fcc25efcc11" Caption="Autoe3f50677-63df-4738-a8c0-9fcc25efcc11(83)">
+                                        <LayoutGroup Id="Auto30f28522-f930-495f-b014-dc9d8d2bbf85" Caption="Auto30f28522-f930-495f-b014-dc9d8d2bbf85(85)">
+                                          <LayoutGroup Id="Autoc7663f87-9288-4a83-987f-ea2b948b2900" Caption="Autoc7663f87-9288-4a83-987f-ea2b948b2900(76)" />
+                                        </LayoutGroup>
+                                      </LayoutGroup>
+                                    </LayoutGroup>
+                                  </LayoutGroup>
+                                </LayoutGroup>
+                              </LayoutGroup>
+                              <LayoutGroup Id="Item18" Caption="Calcul Congé">
+                                <LayoutGroup Id="Autob70626ea-d9c2-49e5-b4ea-605ba329f95b" Caption="Autob70626ea-d9c2-49e5-b4ea-605ba329f95b(89)">
+                                  <LayoutGroup Id="Autocabbbdf0-32f9-4bdb-9864-bcd95318941b" Caption="Autocabbbdf0-32f9-4bdb-9864-bcd95318941b(97)">
+                                    <LayoutGroup Id="Auto93c1da03-81e8-4082-8fdd-e00fa1b45040" Caption="Auto93c1da03-81e8-4082-8fdd-e00fa1b45040(103)">
+                                      <LayoutGroup Id="Auto3e3b5f9b-724b-4881-b03a-3dc0c5406090" Caption="Auto3e3b5f9b-724b-4881-b03a-3dc0c5406090(91)">
+                                        <LayoutGroup Id="Auto49a691a3-6e09-4fb4-89c7-a2cbfc870881" Caption="Auto49a691a3-6e09-4fb4-89c7-a2cbfc870881(97)" />
+                                      </LayoutGroup>
+                                    </LayoutGroup>
+                                  </LayoutGroup>
+                                </LayoutGroup>
+                              </LayoutGroup>
+                              <LayoutGroup Id="Item9" Caption="Calcul Primes">
+                                <LayoutGroup Id="Auto7687d608-7b5c-4b5b-a11c-4530c678368c" Caption="Auto7687d608-7b5c-4b5b-a11c-4530c678368c(70)">
+                                  <LayoutGroup Id="Autof4710425-351e-4729-b7ee-20c10ccb7619" Caption="Autof4710425-351e-4729-b7ee-20c10ccb7619(105)" />
+                                </LayoutGroup>
+                              </LayoutGroup>
+                            </TabbedGroup>
+                          </LayoutGroup>
+                        </LayoutGroup>
+                        <LayoutGroup Id="Auto130d783f-391c-47fd-a948-b9ab1d6c0e9d" Caption="Auto130d783f-391c-47fd-a948-b9ab1d6c0e9d(89)" />
+                      </LayoutGroup>
+                    </LayoutGroup>
+                  </LayoutGroup>
+                  <LayoutGroup Id="Item2" Caption="Valeurs de base de la paye">
+                    <LayoutGroup Id="Autoc08ce5f5-b065-4a3c-8e9e-acf96c15b27e" Caption="Autoc08ce5f5-b065-4a3c-8e9e-acf96c15b27e(82)">
+                      <LayoutGroup Id="Auto3c5183e5-410c-4a91-aa81-3dd888365363" Caption="Auto3c5183e5-410c-4a91-aa81-3dd888365363(83)">
+                        <LayoutGroup Id="Auto49d4dd2b-039e-4b3b-b022-6e0cf4f6d87c" Caption="Auto49d4dd2b-039e-4b3b-b022-6e0cf4f6d87c(84)" />
+                      </LayoutGroup>
+                    </LayoutGroup>
+                    <LayoutGroup Id="Auto6bea6ef6-a456-43db-8e65-9e7b013eaa7d" Caption="Auto6bea6ef6-a456-43db-8e65-9e7b013eaa7d(93)" />
+                  </LayoutGroup>
+                </TabbedGroup>
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Paye_DetailView">
+      <Layout>
+        <LayoutGroup Id="Auto99ff01e0-9d62-4bae-8e23-8a5b89099677" Caption="Auto99ff01e0-9d62-4bae-8e23-8a5b89099677(1)">
+          <LayoutGroup Id="Autoadb640fa-13ef-4fa8-b08f-2de632ea3483" Caption="Autoadb640fa-13ef-4fa8-b08f-2de632ea3483(2)" />
+          <LayoutGroup Id="Auto10e5a610-6b90-4b54-b4b1-92ddd2f6c94e" Caption="Auto10e5a610-6b90-4b54-b4b1-92ddd2f6c94e(7)" />
+        </LayoutGroup>
+        <TabbedGroup Id="Item22">
+          <LayoutGroup Id="Item21" Caption="Paye">
+            <LayoutGroup Id="Autoe8bf4dec-2f14-455d-9b04-e1aa6c456666" Caption="Autoe8bf4dec-2f14-455d-9b04-e1aa6c456666(14)">
+              <LayoutGroup Id="Auto989e348d-d574-4d4f-8d78-d6c9f46833b7" Caption="Auto989e348d-d574-4d4f-8d78-d6c9f46833b7(19)" />
+            </LayoutGroup>
+            <LayoutGroup Id="Auto6bc15f96-a6b6-43ec-b666-4bfd5756ae39" Caption="Auto6bc15f96-a6b6-43ec-b666-4bfd5756ae39(29)">
+              <LayoutGroup Id="Auto16b454e3-093f-48d9-bee4-647e60c491d3" Caption="Auto16b454e3-093f-48d9-bee4-647e60c491d3(30)" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="Item4" Caption="Paramètres de Calcul">
+            <LayoutGroup Id="Autod1d8d742-5c01-4eec-8244-8bcfe52a96ed" Caption="Autod1d8d742-5c01-4eec-8244-8bcfe52a96ed(40)" />
+            <LayoutGroup Id="Auto114e1c52-4c70-45c8-b0c7-5aea3a577dd1" Caption="Auto114e1c52-4c70-45c8-b0c7-5aea3a577dd1(49)">
+              <TabbedGroup Id="Item1">
+                <LayoutGroup Id="Item11" Caption="Taux" />
+                <LayoutGroup Id="Item7" Caption="Heures Supplémentaires" />
+                <LayoutGroup Id="Item2" Caption="Calcul Congé" />
+              </TabbedGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="Item15" Caption="Information de l'Employé">
+            <LayoutGroup Id="Auto571f9169-c389-415e-b749-dc186a253e07" Caption="Auto571f9169-c389-415e-b749-dc186a253e07(71)" />
+          </LayoutGroup>
+          <LayoutGroup Id="Item3" Caption="Observations et Résultats">
+            <LayoutGroup Id="Auto9659977d-54bb-47eb-953e-3a3383476546" Caption="Auto9659977d-54bb-47eb-953e-3a3383476546(79)" />
+          </LayoutGroup>
+        </TabbedGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Recape_Annuelle_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal">
+          <LayoutGroup Id="SimpleEditors" Caption="SimpleEditors">
+            <LayoutGroup Id="Recape_Annuelle_col2">
+              <LayoutGroup Id="b9b10c2e-cde2-46cc-8e39-22df54b00d75" Caption="b9b10c2e-cde2-46cc-8e39-22df54b00d75(47)">
+                <LayoutGroup Id="Autodc07acd9-3623-4129-ba73-b7ace0547dfa" Caption="Autodc07acd9-3623-4129-ba73-b7ace0547dfa(6)" />
+                <LayoutGroup Id="Auto92e25991-0eac-4a51-8b4c-8ac06abedd61" Caption="Auto92e25991-0eac-4a51-8b4c-8ac06abedd61(9)" />
+              </LayoutGroup>
+              <TabbedGroup Id="Item3">
+                <LayoutGroup Id="Item1" Caption="Salaire Janvier">
+                  <LayoutGroup Id="9d31b982-cf2e-4f3b-9798-00c842943617" Caption="9d31b982-cf2e-4f3b-9798-00c842943617(28)">
+                    <LayoutGroup Id="Autobc51cc29-170e-41de-88a9-c9310fa333f7" Caption="Autobc51cc29-170e-41de-88a9-c9310fa333f7(13)">
+                      <LayoutGroup Id="Auto1e713655-a2e9-423e-88cb-38bcf0630553" Caption="Auto1e713655-a2e9-423e-88cb-38bcf0630553(14)" />
+                      <LayoutGroup Id="Auto7d5f76c1-3722-405a-8c75-f2f5ed8ad8a1" Caption="Auto7d5f76c1-3722-405a-8c75-f2f5ed8ad8a1(22)" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="recapes_Janv" Caption="Recapes Janv" />
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Item8" Caption="Salaire Février">
+                  <LayoutGroup Id="16e6a4c4-bde0-4617-b309-968f88d28b2a" Caption="16e6a4c4-bde0-4617-b309-968f88d28b2a(15)">
+                    <LayoutGroup Id="Auto2037aac2-d8bb-4201-ae18-beab27745997" Caption="Auto2037aac2-d8bb-4201-ae18-beab27745997(35)">
+                      <LayoutGroup Id="Autofb58ebb3-ec5b-455d-b822-690c39eaf8ea" Caption="Autofb58ebb3-ec5b-455d-b822-690c39eaf8ea(36)" />
+                      <LayoutGroup Id="Auto72ff5b40-4f84-417b-a098-db75e9642189" Caption="Auto72ff5b40-4f84-417b-a098-db75e9642189(44)" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="recapes_Fev" Caption="Recapes Fev" />
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Item11" Caption="Salaire Mars">
+                  <LayoutGroup Id="8d196216-7606-4154-a4ae-8ec9fd21cac3" Caption="8d196216-7606-4154-a4ae-8ec9fd21cac3(41)">
+                    <LayoutGroup Id="Autoe41bd9a9-c502-4d7e-8760-99aa407c97b8" Caption="Autoe41bd9a9-c502-4d7e-8760-99aa407c97b8(57)">
+                      <LayoutGroup Id="Auto0fcd0447-ba0a-4938-8c32-23261e2e55b8" Caption="Auto0fcd0447-ba0a-4938-8c32-23261e2e55b8(58)" />
+                      <LayoutGroup Id="Auto8346201c-2622-41a2-9129-b6b1f855c2b4" Caption="Auto8346201c-2622-41a2-9129-b6b1f855c2b4(66)" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="recapes_Mars" Caption="Recapes Mars" />
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Item9" Caption="Salaire Avril">
+                  <LayoutGroup Id="48dfe473-3627-4523-a66c-b0abb732cf9b" Caption="48dfe473-3627-4523-a66c-b0abb732cf9b(54)">
+                    <LayoutGroup Id="Auto9fa76462-e36e-4913-b100-53e747bd7164" Caption="Auto9fa76462-e36e-4913-b100-53e747bd7164(79)">
+                      <LayoutGroup Id="Autobd01dbdd-ac19-46dd-82ae-a5fadaf88318" Caption="Autobd01dbdd-ac19-46dd-82ae-a5fadaf88318(80)" />
+                      <LayoutGroup Id="Auto13242f3d-38c3-4aff-890f-cecfaf28bc71" Caption="Auto13242f3d-38c3-4aff-890f-cecfaf28bc71(88)" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="recapes_Avr" Caption="Recapes Avr" />
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Item10" Caption="Salaire Mai">
+                  <LayoutGroup Id="917e2bb4-00ea-4301-a144-6bc4cdbc5e7a" Caption="917e2bb4-00ea-4301-a144-6bc4cdbc5e7a(67)">
+                    <LayoutGroup Id="Auto03c128d0-e850-4d42-bb79-07066ddcc076" Caption="Auto03c128d0-e850-4d42-bb79-07066ddcc076(101)">
+                      <LayoutGroup Id="Auto7c3cb148-26c2-4e37-b26e-f0dc790fe7fe" Caption="Auto7c3cb148-26c2-4e37-b26e-f0dc790fe7fe(102)" />
+                      <LayoutGroup Id="Auto22684715-629a-4eed-be46-5f4d115a43de" Caption="Auto22684715-629a-4eed-be46-5f4d115a43de(110)" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="recapes_Mai" Caption="Recapes Mai" />
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Item14" Caption="Salaire Juin">
+                  <LayoutGroup Id="7e1c7d7b-8969-43c3-8719-a7f4a504eba9" Caption="7e1c7d7b-8969-43c3-8719-a7f4a504eba9(80)">
+                    <LayoutGroup Id="Autoad0ffbdf-3699-4200-ae2a-629842e6982d" Caption="Autoad0ffbdf-3699-4200-ae2a-629842e6982d(123)">
+                      <LayoutGroup Id="Auto94a10f46-7c39-4323-95af-9c7d78b483b4" Caption="Auto94a10f46-7c39-4323-95af-9c7d78b483b4(124)" />
+                      <LayoutGroup Id="Auto60bf8b55-cbef-4743-8d89-f06853a61d7a" Caption="Auto60bf8b55-cbef-4743-8d89-f06853a61d7a(132)" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="recapes_Juin" Caption="Recapes Juin" />
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Item4" Caption="Salaire Juillet">
+                  <LayoutGroup Id="5f8f0a0e-9b58-456d-9d42-c4a421dff03f" Caption="5f8f0a0e-9b58-456d-9d42-c4a421dff03f(93)">
+                    <LayoutGroup Id="Auto29f66508-a732-43e1-95e1-39786ee92e2b" Caption="Auto29f66508-a732-43e1-95e1-39786ee92e2b(145)">
+                      <LayoutGroup Id="Autob9acdd4d-ca9b-4b35-b70c-cf42a550747e" Caption="Autob9acdd4d-ca9b-4b35-b70c-cf42a550747e(146)" />
+                      <LayoutGroup Id="Auto938cbca8-ae32-4afc-bfeb-1a0f55270512" Caption="Auto938cbca8-ae32-4afc-bfeb-1a0f55270512(154)" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="recapes_Juill" Caption="Recapes Juill" />
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Item12" Caption="Salaire Aout">
+                  <LayoutGroup Id="2958a5aa-30b8-4391-8f08-14e26611a5d5" Caption="2958a5aa-30b8-4391-8f08-14e26611a5d5(106)">
+                    <LayoutGroup Id="Auto98ffc16c-7a38-4e05-b02a-0dda58cf5160" Caption="Auto98ffc16c-7a38-4e05-b02a-0dda58cf5160(167)">
+                      <LayoutGroup Id="Autocefb5c83-86fe-46f5-b11e-6d42806c7f84" Caption="Autocefb5c83-86fe-46f5-b11e-6d42806c7f84(168)" />
+                      <LayoutGroup Id="Autof75ac58f-0fe9-4834-9de8-d14ce4de9c31" Caption="Autof75ac58f-0fe9-4834-9de8-d14ce4de9c31(176)" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="recapes_Aout" Caption="Recapes Aout" />
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Item2" Caption="Salaire Septembre">
+                  <LayoutGroup Id="1e54fcfc-a362-477e-9591-3fc5d359d8fa" Caption="1e54fcfc-a362-477e-9591-3fc5d359d8fa(119)">
+                    <LayoutGroup Id="Auto3237154d-7f55-40de-9672-0a08a75ecbc6" Caption="Auto3237154d-7f55-40de-9672-0a08a75ecbc6(189)">
+                      <LayoutGroup Id="Auto951ba040-7a49-4442-ac8f-aee091d78097" Caption="Auto951ba040-7a49-4442-ac8f-aee091d78097(190)" />
+                      <LayoutGroup Id="Autocdeee90a-8276-4f07-ac35-850034dcbf0e" Caption="Autocdeee90a-8276-4f07-ac35-850034dcbf0e(198)" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="recapes_Sept" Caption="Recapes Sept" />
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Item5" Caption="Salaire Octobre">
+                  <LayoutGroup Id="91fbf2e0-0c47-4149-86a9-fb14d2143aed" Caption="91fbf2e0-0c47-4149-86a9-fb14d2143aed(132)">
+                    <LayoutGroup Id="Autoc55f5aa0-d0a8-4f56-941d-65ee12a92291" Caption="Autoc55f5aa0-d0a8-4f56-941d-65ee12a92291(211)">
+                      <LayoutGroup Id="Auto7c4d2142-632f-40ca-b537-61c6e226df52" Caption="Auto7c4d2142-632f-40ca-b537-61c6e226df52(212)" />
+                      <LayoutGroup Id="Auto158f8c75-dbaf-442a-9a68-a212bc8cc9dc" Caption="Auto158f8c75-dbaf-442a-9a68-a212bc8cc9dc(220)" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="recapes_Oct" Caption="Recapes Oct" />
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Item6" Caption="Salaire Novembre">
+                  <LayoutGroup Id="83f3be18-b51b-4086-99ef-b3f8e9e0e1df" Caption="83f3be18-b51b-4086-99ef-b3f8e9e0e1df(145)">
+                    <LayoutGroup Id="Autoaa789b78-0d5f-43cf-8914-6c0e6684a0c6" Caption="Autoaa789b78-0d5f-43cf-8914-6c0e6684a0c6(233)">
+                      <LayoutGroup Id="Auto59eaa660-6645-40c3-9030-c25d9faebaf8" Caption="Auto59eaa660-6645-40c3-9030-c25d9faebaf8(234)" />
+                      <LayoutGroup Id="Auto8a505539-23ad-48b7-af16-b6d829790c2f" Caption="Auto8a505539-23ad-48b7-af16-b6d829790c2f(242)" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="recapes_Nouv" Caption="Recapes Nouv" />
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Item13" Caption="Salaire Décembre">
+                  <LayoutGroup Id="777799dd-0f19-45c8-99fa-6f6a3728f2b2" Caption="777799dd-0f19-45c8-99fa-6f6a3728f2b2(158)">
+                    <LayoutGroup Id="Autofc9e3c6c-7a14-4c75-b965-bc8dc494c90b" Caption="Autofc9e3c6c-7a14-4c75-b965-bc8dc494c90b(255)">
+                      <LayoutGroup Id="Auto3665f6e4-607d-49fe-bec2-2098ce7de883" Caption="Auto3665f6e4-607d-49fe-bec2-2098ce7de883(256)" />
+                      <LayoutGroup Id="Auto683c2cc9-c2d3-47a6-92f7-03ba0e12ade2" Caption="Auto683c2cc9-c2d3-47a6-92f7-03ba0e12ade2(264)" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="recapes_Dec" Caption="Recapes Dec" />
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Item7" Caption="Total Annuel">
+                  <LayoutGroup Id="Auto50a2e73a-67ee-4882-b4e1-3e19ffa13d1c" Caption="Auto50a2e73a-67ee-4882-b4e1-3e19ffa13d1c(227)" />
+                  <LayoutGroup Id="Autoa7e56c06-4c17-43f4-981b-3c43acc7042f" Caption="Autoa7e56c06-4c17-43f4-981b-3c43acc7042f(234)" />
+                </LayoutGroup>
+              </TabbedGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

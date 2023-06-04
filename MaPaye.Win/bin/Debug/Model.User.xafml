@@ -1,0 +1,1035 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <ModelEditorSettings State="Normal" X="26" Y="26" Width="808" Height="604">
+    <ModelEditorControl CurrentAspect="(Default language)" SplitterPosition="0,5" SearchControllVisible="0" FocusedObject="NavigationItems\Items\Default\Items\paye_indem_ListView" />
+    <SearchControl SearchSplitterPosition="262" SchemaVisible="1" />
+  </ModelEditorSettings>
+  <NavigationItems>
+    <Items>
+      <Item Id="Default">
+        <Items>
+          <Item Id="paye_indem_ListView" Visible="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options>
+    <RibbonOptions MinimizeRibbon="False" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="15.1.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="15.1.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Templates>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.LookupControlTemplate" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="Banque_LookupListView" IsNewNode="True" />
+        <FormState Id="Bareme_LookupListView" IsNewNode="True" />
+        <FormState Id="Corps_LookupListView" IsNewNode="True" />
+        <FormState Id="Dossier_LookupListView" IsNewNode="True" />
+        <FormState Id="Exercice_LookupListView" IsNewNode="True" />
+        <FormState Id="Fonction_LookupListView" IsNewNode="True" />
+        <FormState Id="Indem_LookupListView" IsNewNode="True" />
+        <FormState Id="Mode_Paiement_LookupListView" IsNewNode="True" />
+        <FormState Id="parametre_LookupListView" IsNewNode="True" />
+        <FormState Id="Paye_LookupListView" IsNewNode="True" />
+        <FormState Id="Personne_LookupListView" IsNewNode="True" />
+        <FormState Id="Raison_Sortie_LookupListView" IsNewNode="True" />
+        <FormState Id="Service_LookupListView" IsNewNode="True" />
+        <FormState Id="Sexe_LookupListView" IsNewNode="True" />
+        <FormState Id="Situation_Conjoint_LookupListView" IsNewNode="True" />
+        <FormState Id="Situation_Employe_LookupListView" IsNewNode="True" />
+        <FormState Id="Situation_Familiale_LookupListView" IsNewNode="True" />
+        <FormState Id="Type_Absence_LookupListView" IsNewNode="True" />
+        <FormState Id="TypeContrat_LookupListView" IsNewNode="True" />
+        <FormState Id="Unite_LookupListView" IsNewNode="True" />
+      </FormStates>
+    </Template>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.LookupForm" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="Default" State="Normal" X="473" Y="178" Width="420" Height="372" IsNewNode="True" />
+      </FormStates>
+    </Template>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.NestedFrameTemplate" IsNewNode="True" />
+    <Template Id="DevExpress.ExpressApp.Win.Templates.PopupForm" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="DAS_G_DetailView" State="Normal" X="366" Y="129" Width="634" Height="469" IsNewNode="True" />
+        <FormState Id="Indem_DetailView" State="Normal" X="230" Y="138" Width="906" Height="451" IsNewNode="True" />
+        <FormState Id="Paye_DetailView" State="Maximized" X="370" Y="145" Width="626" Height="438" MaximizedOnScreen="\\.\DISPLAY1" IsNewNode="True" />
+        <FormState Id="Personne_DetailView" State="Normal" X="197" Y="154" Width="971" Height="543" IsNewNode="True" />
+        <FormState Id="ReportData_DetailView" State="Normal" X="399" Y="154" Width="568" Height="420" IsNewNode="True" />
+        <FormState Id="ReportData_ListView" State="Normal" X="461" Y="99" Width="568" Height="420" IsNewNode="True" />
+        <FormState Id="RuleSetValidationResult_ByTarget_Error_DetailView" State="Normal" X="399" Y="154" Width="568" Height="420" IsNewNode="True" />
+      </FormStates>
+    </Template>
+    <Template Id="MaPaye.Win.DetailRibbonForm" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="Banque_DetailView" State="Normal" X="224" Y="52" Width="814" Height="611" IsNewNode="True" />
+        <FormState Id="Cloture_DetailView" State="Normal" X="104" Y="104" Width="814" Height="611" IsNewNode="True" />
+        <FormState Id="ContratPersonne_DetailView" State="Normal" X="104" Y="104" Width="814" Height="611" IsNewNode="True" />
+        <FormState Id="DAS_G_DetailView" State="Maximized" X="78" Y="78" Width="814" Height="611" MaximizedOnScreen="\\.\DISPLAY1" IsNewNode="True" />
+        <FormState Id="Das_Personnes_DetailView" State="Maximized" MaximizedOnScreen="\\.\DISPLAY1" X="104" Y="104" Width="814" Height="611" IsNewNode="True" />
+        <FormState Id="Dossier_DetailView" State="Normal" X="26" Y="26" Width="1025" Height="525" IsNewNode="True" />
+        <FormState Id="Exercice_DetailView" State="Normal" X="26" Y="26" Width="1025" Height="525" IsNewNode="True" />
+        <FormState Id="Fonction_DetailView" State="Maximized" X="146" Y="-27" Width="814" Height="611" MaximizedOnScreen="\\.\DISPLAY1" IsNewNode="True" />
+        <FormState Id="Gestion_Pret_DetailView" State="Normal" MaximizedOnScreen="\\.\DISPLAY1" X="104" Y="104" Width="1025" Height="525" IsNewNode="True" />
+        <FormState Id="Indem_DetailView" State="Maximized" MaximizedOnScreen="\\.\DISPLAY1" X="139" Y="-20" Width="814" Height="611" IsNewNode="True" />
+        <FormState Id="Indem_Fonction_DetailView" State="Normal" X="26" Y="26" Width="814" Height="611" IsNewNode="True" />
+        <FormState Id="Indem_Personne_DetailView" State="Normal" X="244" Y="67" Width="814" Height="611" IsNewNode="True" />
+        <FormState Id="Mode_Paiement_DetailView" State="Normal" X="156" Y="156" Width="814" Height="611" IsNewNode="True" />
+        <FormState Id="Mois_Pret_DetailView" State="Normal" X="78" Y="78" Width="814" Height="611" IsNewNode="True" />
+        <FormState Id="Paye_DetailView" State="Maximized" MaximizedOnScreen="\\.\DISPLAY1" X="233" Y="0" Width="683" Height="735" IsNewNode="True" />
+        <FormState Id="paye_indem_DetailView" State="Normal" X="52" Y="52" Width="815" Height="611" IsNewNode="True" />
+        <FormState Id="Personne_DetailView" State="Maximized" MaximizedOnScreen="\\.\DISPLAY1" X="177" Y="-15" Width="1025" Height="525" IsNewNode="True" />
+        <FormState Id="PortfolioFileData_DetailView" State="Normal" X="156" Y="156" Width="814" Height="611" IsNewNode="True" />
+        <FormState Id="Rappel_DetailView" State="Maximized" MaximizedOnScreen="\\.\DISPLAY1" X="130" Y="130" Width="814" Height="611" IsNewNode="True" />
+        <FormState Id="Recape_Annuelle_DetailView" State="Maximized" MaximizedOnScreen="\\.\DISPLAY1" X="78" Y="78" Width="814" Height="611" IsNewNode="True" />
+        <FormState Id="ReportData_DetailView" State="Normal" X="147" Y="128" Width="814" Height="611" IsNewNode="True" />
+        <FormState Id="SecuritySystemRole_DetailView" State="Maximized" MaximizedOnScreen="\\.\DISPLAY1" X="26" Y="26" Width="814" Height="611" IsNewNode="True" />
+        <FormState Id="SecuritySystemUser_DetailView" State="Normal" X="156" Y="156" Width="814" Height="611" IsNewNode="True" />
+        <FormState Id="Service_DetailView" State="Normal" X="219" Y="85" Width="814" Height="611" IsNewNode="True" />
+        <FormState Id="Situation_Employe_DetailView" State="Normal" X="156" Y="156" Width="814" Height="611" IsNewNode="True" />
+        <FormState Id="Type_Absence_DetailView" State="Normal" X="52" Y="52" Width="814" Height="611" IsNewNode="True" />
+        <FormState Id="TypeContrat_DetailView" State="Normal" X="130" Y="130" Width="814" Height="611" IsNewNode="True" />
+        <FormState Id="Unite_DetailView" State="Maximized" MaximizedOnScreen="\\.\DISPLAY1" X="522" Y="224" Width="814" Height="611" IsNewNode="True" />
+      </FormStates>
+    </Template>
+    <Template Id="MaPaye.Win.MainRibbonForm" DockManagerSettings="77u/PFh0cmFTZXJpYWxpemVyIHZlcnNpb249IjEuMCIgYXBwbGljYXRpb249IkRvY2tNYW5hZ2VyIj4NCiAgPHByb3BlcnR5IG5hbWU9IiNMYXlvdXRWZXJzaW9uIiAvPg0KICA8cHJvcGVydHkgbmFtZT0iUGFuZWxzIiBpc2tleT0idHJ1ZSIgdmFsdWU9IjEiPg0KICAgIDxwcm9wZXJ0eSBuYW1lPSJJdGVtMSIgaXNudWxsPSJ0cnVlIiBpc2tleT0idHJ1ZSI+DQogICAgICA8cHJvcGVydHkgbmFtZT0iRmxvYXRMb2NhdGlvbiI+QDEsWD0wQDEsWT0wPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJEb2NrVmVydGljYWwiPkRlZmF1bHQ8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IkhlYWRlciIgLz4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJEb2NrIj5MZWZ0PC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJGbG9hdFZlcnRpY2FsIj5mYWxzZTwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iSGludCIgLz4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJUZXh0Ij5OYXZpZ2F0aW9uPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJGbG9hdFNpemUiPkAzLFdpZHRoPTE0NkAzLEhlaWdodD00Mjg8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IkFsbG93Q3VzdG9tSGVhZGVyQnV0dG9uc0dseXBoU2tpbm5pbmciPkRlZmF1bHQ8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IlRhYnNQb3NpdGlvbiI+Qm90dG9tPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJEb2NrZWRBc1RhYmJlZERvY3VtZW50Ij5mYWxzZTwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iSW1hZ2VJbmRleCI+LTE8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IlRhYnNTY3JvbGwiPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJWaXNpYmlsaXR5Ij5WaXNpYmxlPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJBbGxvd0JvcmRlckNvbG9yQmxlbmRpbmciPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJGb290ZXIiIC8+DQogICAgICA8cHJvcGVydHkgbmFtZT0iVGFiYmVkIj5mYWxzZTwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iQWxsb3dHbHlwaFNraW5uaW5nIj5EZWZhdWx0PC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJUYWJUZXh0IiAvPg0KICAgICAgPHByb3BlcnR5IG5hbWU9IklEIj4yNDk3N2UzMC0wZWE2LTQ0YWEtOGZhNC05YWJhZWIxNzhiNWU8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9Ilh0cmFTYXZlZFBhcmVudElEIj4tMTwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iWHRyYUF1dG9IaWRlQ29udGFpbmVyRG9jayI+RmxvYXQ8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9Ilh0cmFCb3VuZHMiPkAxLFg9MEAzLFk9MTUzQDMsV2lkdGg9MjA1QDMsSGVpZ2h0PTU1ODwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iT3JpZ2luYWxTaXplIj5AMyxXaWR0aD0yMDVAMyxIZWlnaHQ9MjAwPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJYdHJhSUQiPjA8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9Ilh0cmFBY3RpdmVDaGlsZElEIj4tMTwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iT3B0aW9ucyIgaXNudWxsPSJ0cnVlIiBpc2tleT0idHJ1ZSI+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJTaG93TWF4aW1pemVCdXR0b24iPnRydWU8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iUmVzaXplRGlyZWN0aW9uIj5BbGw8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iQWxsb3dEb2NrQXNUYWJiZWREb2N1bWVudCI+dHJ1ZTwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJGbG9hdE9uRGJsQ2xpY2siPnRydWU8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iU2hvd0Nsb3NlQnV0dG9uIj50cnVlPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IlNob3dBdXRvSGlkZUJ1dHRvbiI+dHJ1ZTwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJBbGxvd0RvY2tSaWdodCI+dHJ1ZTwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJBbGxvd0RvY2tMZWZ0Ij50cnVlPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IkFsbG93RmxvYXRpbmciPnRydWU8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iQWxsb3dEb2NrRmlsbCI+dHJ1ZTwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJBbGxvd0RvY2tCb3R0b20iPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IkFsbG93RG9ja1RvcCI+ZmFsc2U8L3Byb3BlcnR5Pg0KICAgICAgPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJYdHJhUGFyZW50SUQiPi0xPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJDb3VudCI+MDwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iWHRyYVpJbmRleCI+MTwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iU2F2ZWREb2NrIj5MZWZ0PC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJTYXZlZEluZGV4Ij4yPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJTYXZlZFRhYmJlZCI+ZmFsc2U8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IlNhdmVkTWRpRG9jdW1lbnQiPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICA8L3Byb3BlcnR5Pg0KICA8L3Byb3BlcnR5Pg0KICA8cHJvcGVydHkgbmFtZT0iQXV0b0hpZGVDb250YWluZXJzIiBpc2tleT0idHJ1ZSIgdmFsdWU9IjAiIC8+DQogIDxwcm9wZXJ0eSBuYW1lPSJBbGxvd0dseXBoU2tpbm5pbmciPmZhbHNlPC9wcm9wZXJ0eT4NCiAgPHByb3BlcnR5IG5hbWU9IkRvY2tpbmdPcHRpb25zIiBpc251bGw9InRydWUiIGlza2V5PSJ0cnVlIj4NCiAgICA8cHJvcGVydHkgbmFtZT0iU2hvd01heGltaXplQnV0dG9uIj50cnVlPC9wcm9wZXJ0eT4NCiAgICA8cHJvcGVydHkgbmFtZT0iRG9ja1BhbmVsSW5DYXB0aW9uUmVnaW9uIj5EZWZhdWx0PC9wcm9wZXJ0eT4NCiAgICA8cHJvcGVydHkgbmFtZT0iRG9ja1BhbmVsSW5UYWJDb250YWluZXJUYWJSZWdpb24iPkRvY2tJbW1lZGlhdGVseTwvcHJvcGVydHk+DQogICAgPHByb3BlcnR5IG5hbWU9IkZsb2F0T25EYmxDbGljayI+dHJ1ZTwvcHJvcGVydHk+DQogICAgPHByb3BlcnR5IG5hbWU9IlNob3dDbG9zZUJ1dHRvbiI+dHJ1ZTwvcHJvcGVydHk+DQogICAgPHByb3BlcnR5IG5hbWU9IlNob3dBdXRvSGlkZUJ1dHRvbiI+dHJ1ZTwvcHJvcGVydHk+DQogICAgPHByb3BlcnR5IG5hbWU9IlNob3dDYXB0aW9uSW1hZ2UiPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICA8cHJvcGVydHkgbmFtZT0iSGlkZUltbWVkaWF0ZWx5T25BdXRvSGlkZSI+ZmFsc2U8L3Byb3BlcnR5Pg0KICAgIDxwcm9wZXJ0eSBuYW1lPSJDdXJzb3JGbG9hdENhbmNlbGVkIiBpc251bGw9InRydWUiIC8+DQogICAgPHByb3BlcnR5IG5hbWU9IkF1dG9IaWRlUGFuZWxWZXJ0aWNhbFRleHRPcmllbnRhdGlvbiI+RGVmYXVsdDwvcHJvcGVydHk+DQogICAgPHByb3BlcnR5IG5hbWU9IlNob3dDYXB0aW9uT25Nb3VzZUhvdmVyIj5mYWxzZTwvcHJvcGVydHk+DQogICAgPHByb3BlcnR5IG5hbWU9IkNsb3NlQWN0aXZlRmxvYXRUYWJPbmx5Ij5mYWxzZTwvcHJvcGVydHk+DQogICAgPHByb3BlcnR5IG5hbWU9IkNsb3NlQWN0aXZlVGFiT25seSI+dHJ1ZTwvcHJvcGVydHk+DQogIDwvcHJvcGVydHk+DQogIDxwcm9wZXJ0eSBuYW1lPSJBY3RpdmVQYW5lbElEIj4tMTwvcHJvcGVydHk+DQogIDxwcm9wZXJ0eSBuYW1lPSJYdHJhU2VyaWFsaXphYmxlU2NyZWVuQ29uZmlndXJhdGlvbiIgaXNrZXk9InRydWUiIHZhbHVlPSIxIj4NCiAgICA8cHJvcGVydHkgbmFtZT0iSXRlbTEiPkAxLFg9MEAxLFk9MEA0LFdpZHRoPTEzNjZAMyxIZWlnaHQ9NzY4PC9wcm9wZXJ0eT4NCiAgPC9wcm9wZXJ0eT4NCiAgPHByb3BlcnR5IG5hbWU9IkF1dG9IaWRkZW5QYW5lbENhcHRpb25TaG93TW9kZSI+U2hvd0ZvckFsbFBhbmVsczwvcHJvcGVydHk+DQogIDxwcm9wZXJ0eSBuYW1lPSJUb3BaSW5kZXhDb250cm9scyIgaXNrZXk9InRydWUiIHZhbHVlPSIyIj4NCiAgICA8cHJvcGVydHkgbmFtZT0iSXRlbTEiIHR5cGU9IlN5c3RlbS5TdHJpbmciPkRldkV4cHJlc3MuRXhwcmVzc0FwcC5XaW4uVGVtcGxhdGVzLlJpYmJvbi5YYWZSaWJib25Db250cm9sVjI8L3Byb3BlcnR5Pg0KICAgIDxwcm9wZXJ0eSBuYW1lPSJJdGVtMiIgdHlwZT0iU3lzdGVtLlN0cmluZyI+RGV2RXhwcmVzcy5YdHJhQmFycy5SaWJib24uUmliYm9uU3RhdHVzQmFyPC9wcm9wZXJ0eT4NCiAgPC9wcm9wZXJ0eT4NCjwvWHRyYVNlcmlhbGl6ZXI+" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="Default" State="Maximized" MaximizedOnScreen="\\.\DISPLAY1" X="372" Y="246" Width="1025" Height="525" IsNewNode="True" />
+      </FormStates>
+    </Template>
+  </Templates>
+  <Views>
+    <ListView Id="Banque_LookupListView" GroupSummary="Empty" />
+    <ListView Id="Bareme_LookupListView" GroupSummary="Empty">
+      <Columns>
+        <ColumnInfo Id="CATEG" Width="204" />
+        <ColumnInfo Id="SDB" Width="161" />
+      </Columns>
+    </ListView>
+    <ListView Id="Cloture_ListView">
+      <Columns>
+        <ColumnInfo Id="Mois" SortOrder="Ascending" Index="0" />
+        <ColumnInfo Id="Categorie" SortOrder="Ascending" GroupIndex="0" Index="1" />
+      </Columns>
+    </ListView>
+    <ListView Id="Corps_LookupListView" GroupSummary="Empty" />
+    <ListView Id="DAS_G_ListView">
+      <Columns>
+        <ColumnInfo Id="Code" SortOrder="Ascending" />
+      </Columns>
+    </ListView>
+    <ListView Id="Dossier_LookupListView" GroupSummary="Empty" />
+    <ListView Id="Exercice_LookupListView" GroupSummary="Empty" />
+    <ListView Id="Fonction_Indem_Fontions_ListView">
+      <Columns>
+        <ColumnInfo Id="Ordre_Affichage" SortOrder="Ascending" />
+      </Columns>
+    </ListView>
+    <ListView Id="Fonction_ListView">
+      <Columns>
+        <ColumnInfo Id="cod_fonction" SortIndex="0" SortOrder="Ascending" />
+        <ColumnInfo Id="Fct_Lib_Fr" SortIndex="-1" SortOrder="None" />
+      </Columns>
+    </ListView>
+    <ListView Id="Fonction_LookupListView" GroupSummary="Empty" />
+    <ListView Id="Indem_ListView" ShowFindPanel="True">
+      <Columns>
+        <ColumnInfo Id="Ordre_Affichage" SortIndex="0" SortOrder="Ascending" Width="115" />
+        <ColumnInfo Id="Cod_indem_interne" SortIndex="-1" SortOrder="None" Index="1" Width="137" />
+        <ColumnInfo Id="Cod_indem" SortIndex="-1" SortOrder="None" Width="155" Index="2" />
+        <ColumnInfo Id="Mod_cal_irg" PropertyName="Mod_cal_irg" Index="3" Width="109" SortIndex="-1" SortOrder="None" IsNewNode="True" />
+        <ColumnInfo Id="Mode_Calcul_Absence" Index="4" Width="135" />
+        <ColumnInfo Id="Cotisable" Width="71" Index="5" />
+        <ColumnInfo Id="Lib_indem" Width="252" Index="6" />
+        <ColumnInfo Id="Imposable" Width="77" Index="7" />
+        <ColumnInfo Id="Retenue" Width="0" Index="8" />
+      </Columns>
+    </ListView>
+    <ListView Id="Indem_LookupListView">
+      <Columns>
+        <ColumnInfo Id="Cod_indem" Width="282" />
+        <ColumnInfo Id="Lib_indem" Width="131" />
+      </Columns>
+    </ListView>
+    <ListView Id="Mode_Paiement_LookupListView" GroupSummary="Empty" />
+    <DetailView Id="parametre_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Main">
+          <LayoutGroup Id="SimpleEditors" Caption="SimpleEditors">
+            <LayoutGroup Id="parametre" Caption="Paramètres">
+              <LayoutGroup Id="parametre_col2" Caption="parametre_col2">
+                <TabbedGroup Id="Item11">
+                  <LayoutGroup Id="Item1" Caption="Organisme">
+                    <TabbedGroup Id="Item12">
+                      <LayoutGroup Id="Item7" Caption="Coordonnés">
+                        <LayoutGroup Id="8602ad13-6ba0-4107-bf21-c32f0770aa93" Caption="8602ad13-6ba0-4107-bf21-c32f0770aa93(8)">
+                          <LayoutGroup Id="Autoca0fd7f6-132c-49e5-a95e-95d0de522ef5" Caption="Autoca0fd7f6-132c-49e5-a95e-95d0de522ef5(13)">
+                            <LayoutGroup Id="Autoe701a0e3-58ed-4836-bc7b-0a3c11c10ddf" Caption="Autoe701a0e3-58ed-4836-bc7b-0a3c11c10ddf(14)" RelativeSize="52.41935483870968">
+                              <LayoutItem Id="Denomination" RelativeSize="4.7976011994003" />
+                              <LayoutItem Id="Organisme_Fr" RelativeSize="3.5982008995502248" />
+                              <LayoutItem Id="Activite" RelativeSize="3.5982008995502248" />
+                              <LayoutItem Id="nom_DG" RelativeSize="3.5982008995502248" />
+                              <LayoutItem Id="Tel" RelativeSize="3.5982008995502248" />
+                              <LayoutItem Id="Fax" RelativeSize="3.5982008995502248" />
+                              <LayoutItem Id="Email" RelativeSize="3.5982008995502248" />
+                              <LayoutItem Id="Site_Web" RelativeSize="3.5982008995502248" />
+                              <LayoutItem Id="Adresse" RelativeSize="3.5982008995502248" />
+                              <LayoutGroup Id="Item8" Caption="Logo" TextAlignMode="AlignWithChildren" RelativeSize="66.4167916041979" />
+                            </LayoutGroup>
+                            <LayoutGroup Id="Autofad5b823-5a35-4c69-8ad1-2608d9f8fb9e" Caption="Autofad5b823-5a35-4c69-8ad1-2608d9f8fb9e(28)" RelativeSize="47.58064516129032">
+                              <LayoutGroup Id="Autoda2fc207-c19e-4383-8f35-c936933d5e4b" Caption="Autoda2fc207-c19e-4383-8f35-c936933d5e4b(24)" RelativeSize="97.881355932203391">
+                                <LayoutItem Id="Num_employeur" RelativeSize="4.7976011994003" />
+                                <LayoutItem Id="Agence" RelativeSize="3.5982008995502248" />
+                                <LayoutItem Id="Centr_Payeur" RelativeSize="3.5982008995502248" />
+                                <LayoutItem Id="AgenceCacobatph" RelativeSize="3.5982008995502248" />
+                                <LayoutItem Id="Type_dec" RelativeSize="3.5982008995502248" />
+                                <LayoutItem Id="DeclarationMultiple" RelativeSize="3.4482758620689653" />
+                                <LayoutItem Id="Rc" RelativeSize="3.5982008995502248" />
+                                <LayoutItem Id="Ai" RelativeSize="3.5982008995502248" />
+                                <LayoutItem Id="NIS" RelativeSize="3.5982008995502248" />
+                                <LayoutItem Id="NIF" RelativeSize="66.566716641679164" />
+                              </LayoutGroup>
+                              <LayoutItem Id="Item17" CaptionHorizontalAlignment="Default" RelativeSize="2.1186440677966103" ViewItem="" />
+                            </LayoutGroup>
+                          </LayoutGroup>
+                        </LayoutGroup>
+                      </LayoutGroup>
+                      <LayoutGroup Id="Item4" Caption="Banque">
+                        <LayoutGroup Id="Auto1be0a381-6f33-4ab3-ac55-0b15d1bf209c" Caption="Auto1be0a381-6f33-4ab3-ac55-0b15d1bf209c(38)">
+                          <LayoutGroup Id="Autod0bf106e-3fd4-4387-b3a2-7ad5fc661910" Caption="Autod0bf106e-3fd4-4387-b3a2-7ad5fc661910(37)" RelativeSize="71.471774193548384">
+                            <LayoutItem Id="banqu" MinSize="1, 1" RelativeSize="4.7976011994003" />
+                            <LayoutGroup Id="Autob9fec131-bc09-4cc8-af8a-5fbfb85e1e66" Caption="Autob9fec131-bc09-4cc8-af8a-5fbfb85e1e66(39)" RelativeSize="95.2023988005997">
+                              <LayoutItem Id="Num_compte_banq" RelativeSize="55.289139633286318" />
+                              <LayoutItem Id="Cle_compte_banq" MinSize="1, 1" RelativeSize="44.710860366713682" />
+                            </LayoutGroup>
+                          </LayoutGroup>
+                          <LayoutItem Id="Item21" CaptionHorizontalAlignment="Default" RelativeSize="28.528225806451612" ViewItem="" />
+                        </LayoutGroup>
+                      </LayoutGroup>
+                      <LayoutGroup Id="Item3" Caption="Adresse">
+                        <LayoutGroup Id="c40639ec-d022-4448-ba1c-32ae896f0ae3" Caption="c40639ec-d022-4448-ba1c-32ae896f0ae3(42)">
+                          <LayoutGroup Id="Auto3ab7a0ab-c665-4d4a-8ad3-b1e3c7206972" Caption="Auto3ab7a0ab-c665-4d4a-8ad3-b1e3c7206972(43)" RelativeSize="52.62096774193548">
+                            <LayoutItem Id="Region_Fr" MinSize="1, 1" RelativeSize="4.0479760119940034" />
+                            <LayoutItem Id="Wilaya_Fr" RelativeSize="2.6986506746626686" />
+                            <LayoutItem Id="Daira_Fr" RelativeSize="2.6986506746626686" />
+                            <LayoutItem Id="Commune_Fr" RelativeSize="90.554722638680659" />
+                          </LayoutGroup>
+                          <LayoutGroup Id="Auto8f9abc64-d0be-4a7c-b9ac-fbc7e6110e86" Caption="Auto8f9abc64-d0be-4a7c-b9ac-fbc7e6110e86(46)" RelativeSize="47.37903225806452" />
+                        </LayoutGroup>
+                      </LayoutGroup>
+                    </TabbedGroup>
+                  </LayoutGroup>
+                  <LayoutGroup Id="Item6" Caption="Paramètres">
+                    <LayoutGroup Id="Autof689d347-bef7-420c-8879-04a6a1fe81cb" Caption="Autof689d347-bef7-420c-8879-04a6a1fe81cb(53)">
+                      <LayoutGroup Id="Autoebd51db5-ae29-4122-8b3a-495d2cf15286" Caption="Autoebd51db5-ae29-4122-8b3a-495d2cf15286(54)">
+                        <LayoutGroup Id="Auto80c67f63-022f-45aa-8ce7-b2c2f91afcc3" Caption="Auto80c67f63-022f-45aa-8ce7-b2c2f91afcc3(54)" RelativeSize="53.0758226037196">
+                          <LayoutGroup Id="Autoad8402eb-252c-4f7f-ae2a-dc7be0670d5a" Caption="Autoad8402eb-252c-4f7f-ae2a-dc7be0670d5a(55)" RelativeSize="61.077844311377248">
+                            <LayoutItem Id="Annee_Travail" RelativeSize="8.625336927223719" />
+                            <LayoutItem Id="Jr_Debut_Mois" RelativeSize="6.46900269541779" />
+                            <LayoutItem Id="WeekEnd" RelativeSize="6.46900269541779" />
+                            <LayoutItem Id="Type_Abcense" RelativeSize="6.46900269541779" />
+                            <LayoutItem Id="Mode_Arrondi" RelativeSize="6.46900269541779" />
+                            <TabbedGroup Id="Item10" RelativeSize="65.498652291105117">
+                              <LayoutGroup Id="Item3" Caption="Jours et Heures de Travail">
+                                <LayoutGroup Id="Autocc148157-63a9-4935-b61a-d8da83f0ec35" Caption="Autocc148157-63a9-4935-b61a-d8da83f0ec35(64)">
+                                  <LayoutItem Id="Nbr_jour_tra" RelativeSize="15.609756097560975" />
+                                  <LayoutItem Id="Nbr_heure_tra" RelativeSize="11.707317073170731" />
+                                  <LayoutItem Id="Nbr_heure_ouv" RelativeSize="11.707317073170731" />
+                                  <LayoutItem Id="Nbr_Jour_Travail_Prime" RelativeSize="60.975609756097562" />
+                                </LayoutGroup>
+                              </LayoutGroup>
+                              <LayoutGroup Id="Item5" Caption="Calcul de l'experience">
+                                <LayoutGroup Id="Autob497ab8d-2403-4073-819c-69659966348e" Caption="Autob497ab8d-2403-4073-819c-69659966348e(104)">
+                                  <LayoutGroup Id="Auto4e6e9450-d4df-4e62-9eab-fd3a132ccff2" Caption="Auto4e6e9450-d4df-4e62-9eab-fd3a132ccff2(81)">
+                                    <LayoutGroup Id="Auto31b72025-37a9-4b2f-8a5c-4a24bfafc970" Caption="Auto31b72025-37a9-4b2f-8a5c-4a24bfafc970(82)">
+                                      <LayoutGroup Id="Autoe3f50677-63df-4738-a8c0-9fcc25efcc11" Caption="Autoe3f50677-63df-4738-a8c0-9fcc25efcc11(83)">
+                                        <LayoutGroup Id="Auto30f28522-f930-495f-b014-dc9d8d2bbf85" Caption="Auto30f28522-f930-495f-b014-dc9d8d2bbf85(85)">
+                                          <LayoutGroup Id="Autoc7663f87-9288-4a83-987f-ea2b948b2900" Caption="Autoc7663f87-9288-4a83-987f-ea2b948b2900(76)">
+                                            <LayoutItem Id="Aug_Auto_Taux_Iep_Org" RelativeSize="15.121951219512194" />
+                                            <LayoutItem Id="Taux_Iep_Org" RelativeSize="11.707317073170731" />
+                                            <LayoutItem Id="Limite_Iep" RelativeSize="11.219512195121951" />
+                                            <LayoutItem Id="Limite_Iep_à" RelativeSize="11.707317073170731" />
+                                            <LayoutItem Id="Taux_Iep_Hors_Secteur_Prive" RelativeSize="11.707317073170731" />
+                                            <LayoutItem Id="Taux_Iep_Hors_Secteur_Etat" RelativeSize="11.707317073170731" />
+                                            <LayoutItem Id="Limite_Iep_ext" RelativeSize="11.219512195121951" />
+                                            <LayoutItem Id="Limite_Iep_ext_à" RelativeSize="15.609756097560975" />
+                                          </LayoutGroup>
+                                        </LayoutGroup>
+                                      </LayoutGroup>
+                                    </LayoutGroup>
+                                  </LayoutGroup>
+                                </LayoutGroup>
+                              </LayoutGroup>
+                              <LayoutGroup Id="Item18" Caption="Calcul Congé">
+                                <LayoutGroup Id="Autob70626ea-d9c2-49e5-b4ea-605ba329f95b" Caption="Autob70626ea-d9c2-49e5-b4ea-605ba329f95b(89)">
+                                  <LayoutGroup Id="Autocabbbdf0-32f9-4bdb-9864-bcd95318941b" Caption="Autocabbbdf0-32f9-4bdb-9864-bcd95318941b(97)">
+                                    <LayoutGroup Id="Auto93c1da03-81e8-4082-8fdd-e00fa1b45040" Caption="Auto93c1da03-81e8-4082-8fdd-e00fa1b45040(103)">
+                                      <LayoutGroup Id="Auto3e3b5f9b-724b-4881-b03a-3dc0c5406090" Caption="Auto3e3b5f9b-724b-4881-b03a-3dc0c5406090(91)">
+                                        <LayoutItem Id="JoursAbsJrsCong" RelativeSize="24.390243902439025" />
+                                        <LayoutItem Id="Mois_debut_Cong" RelativeSize="11.707317073170731" />
+                                        <LayoutItem Id="Mois_fin_Cong" RelativeSize="11.707317073170731" />
+                                        <LayoutItem Id="nbr_jour_cong_mois" RelativeSize="11.707317073170731" />
+                                        <LayoutItem Id="CRAvecPaye" RelativeSize="11.219512195121951" />
+                                        <LayoutItem Id="Rotation Travail/Congé Récupération" RelativeSize="8.2926829268292686" />
+                                        <LayoutGroup Id="Auto49a691a3-6e09-4fb4-89c7-a2cbfc870881" Caption="Auto49a691a3-6e09-4fb4-89c7-a2cbfc870881(97)" TextAlignMode="AlignWithChildren" RelativeSize="20.975609756097562">
+                                          <LayoutItem Id="NbrJrsTrvPrJrsCR" ShowCaption="True" RelativeSize="63.620981387478849" />
+                                          <LayoutItem Id="/" MinSize="1, 1" RelativeSize="4.9069373942470387" />
+                                          <LayoutItem Id="NbrJrsCRPrJrsTrv" ShowCaption="True" RelativeSize="31.472081218274113" />
+                                        </LayoutGroup>
+                                      </LayoutGroup>
+                                    </LayoutGroup>
+                                  </LayoutGroup>
+                                </LayoutGroup>
+                              </LayoutGroup>
+                              <LayoutGroup Id="Item9" Caption="Calcul Primes">
+                                <LayoutGroup Id="Auto7687d608-7b5c-4b5b-a11c-4530c678368c" Caption="Auto7687d608-7b5c-4b5b-a11c-4530c678368c(70)">
+                                  <LayoutGroup Id="Autof4710425-351e-4729-b7ee-20c10ccb7619" Caption="Autof4710425-351e-4729-b7ee-20c10ccb7619(105)">
+                                    <LayoutItem Id="HeureDebutShiftNuit" RelativeSize="15.609756097560975" />
+                                    <LayoutItem Id="NbrHeuresShiftNuit" RelativeSize="11.707317073170731" />
+                                    <LayoutItem Id="ShiftNuitCR" RelativeSize="72.6829268292683" />
+                                  </LayoutGroup>
+                                </LayoutGroup>
+                              </LayoutGroup>
+                            </TabbedGroup>
+                          </LayoutGroup>
+                          <LayoutItem Id="Item22" CaptionHorizontalAlignment="Default" RelativeSize="38.922155688622752" ViewItem="" />
+                        </LayoutGroup>
+                        <LayoutGroup Id="Auto130d783f-391c-47fd-a948-b9ab1d6c0e9d" Caption="Auto130d783f-391c-47fd-a948-b9ab1d6c0e9d(89)" RelativeSize="46.9241773962804" />
+                      </LayoutGroup>
+                    </LayoutGroup>
+                  </LayoutGroup>
+                  <LayoutGroup Id="Item2" Caption="Valeurs de base de la paye">
+                    <LayoutGroup Id="Autoc08ce5f5-b065-4a3c-8e9e-acf96c15b27e" Caption="Autoc08ce5f5-b065-4a3c-8e9e-acf96c15b27e(82)" RelativeSize="49.401197604790418">
+                      <LayoutGroup Id="Auto3c5183e5-410c-4a91-aa81-3dd888365363" Caption="Auto3c5183e5-410c-4a91-aa81-3dd888365363(83)">
+                        <LayoutGroup Id="Auto49d4dd2b-039e-4b3b-b022-6e0cf4f6d87c" Caption="Auto49d4dd2b-039e-4b3b-b022-6e0cf4f6d87c(84)">
+                          <LayoutItem Id="Smig" MinSize="1, 1" RelativeSize="4.577968526466381" />
+                          <LayoutItem Id="Taux_ss" RelativeSize="3.4334763948497855" />
+                          <LayoutItem Id="Taux_cacobatph" RelativeSize="3.4334763948497855" />
+                          <LayoutItem Id="Taux_chomage_intemperie" RelativeSize="3.4334763948497855" />
+                          <LayoutItem Id="Taux_chomage_intemperiePO" RelativeSize="3.4334763948497855" />
+                          <LayoutItem Id="Taux_irg" RelativeSize="3.4334763948497855" />
+                          <LayoutItem Id="Taux_pp" RelativeSize="3.4334763948497855" />
+                          <LayoutItem Id="Taux_pp1" RelativeSize="3.4334763948497855" />
+                          <LayoutItem Id="Taux_Mutuel" RelativeSize="71.387696709585128" />
+                        </LayoutGroup>
+                      </LayoutGroup>
+                    </LayoutGroup>
+                    <LayoutGroup Id="Auto6bea6ef6-a456-43db-8e65-9e7b013eaa7d" Caption="Auto6bea6ef6-a456-43db-8e65-9e7b013eaa7d(93)" RelativeSize="50.598802395209582">
+                      <LayoutItem Id="Item13" CaptionHorizontalAlignment="Default" ViewItem="" />
+                    </LayoutGroup>
+                  </LayoutGroup>
+                </TabbedGroup>
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="parametre_LookupListView" GroupSummary="Empty" />
+    <DetailView Id="Paye_DetailView">
+      <Layout>
+        <LayoutGroup Id="Auto99ff01e0-9d62-4bae-8e23-8a5b89099677" Caption="Auto99ff01e0-9d62-4bae-8e23-8a5b89099677(1)" RelativeSize="28.136200716845877">
+          <LayoutGroup Id="Autoadb640fa-13ef-4fa8-b08f-2de632ea3483" Caption="Autoadb640fa-13ef-4fa8-b08f-2de632ea3483(2)" RelativeSize="44.655929721815518">
+            <LayoutItem Id="Cod_personne" RelativeSize="20.38216560509554" />
+            <LayoutItem Id="personne" RelativeSize="15.286624203821656" />
+            <LayoutItem Id="LaFonction" RelativeSize="15.286624203821656" />
+            <LayoutItem Id="Bloque_Paye" RelativeSize="49.044585987261144" />
+          </LayoutGroup>
+          <LayoutGroup Id="Auto10e5a610-6b90-4b54-b4b1-92ddd2f6c94e" Caption="Auto10e5a610-6b90-4b54-b4b1-92ddd2f6c94e(7)" RelativeSize="55.344070278184482">
+            <LayoutItem Id="Mois" RelativeSize="20.38216560509554" />
+            <LayoutItem Id="Annee" RelativeSize="15.286624203821656" />
+            <LayoutItem Id="cat_paye" RelativeSize="15.286624203821656" />
+            <LayoutItem Id="Valide" RelativeSize="14.64968152866242" />
+            <LayoutItem Id="Jour_Ppn" ViewItem="Jour_Ppn" CaptionHorizontalAlignment="Default" SizeConstraintsType="Default" Index="4" RelativeSize="15.286624203821656" IsNewNode="True" />
+            <LayoutItem Id="Jour_Trs" ViewItem="Jour_Trs" CaptionHorizontalAlignment="Default" SizeConstraintsType="Default" Index="5" RelativeSize="19.108280254777071" IsNewNode="True" />
+          </LayoutGroup>
+        </LayoutGroup>
+        <TabbedGroup Id="Item22" RelativeSize="71.863799283154123">
+          <LayoutGroup Id="Item21" Caption="Paye">
+            <LayoutGroup Id="Autoe8bf4dec-2f14-455d-9b04-e1aa6c456666" Caption="Autoe8bf4dec-2f14-455d-9b04-e1aa6c456666(14)" TextAlignMode="AlignWithChildren" RelativeSize="23.059701492537314">
+              <LayoutItem Id="Calcul_Absence_Auto" RelativeSize="8.6592178770949726" />
+              <LayoutGroup Id="Auto989e348d-d574-4d4f-8d78-d6c9f46833b7" Caption="Auto989e348d-d574-4d4f-8d78-d6c9f46833b7(19)" RelativeSize="91.340782122905026">
+                <LayoutItem Id="Nbr_jour_abs_Entr" RelativeSize="8.2568807339449535" />
+                <LayoutItem Id="Nbr_jour_abs_Sort" RelativeSize="7.3394495412844041" />
+                <LayoutItem Id="Nbr_jour_abs_maladie" RelativeSize="7.3394495412844041" />
+                <LayoutItem Id="Nbr_jour_abs_mise_a_pieds" RelativeSize="7.3394495412844041" />
+                <LayoutItem Id="Nbr_jour_abs_autre" RelativeSize="7.3394495412844041" />
+                <LayoutItem Id="Nbr_jour_abs" RelativeSize="7.3394495412844041" />
+                <LayoutItem Id="Nbr_jour_abs_prime" RelativeSize="7.3394495412844041" />
+                <LayoutItem Id="Nbr_heure_abs" RelativeSize="47.706422018348626" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="Auto6bc15f96-a6b6-43ec-b666-4bfd5756ae39" Caption="Auto6bc15f96-a6b6-43ec-b666-4bfd5756ae39(29)" TextAlignMode="AlignWithChildren" RelativeSize="76.940298507462686">
+              <LayoutGroup Id="Auto16b454e3-093f-48d9-bee4-647e60c491d3" Caption="Auto16b454e3-093f-48d9-bee4-647e60c491d3(30)" TextAlignMode="AlignWithChildren" RelativeSize="11.1731843575419">
+                <LayoutItem Id="Calcul" RelativeSize="9.0203685741998054" />
+                <LayoutItem Id="Parametrage" RelativeSize="11.057225994180408" />
+                <LayoutItem Id="Item9" CaptionHorizontalAlignment="Default" RelativeSize="79.9224054316198" ViewItem="" />
+              </LayoutGroup>
+              <LayoutItem Id="paye_indems" RelativeSize="88.8268156424581" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="Item4" Caption="Paramètres de Calcul">
+            <LayoutGroup Id="Autod1d8d742-5c01-4eec-8244-8bcfe52a96ed" Caption="Autod1d8d742-5c01-4eec-8244-8bcfe52a96ed(40)" RelativeSize="39.477611940298509">
+              <LayoutItem Id="Montant_SDB" RelativeSize="8.938547486033519" />
+              <LayoutItem Id="Categori" RelativeSize="6.70391061452514" />
+              <LayoutItem Id="Soumis_à_la_Sécurité_Sociale" RelativeSize="6.70391061452514" />
+              <LayoutItem Id="Soumis_à_l_IRG" RelativeSize="6.983240223463687" />
+              <LayoutItem Id="Soumis_Cacobatph" RelativeSize="6.70391061452514" />
+              <LayoutItem Id="Ok_Mutuel" RelativeSize="6.70391061452514" />
+              <LayoutItem Id="Type_Abcense" RelativeSize="6.70391061452514" />
+              <LayoutItem Id="Mode_Arrondi" RelativeSize="50.558659217877093" />
+            </LayoutGroup>
+            <LayoutGroup Id="Auto114e1c52-4c70-45c8-b0c7-5aea3a577dd1" Caption="Auto114e1c52-4c70-45c8-b0c7-5aea3a577dd1(49)" RelativeSize="60.522388059701491">
+              <TabbedGroup Id="Item1">
+                <LayoutGroup Id="Item11" Caption="Taux">
+                  <LayoutItem Id="TAUX_IEP" RelativeSize="10.32258064516129" />
+                  <LayoutItem Id="TAUX_IEP_Ext" RelativeSize="7.419354838709677" />
+                  <LayoutItem Id="Taux_SS" RelativeSize="7.419354838709677" />
+                  <LayoutItem Id="Taux_IRG" RelativeSize="7.419354838709677" />
+                  <LayoutItem Id="Taux_Mutuel" RelativeSize="7.419354838709677" />
+                  <LayoutItem Id="Taux_cacobatph" RelativeSize="7.419354838709677" />
+                  <LayoutItem Id="Taux_chomage_intemperie" RelativeSize="7.419354838709677" />
+                  <LayoutItem Id="Taux_chomage_intemperiePO" RelativeSize="7.419354838709677" />
+                  <LayoutItem Id="Taux_pp" RelativeSize="7.096774193548387" />
+                  <LayoutItem Id="Taux_pp1" RelativeSize="7.419354838709677" />
+                  <LayoutItem Id="Taux_pp2" RelativeSize="7.096774193548387" />
+                  <LayoutItem Id="Taux_pp3" RelativeSize="16.129032258064516" />
+                </LayoutGroup>
+                <LayoutGroup Id="Item7" Caption="Heures Supplémentaires">
+                  <LayoutItem Id="Nbr_heure_50" RelativeSize="10.32258064516129" />
+                  <LayoutItem Id="Nbr_heure_75" RelativeSize="7.419354838709677" />
+                  <LayoutItem Id="Nbr_heure_100" RelativeSize="7.419354838709677" />
+                  <LayoutItem Id="Nbr_heure_150" RelativeSize="7.419354838709677" />
+                  <LayoutItem Id="Nbr_heure_200" RelativeSize="67.41935483870968" />
+                </LayoutGroup>
+                <LayoutGroup Id="Item2" Caption="Calcul Congé">
+                  <LayoutItem Id="dat_deb_cong" RelativeSize="10.32258064516129" />
+                  <LayoutItem Id="dat_fin_cong" RelativeSize="7.419354838709677" />
+                  <LayoutItem Id="ShiftNuitCR" RelativeSize="7.419354838709677" />
+                  <LayoutItem Id="Nbr_Jrs_Cong_Recup" RelativeSize="7.419354838709677" />
+                  <LayoutItem Id="Conge_Calcule" RelativeSize="67.41935483870968" />
+                </LayoutGroup>
+              </TabbedGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="Item15" Caption="Information de l'Employé">
+            <LayoutGroup Id="Auto571f9169-c389-415e-b749-dc186a253e07" Caption="Auto571f9169-c389-415e-b749-dc186a253e07(71)" RelativeSize="45.671641791044777">
+              <LayoutItem Id="Sit_Emp" RelativeSize="8.938547486033519" />
+              <LayoutItem Id="Sit_fam" RelativeSize="6.70391061452514" />
+              <LayoutItem Id="Sit_Conjoint" RelativeSize="6.70391061452514" />
+              <LayoutItem Id="Nbr_enf" RelativeSize="77.6536312849162" />
+            </LayoutGroup>
+            <LayoutItem Id="Item5" CaptionHorizontalAlignment="Default" RelativeSize="54.328358208955223" ViewItem="" />
+          </LayoutGroup>
+          <LayoutGroup Id="Item3" Caption="Observations et Résultats">
+            <LayoutItem Id="Motif" RelativeSize="73.059701492537314" />
+            <LayoutGroup Id="Auto9659977d-54bb-47eb-953e-3a3383476546" Caption="Auto9659977d-54bb-47eb-953e-3a3383476546(79)" RelativeSize="26.940298507462686">
+              <LayoutItem Id="cacobatph" MinSize="1, 1" RelativeSize="7.82122905027933" />
+              <LayoutItem Id="chomage_intemperie" RelativeSize="6.70391061452514" />
+              <LayoutItem Id="PP" RelativeSize="85.47486033519553" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </TabbedGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="paye_indem_ListView" Filter="[Paye.Mois] = ##Enum#MaPaye.Module.MoisdelAnnee,Février#" IsGroupPanelVisible="True" GroupSummary="Count;Montant_Absence:Sum,(Montant Après Absence: SUM={0:C});Montant:Sum,(Montant: SUM={0:C})" FilterEnabled="False">
+      <Columns>
+        <ColumnInfo Id="Ordre_Affichage" SortOrder="None" SortIndex="-1" />
+        <ColumnInfo Id="Indemnite" SortOrder="Ascending" GroupIndex="0" />
+        <ColumnInfo Id="Indemnite.Retenue" PropertyName="Indemnite.Retenue" Index="4" IsNewNode="True" />
+        <ColumnInfo Id="INbr" Index="5" />
+        <ColumnInfo Id="Montant" Index="6" />
+        <ColumnInfo Id="Montant_Absence" SortIndex="0" SortOrder="Ascending" Index="7" />
+        <ColumnInfo Id="Paye.NETAbsence" PropertyName="Paye.NETAbsence" Index="8" IsNewNode="True" />
+        <ColumnInfo Id="ModifSpecial" Index="9" />
+        <ColumnInfo Id="Paye.Mois" PropertyName="Paye.Mois" Index="10" IsNewNode="True" />
+      </Columns>
+    </ListView>
+    <ListView Id="Paye_ListView" ShowFindPanel="True" Filter="" FilterEnabled="True" GroupSummary="Count;Brute_imposable_Abs:Sum,(Brute_imposable_Abs: SUM={0:C})">
+      <Columns>
+        <ColumnInfo Id="Annee" Index="-1" Width="29" />
+        <ColumnInfo Id="Ok_Mutuel" Index="-1" Width="36" />
+        <ColumnInfo Id="personne.unite" PropertyName="personne.unite" Index="-1" Width="360" IsNewNode="True" />
+        <ColumnInfo Id="personne.unite.NumEmployeur" PropertyName="personne.unite.NumEmployeur" Index="-1" Width="20" IsNewNode="True" />
+        <ColumnInfo Id="PP" Index="-1" Width="20" />
+        <ColumnInfo Id="PP1" Index="-1" Width="32" />
+        <ColumnInfo Id="PP2" Index="-1" Width="29" />
+        <ColumnInfo Id="Soumis_à_la_Sécurité_Sociale" Index="-1" />
+        <ColumnInfo Id="Soumis_Cacobatph" Index="-1" Width="35" />
+        <ColumnInfo Id="Taux_pp" Width="29" Index="-1" SortOrder="None" GroupIndex="-1" />
+        <ColumnInfo Id="Taux_pp1" SortIndex="-1" SortOrder="None" Index="-1" Width="29" />
+        <ColumnInfo Id="Cod_personne" SortIndex="-1" SortOrder="None" Width="121" Index="0" />
+        <ColumnInfo Id="Mois" Index="1" SortOrder="Ascending" GroupIndex="0" SortIndex="-1" Width="79" />
+        <ColumnInfo Id="personne" Width="163" Index="2" SortIndex="0" SortOrder="Ascending" />
+        <ColumnInfo Id="LaFonction" Width="35" Index="3" />
+        <ColumnInfo Id="SDBAbsence" Width="35" Index="4" />
+        <ColumnInfo Id="IEP" Width="35" Index="5" />
+        <ColumnInfo Id="Brute_cotisableAbsence" Width="83" Index="6" />
+        <ColumnInfo Id="SSAbsence" Width="32" Index="7" SortIndex="-1" SortOrder="None" />
+        <ColumnInfo Id="IRGAbsence" Width="200" Index="8" />
+        <ColumnInfo Id="NETAbsence" Width="81" Index="9" />
+        <ColumnInfo Id="Jour_Abs" SortIndex="-1" SortOrder="None" Index="10" Width="32" />
+        <ColumnInfo Id="Mode_Paiement" Width="20" Index="11" />
+        <ColumnInfo Id="Motif" SortIndex="-1" SortOrder="None" Width="20" Index="12" />
+        <ColumnInfo Id="Valide" Index="13" Width="39" />
+        <ColumnInfo Id="cat_paye" Index="14" SortOrder="None" GroupIndex="-1" Width="20" />
+        <ColumnInfo Id="Nbr_jour_abs" SortIndex="-1" SortOrder="None" Index="15" Width="20" />
+        <ColumnInfo Id="Type_Abcense" Width="37" Index="16" />
+        <ColumnInfo Id="Unite" Index="17" Width="74" SortOrder="None" GroupIndex="-1" SortIndex="-1" />
+      </Columns>
+    </ListView>
+    <ListView Id="Paye_paye_indems_ListView">
+      <Columns>
+        <ColumnInfo Id="Indemnite.Ordre_Affichage" SortOrder="Ascending" Width="143" />
+        <ColumnInfo Id="Indemnite" Width="133" />
+        <ColumnInfo Id="Lib_indem" Width="143" />
+        <ColumnInfo Id="IBase" Width="95" />
+        <ColumnInfo Id="ITaux" Width="95" />
+        <ColumnInfo Id="INbr" Width="95" />
+        <ColumnInfo Id="Montant" Width="95" />
+        <ColumnInfo Id="Montant_Absence" Width="109" />
+        <ColumnInfo Id="ModifSpecial" Width="86" />
+      </Columns>
+    </ListView>
+    <ListView Id="Personne_Indem_Personnes_ListView">
+      <Columns>
+        <ColumnInfo Id="Ordre_Affichage" SortOrder="Ascending" SortIndex="0" />
+        <ColumnInfo Id="Indem" SortIndex="-1" SortOrder="None" />
+      </Columns>
+    </ListView>
+    <ListView Id="Personne_ListView" GroupSummary="Empty" Filter="" FilterEnabled="True" ShowFindPanel="True" IsGroupPanelVisible="True">
+      <Columns>
+        <ColumnInfo Id="Dat_entre" PropertyName="Dat_entre" Index="-1" SortIndex="-1" SortOrder="None" IsNewNode="True" />
+        <ColumnInfo Id="Nbr_Jrs_Cong_Accor" Index="-1" SortIndex="-1" SortOrder="None" />
+        <ColumnInfo Id="Relecat_Nbr_Jrs_Cong" Index="-1" />
+        <ColumnInfo Id="Cod_personne" SortIndex="0" SortOrder="Ascending" Width="84" />
+        <ColumnInfo Id="FullName" SortIndex="-1" SortOrder="None" Width="481" />
+        <ColumnInfo Id="LaFonction" SortOrder="None" GroupIndex="-1" Width="263" />
+        <ColumnInfo Id="Bloque_Paye" Index="3" Width="37" />
+        <ColumnInfo Id="Categori" Index="4" Width="52" />
+        <ColumnInfo Id="unite.NumEmployeur" PropertyName="unite.NumEmployeur" Index="5" Width="55" IsNewNode="True" />
+        <ColumnInfo Id="Dat_sortie" PropertyName="Dat_sortie" Index="6" SortIndex="-1" SortOrder="None" Width="55" IsNewNode="True" />
+        <ColumnInfo Id="DateRecrutement" SortIndex="-1" SortOrder="None" Index="7" Width="52" />
+        <ColumnInfo Id="BrouillardCalcule" Index="8" Width="41" />
+      </Columns>
+    </ListView>
+    <ListView Id="Personne_LookupListView" GroupSummary="Empty" />
+    <ListView Id="PrimePMG_ListView">
+      <Columns>
+        <ColumnInfo Id="Mois" SortOrder="Ascending" />
+      </Columns>
+    </ListView>
+    <ListView Id="PrimeShiftNuit_ListView">
+      <Columns>
+        <ColumnInfo Id="Mois" SortOrder="Ascending" />
+      </Columns>
+    </ListView>
+    <ListView Id="Raison_Sortie_LookupListView" GroupSummary="Empty" />
+    <ListView Id="Rappel_ListView">
+      <Columns>
+        <ColumnInfo Id="Cod_Rappel" SortOrder="Ascending" />
+      </Columns>
+    </ListView>
+    <ListView Id="Rappel_Rappel_indems_ListView">
+      <Columns>
+        <ColumnInfo Id="Indemnite.Ordre_Affichage" SortOrder="Ascending" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Recape_Annuelle_DetailView">
+      <Items>
+        <PropertyEditor Id="Oid" PropertyName="Oid" IsNewNode="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Main">
+          <LayoutGroup Id="SimpleEditors" Caption="SimpleEditors">
+            <LayoutGroup Id="Recape_Annuelle_col2">
+              <LayoutGroup Id="b9b10c2e-cde2-46cc-8e39-22df54b00d75" Caption="b9b10c2e-cde2-46cc-8e39-22df54b00d75(47)" RelativeSize="12.186379928315413">
+                <LayoutGroup Id="Autodc07acd9-3623-4129-ba73-b7ace0547dfa" Caption="Autodc07acd9-3623-4129-ba73-b7ace0547dfa(6)" RelativeSize="51.470588235294116">
+                  <LayoutItem Id="Cod_Recape" RelativeSize="34.2606149341142" />
+                  <LayoutItem Id="Annee" RelativeSize="32.284040995607612" />
+                  <LayoutItem Id="Item15" CaptionHorizontalAlignment="Default" RelativeSize="33.455344070278187" ViewItem="" />
+                </LayoutGroup>
+                <LayoutGroup Id="Auto92e25991-0eac-4a51-8b4c-8ac06abedd61" Caption="Auto92e25991-0eac-4a51-8b4c-8ac06abedd61(9)" RelativeSize="48.529411764705884">
+                  <LayoutItem Id="personne.Cod_personne" RelativeSize="15.226939970717423" />
+                  <LayoutItem Id="personne" RelativeSize="59.224011713030748" />
+                  <LayoutItem Id="Unite" RelativeSize="25.549048316251831" />
+                </LayoutGroup>
+              </LayoutGroup>
+              <TabbedGroup Id="Item3" RelativeSize="87.813620071684582">
+                <LayoutGroup Id="Item1" Caption="Salaire Janvier">
+                  <LayoutGroup Id="9d31b982-cf2e-4f3b-9798-00c842943617" Caption="9d31b982-cf2e-4f3b-9798-00c842943617(28)">
+                    <LayoutGroup Id="Autobc51cc29-170e-41de-88a9-c9310fa333f7" Caption="Autobc51cc29-170e-41de-88a9-c9310fa333f7(13)" RelativeSize="45.777777777777779">
+                      <LayoutGroup Id="Auto1e713655-a2e9-423e-88cb-38bcf0630553" Caption="Auto1e713655-a2e9-423e-88cb-38bcf0630553(14)" RelativeSize="45.298507462686565">
+                        <LayoutItem Id="Brut_Cotis_Janv" RelativeSize="15.533980582524272" />
+                        <LayoutItem Id="Brut_Impo_Bareme_Janv" RelativeSize="11.650485436893204" />
+                        <LayoutItem Id="Brut_Impo_Taux_Janv" RelativeSize="11.650485436893204" />
+                        <LayoutItem Id="Brut_Impo_Janv" RelativeSize="11.650485436893204" />
+                        <LayoutItem Id="NET_Janv" RelativeSize="11.650485436893204" />
+                        <LayoutItem Id="Entree_Janv" RelativeSize="11.650485436893204" />
+                        <LayoutItem Id="Sortie_Janv" RelativeSize="11.650485436893204" />
+                        <LayoutItem Id="Oid" ViewItem="Oid" CaptionHorizontalAlignment="Default" SizeConstraintsType="Default" Index="7" RelativeSize="14.563106796116506" IsNewNode="True" />
+                      </LayoutGroup>
+                      <LayoutGroup Id="Auto7d5f76c1-3722-405a-8c75-f2f5ed8ad8a1" Caption="Auto7d5f76c1-3722-405a-8c75-f2f5ed8ad8a1(22)" RelativeSize="54.701492537313435">
+                        <LayoutItem Id="SS_Janv" RelativeSize="15.533980582524272" />
+                        <LayoutItem Id="IRG_Bareme_Janv" RelativeSize="11.650485436893204" />
+                        <LayoutItem Id="IRG_Taux_Janv" RelativeSize="11.650485436893204" />
+                        <LayoutItem Id="IRG_Janv" RelativeSize="11.650485436893204" />
+                        <LayoutItem Id="PP1_Janv" RelativeSize="11.650485436893204" />
+                        <LayoutItem Id="PP2_Janv" RelativeSize="11.650485436893204" />
+                        <LayoutItem Id="PP3_Janv" RelativeSize="11.650485436893204" />
+                        <LayoutItem Id="Jour_Abs_Janv" RelativeSize="14.563106796116506" />
+                      </LayoutGroup>
+                    </LayoutGroup>
+                    <LayoutGroup Id="recapes_Janv" Caption="Recapes Janv" TextAlignMode="AlignWithChildren" RelativeSize="54.222222222222221">
+                      <LayoutItem Id="recapes_Janv" RelativeSize="100" />
+                    </LayoutGroup>
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Item8" Caption="Salaire Février">
+                  <LayoutGroup Id="16e6a4c4-bde0-4617-b309-968f88d28b2a" Caption="16e6a4c4-bde0-4617-b309-968f88d28b2a(15)">
+                    <LayoutGroup Id="Auto2037aac2-d8bb-4201-ae18-beab27745997" Caption="Auto2037aac2-d8bb-4201-ae18-beab27745997(35)" RelativeSize="71.555555555555557">
+                      <LayoutGroup Id="Autofb58ebb3-ec5b-455d-b822-690c39eaf8ea" Caption="Autofb58ebb3-ec5b-455d-b822-690c39eaf8ea(36)" RelativeSize="45.298507462686565">
+                        <LayoutItem Id="Brut_Cotis_Fev" RelativeSize="14.596273291925465" />
+                        <LayoutItem Id="Brut_Impo_Bareme_Fev" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="Brut_Impo_Taux_Fev" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Brut_Impo_Fev" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="NET_Fev" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Entree_Fev" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="Sortie_Fev" RelativeSize="33.229813664596271" />
+                      </LayoutGroup>
+                      <LayoutGroup Id="Auto72ff5b40-4f84-417b-a098-db75e9642189" Caption="Auto72ff5b40-4f84-417b-a098-db75e9642189(44)" RelativeSize="54.701492537313435">
+                        <LayoutItem Id="SS_Fev" RelativeSize="14.596273291925465" />
+                        <LayoutItem Id="IRG_Bareme_Fev" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="IRG_Taux_Fev" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="IRG_Fev" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="PP1_Fev" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="PP2_Fev" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="PP3_Fev" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Jour_Abs_Fev" RelativeSize="22.981366459627328" />
+                      </LayoutGroup>
+                    </LayoutGroup>
+                    <LayoutGroup Id="recapes_Fev" Caption="Recapes Fev" TextAlignMode="AlignWithChildren" RelativeSize="28.444444444444443">
+                      <LayoutItem Id="recapes_Fev" RelativeSize="100" />
+                    </LayoutGroup>
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Item11" Caption="Salaire Mars">
+                  <LayoutGroup Id="8d196216-7606-4154-a4ae-8ec9fd21cac3" Caption="8d196216-7606-4154-a4ae-8ec9fd21cac3(41)">
+                    <LayoutGroup Id="Autoe41bd9a9-c502-4d7e-8760-99aa407c97b8" Caption="Autoe41bd9a9-c502-4d7e-8760-99aa407c97b8(57)" RelativeSize="71.555555555555557">
+                      <LayoutGroup Id="Auto0fcd0447-ba0a-4938-8c32-23261e2e55b8" Caption="Auto0fcd0447-ba0a-4938-8c32-23261e2e55b8(58)" RelativeSize="45.298507462686565">
+                        <LayoutItem Id="Brut_Cotis_Mars" RelativeSize="14.596273291925465" />
+                        <LayoutItem Id="Brut_Impo_Bareme_Mars" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="Brut_Impo_Taux_Mars" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Brut_Impo_Mars" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="NET_Mars" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Entree_Mars" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="Sortie_Mars" RelativeSize="33.229813664596271" />
+                      </LayoutGroup>
+                      <LayoutGroup Id="Auto8346201c-2622-41a2-9129-b6b1f855c2b4" Caption="Auto8346201c-2622-41a2-9129-b6b1f855c2b4(66)" RelativeSize="54.701492537313435">
+                        <LayoutItem Id="SS_Mars" RelativeSize="14.596273291925465" />
+                        <LayoutItem Id="IRG_Bareme_Mars" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="IRG_Taux_Mars" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="IRG_Mars" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="PP1_Mars" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="PP2_Mars" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="PP3_Mars" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Jour_Abs_Mars" RelativeSize="22.981366459627328" />
+                      </LayoutGroup>
+                    </LayoutGroup>
+                    <LayoutGroup Id="recapes_Mars" Caption="Recapes Mars" TextAlignMode="AlignWithChildren" RelativeSize="28.444444444444443">
+                      <LayoutItem Id="recapes_Mars" RelativeSize="100" />
+                    </LayoutGroup>
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Item9" Caption="Salaire Avril">
+                  <LayoutGroup Id="48dfe473-3627-4523-a66c-b0abb732cf9b" Caption="48dfe473-3627-4523-a66c-b0abb732cf9b(54)">
+                    <LayoutGroup Id="Auto9fa76462-e36e-4913-b100-53e747bd7164" Caption="Auto9fa76462-e36e-4913-b100-53e747bd7164(79)" RelativeSize="71.555555555555557">
+                      <LayoutGroup Id="Autobd01dbdd-ac19-46dd-82ae-a5fadaf88318" Caption="Autobd01dbdd-ac19-46dd-82ae-a5fadaf88318(80)" RelativeSize="45.298507462686565">
+                        <LayoutItem Id="Brut_Cotis_Avr" RelativeSize="14.596273291925465" />
+                        <LayoutItem Id="Brut_Impo_Bareme_Avr" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="Brut_Impo_Taux_Avr" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Brut_Impo_Avr" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="NET_Avr" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Entree_Avr" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="Sortie_Avr" RelativeSize="33.229813664596271" />
+                      </LayoutGroup>
+                      <LayoutGroup Id="Auto13242f3d-38c3-4aff-890f-cecfaf28bc71" Caption="Auto13242f3d-38c3-4aff-890f-cecfaf28bc71(88)" RelativeSize="54.701492537313435">
+                        <LayoutItem Id="SS_Avr" RelativeSize="14.596273291925465" />
+                        <LayoutItem Id="IRG_Bareme_Avr" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="IRG_Taux_Avr" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="IRG_Avr" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="PP1_Avr" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="PP2_Avr" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="PP3_Avr" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Jour_Abs_Avr" RelativeSize="22.981366459627328" />
+                      </LayoutGroup>
+                    </LayoutGroup>
+                    <LayoutGroup Id="recapes_Avr" Caption="Recapes Avr" TextAlignMode="AlignWithChildren" RelativeSize="28.444444444444443">
+                      <LayoutItem Id="recapes_Avr" RelativeSize="100" />
+                    </LayoutGroup>
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Item10" Caption="Salaire Mai">
+                  <LayoutGroup Id="917e2bb4-00ea-4301-a144-6bc4cdbc5e7a" Caption="917e2bb4-00ea-4301-a144-6bc4cdbc5e7a(67)">
+                    <LayoutGroup Id="Auto03c128d0-e850-4d42-bb79-07066ddcc076" Caption="Auto03c128d0-e850-4d42-bb79-07066ddcc076(101)" RelativeSize="71.555555555555557">
+                      <LayoutGroup Id="Auto7c3cb148-26c2-4e37-b26e-f0dc790fe7fe" Caption="Auto7c3cb148-26c2-4e37-b26e-f0dc790fe7fe(102)" RelativeSize="45.298507462686565">
+                        <LayoutItem Id="Brut_Cotis_Mai" RelativeSize="14.596273291925465" />
+                        <LayoutItem Id="Brut_Impo_Bareme_Mai" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="Brut_Impo_Taux_Mai" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Brut_Impo_Mai" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="NET_Mai" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Entree_Mai" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="Sortie_Mai" RelativeSize="33.229813664596271" />
+                      </LayoutGroup>
+                      <LayoutGroup Id="Auto22684715-629a-4eed-be46-5f4d115a43de" Caption="Auto22684715-629a-4eed-be46-5f4d115a43de(110)" RelativeSize="54.701492537313435">
+                        <LayoutItem Id="SS_Mai" RelativeSize="14.596273291925465" />
+                        <LayoutItem Id="IRG_Bareme_Mai" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="IRG_Taux_Mai" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="IRG_Mai" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="PP1_Mai" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="PP2_Mai" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="PP3_Mai" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Jour_Abs_Mai" RelativeSize="22.981366459627328" />
+                      </LayoutGroup>
+                    </LayoutGroup>
+                    <LayoutGroup Id="recapes_Mai" Caption="Recapes Mai" TextAlignMode="AlignWithChildren" RelativeSize="28.444444444444443">
+                      <LayoutItem Id="recapes_Mai" RelativeSize="100" />
+                    </LayoutGroup>
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Item14" Caption="Salaire Juin">
+                  <LayoutGroup Id="7e1c7d7b-8969-43c3-8719-a7f4a504eba9" Caption="7e1c7d7b-8969-43c3-8719-a7f4a504eba9(80)">
+                    <LayoutGroup Id="Autoad0ffbdf-3699-4200-ae2a-629842e6982d" Caption="Autoad0ffbdf-3699-4200-ae2a-629842e6982d(123)" RelativeSize="71.555555555555557">
+                      <LayoutGroup Id="Auto94a10f46-7c39-4323-95af-9c7d78b483b4" Caption="Auto94a10f46-7c39-4323-95af-9c7d78b483b4(124)" RelativeSize="45.298507462686565">
+                        <LayoutItem Id="Brut_Cotis_Juin" RelativeSize="14.596273291925465" />
+                        <LayoutItem Id="IRG_Bareme_Juin" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="Brut_Impo_Taux_Juin" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Brut_Impo_Juin" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="NET_Juin" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Entree_Juin" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="Sortie_Juin" RelativeSize="33.229813664596271" />
+                      </LayoutGroup>
+                      <LayoutGroup Id="Auto60bf8b55-cbef-4743-8d89-f06853a61d7a" Caption="Auto60bf8b55-cbef-4743-8d89-f06853a61d7a(132)" RelativeSize="54.701492537313435">
+                        <LayoutItem Id="SS_Juin" RelativeSize="14.596273291925465" />
+                        <LayoutItem Id="Brut_Impo_Bareme_Juin" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="IRG_Taux_Juin" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="IRG_Juin" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="PP1_Juin" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="PP2_Juin" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="PP3_Juin" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Jour_Abs_Juin" RelativeSize="22.981366459627328" />
+                      </LayoutGroup>
+                    </LayoutGroup>
+                    <LayoutGroup Id="recapes_Juin" Caption="Recapes Juin" TextAlignMode="AlignWithChildren" RelativeSize="28.444444444444443">
+                      <LayoutItem Id="recapes_Juin" RelativeSize="100" />
+                    </LayoutGroup>
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Item4" Caption="Salaire Juillet">
+                  <LayoutGroup Id="5f8f0a0e-9b58-456d-9d42-c4a421dff03f" Caption="5f8f0a0e-9b58-456d-9d42-c4a421dff03f(93)">
+                    <LayoutGroup Id="Auto29f66508-a732-43e1-95e1-39786ee92e2b" Caption="Auto29f66508-a732-43e1-95e1-39786ee92e2b(145)" RelativeSize="71.555555555555557">
+                      <LayoutGroup Id="Autob9acdd4d-ca9b-4b35-b70c-cf42a550747e" Caption="Autob9acdd4d-ca9b-4b35-b70c-cf42a550747e(146)" RelativeSize="45.298507462686565">
+                        <LayoutItem Id="Brut_Cotis_Juill" RelativeSize="14.596273291925465" />
+                        <LayoutItem Id="Brut_Impo_Bareme_Juill" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="Brut_Impo_Taux_Juill" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Brut_Impo_Juill" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="NET_Juill" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Entree_Juill" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="Sortie_Juill" RelativeSize="33.229813664596271" />
+                      </LayoutGroup>
+                      <LayoutGroup Id="Auto938cbca8-ae32-4afc-bfeb-1a0f55270512" Caption="Auto938cbca8-ae32-4afc-bfeb-1a0f55270512(154)" RelativeSize="54.701492537313435">
+                        <LayoutItem Id="SS_Juill" RelativeSize="14.596273291925465" />
+                        <LayoutItem Id="IRG_Bareme_Juill" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="IRG_Taux_Juill" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="IRG_Juill" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="PP1_Juill" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="PP2_Juill" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="PP3_Juill" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Jour_Abs_Juill" RelativeSize="22.981366459627328" />
+                      </LayoutGroup>
+                    </LayoutGroup>
+                    <LayoutGroup Id="recapes_Juill" Caption="Recapes Juill" TextAlignMode="AlignWithChildren" RelativeSize="28.444444444444443">
+                      <LayoutItem Id="recapes_Juill" RelativeSize="100" />
+                    </LayoutGroup>
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Item12" Caption="Salaire Aout">
+                  <LayoutGroup Id="2958a5aa-30b8-4391-8f08-14e26611a5d5" Caption="2958a5aa-30b8-4391-8f08-14e26611a5d5(106)">
+                    <LayoutGroup Id="Auto98ffc16c-7a38-4e05-b02a-0dda58cf5160" Caption="Auto98ffc16c-7a38-4e05-b02a-0dda58cf5160(167)" RelativeSize="71.555555555555557">
+                      <LayoutGroup Id="Autocefb5c83-86fe-46f5-b11e-6d42806c7f84" Caption="Autocefb5c83-86fe-46f5-b11e-6d42806c7f84(168)" RelativeSize="45.298507462686565">
+                        <LayoutItem Id="Brut_Cotis_Aout" RelativeSize="14.596273291925465" />
+                        <LayoutItem Id="Brut_Impo_Bareme_Aout" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="Brut_Impo_Taux_Aout" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Brut_Impo_Aout" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="NET_Aout" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Entree_Aout" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="Sortie_Aout" RelativeSize="33.229813664596271" />
+                      </LayoutGroup>
+                      <LayoutGroup Id="Autof75ac58f-0fe9-4834-9de8-d14ce4de9c31" Caption="Autof75ac58f-0fe9-4834-9de8-d14ce4de9c31(176)" RelativeSize="54.701492537313435">
+                        <LayoutItem Id="SS_Aout" RelativeSize="14.596273291925465" />
+                        <LayoutItem Id="IRG_Bareme_Aout" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="IRG_Taux_Aout" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="IRG_Aout" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="PP1_Aout" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="PP2_Aout" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="PP3_Aout" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Jour_Abs_Aout" RelativeSize="22.981366459627328" />
+                      </LayoutGroup>
+                    </LayoutGroup>
+                    <LayoutGroup Id="recapes_Aout" Caption="Recapes Aout" TextAlignMode="AlignWithChildren" RelativeSize="28.444444444444443">
+                      <LayoutItem Id="recapes_Aout" RelativeSize="100" />
+                    </LayoutGroup>
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Item2" Caption="Salaire Septembre">
+                  <LayoutGroup Id="1e54fcfc-a362-477e-9591-3fc5d359d8fa" Caption="1e54fcfc-a362-477e-9591-3fc5d359d8fa(119)">
+                    <LayoutGroup Id="Auto3237154d-7f55-40de-9672-0a08a75ecbc6" Caption="Auto3237154d-7f55-40de-9672-0a08a75ecbc6(189)" RelativeSize="71.555555555555557">
+                      <LayoutGroup Id="Auto951ba040-7a49-4442-ac8f-aee091d78097" Caption="Auto951ba040-7a49-4442-ac8f-aee091d78097(190)" RelativeSize="45.298507462686565">
+                        <LayoutItem Id="Brut_Cotis_Sept" RelativeSize="14.596273291925465" />
+                        <LayoutItem Id="Brut_Impo_Bareme_Sept" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="Brut_Impo_Taux_Sept" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Brut_Impo_Sept" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="NET_Sept" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Entree_Sept" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="Sortie_Sept" RelativeSize="33.229813664596271" />
+                      </LayoutGroup>
+                      <LayoutGroup Id="Autocdeee90a-8276-4f07-ac35-850034dcbf0e" Caption="Autocdeee90a-8276-4f07-ac35-850034dcbf0e(198)" RelativeSize="54.701492537313435">
+                        <LayoutItem Id="SS_Sept" RelativeSize="14.596273291925465" />
+                        <LayoutItem Id="IRG_Bareme_Sept" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="IRG_Taux_Sept" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="IRG_Sept" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="PP1_Sept" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="PP2_Sept" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="PP3_Sept" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Jour_Abs_Sept" RelativeSize="22.981366459627328" />
+                      </LayoutGroup>
+                    </LayoutGroup>
+                    <LayoutGroup Id="recapes_Sept" Caption="Recapes Sept" TextAlignMode="AlignWithChildren" RelativeSize="28.444444444444443">
+                      <LayoutItem Id="recapes_Sept" RelativeSize="100" />
+                    </LayoutGroup>
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Item5" Caption="Salaire Octobre">
+                  <LayoutGroup Id="91fbf2e0-0c47-4149-86a9-fb14d2143aed" Caption="91fbf2e0-0c47-4149-86a9-fb14d2143aed(132)">
+                    <LayoutGroup Id="Autoc55f5aa0-d0a8-4f56-941d-65ee12a92291" Caption="Autoc55f5aa0-d0a8-4f56-941d-65ee12a92291(211)" RelativeSize="71.555555555555557">
+                      <LayoutGroup Id="Auto7c4d2142-632f-40ca-b537-61c6e226df52" Caption="Auto7c4d2142-632f-40ca-b537-61c6e226df52(212)" RelativeSize="45.298507462686565">
+                        <LayoutItem Id="Brut_Cotis_Oct" RelativeSize="14.596273291925465" />
+                        <LayoutItem Id="Brut_Impo_Bareme_Oct" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="Brut_Impo_Taux_Oct" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Brut_Impo_Oct" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="NET_Oct" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Entree_Oct" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="Sortie_Oct" RelativeSize="33.229813664596271" />
+                      </LayoutGroup>
+                      <LayoutGroup Id="Auto158f8c75-dbaf-442a-9a68-a212bc8cc9dc" Caption="Auto158f8c75-dbaf-442a-9a68-a212bc8cc9dc(220)" RelativeSize="54.701492537313435">
+                        <LayoutItem Id="SS_Oct" RelativeSize="14.596273291925465" />
+                        <LayoutItem Id="IRG_Bareme_Oct" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="IRG_Taux_Oct" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="IRG_Oct" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="PP1_Oct" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="PP2_Oct" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="PP3_Oct" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Jour_Abs_Oct" RelativeSize="22.981366459627328" />
+                      </LayoutGroup>
+                    </LayoutGroup>
+                    <LayoutGroup Id="recapes_Oct" Caption="Recapes Oct" TextAlignMode="AlignWithChildren" RelativeSize="28.444444444444443">
+                      <LayoutItem Id="recapes_Oct" RelativeSize="100" />
+                    </LayoutGroup>
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Item6" Caption="Salaire Novembre">
+                  <LayoutGroup Id="83f3be18-b51b-4086-99ef-b3f8e9e0e1df" Caption="83f3be18-b51b-4086-99ef-b3f8e9e0e1df(145)">
+                    <LayoutGroup Id="Autoaa789b78-0d5f-43cf-8914-6c0e6684a0c6" Caption="Autoaa789b78-0d5f-43cf-8914-6c0e6684a0c6(233)" RelativeSize="71.555555555555557">
+                      <LayoutGroup Id="Auto59eaa660-6645-40c3-9030-c25d9faebaf8" Caption="Auto59eaa660-6645-40c3-9030-c25d9faebaf8(234)" RelativeSize="45.298507462686565">
+                        <LayoutItem Id="Brut_Cotis_Nouv" RelativeSize="14.596273291925465" />
+                        <LayoutItem Id="Brut_Impo_Bareme_Nouv" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="Brut_Impo_Taux_Nouv" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Brut_Impo_Nouv" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="NET_Nouv" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Entree_Nouv" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="Sortie_Nouv" RelativeSize="33.229813664596271" />
+                      </LayoutGroup>
+                      <LayoutGroup Id="Auto8a505539-23ad-48b7-af16-b6d829790c2f" Caption="Auto8a505539-23ad-48b7-af16-b6d829790c2f(242)" RelativeSize="54.701492537313435">
+                        <LayoutItem Id="SS_Nouv" RelativeSize="14.596273291925465" />
+                        <LayoutItem Id="IRG_Bareme_Nouv" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="IRG_Taux_Nouv" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="IRG_Nouv" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="PP1_Nouv" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="PP2_Nouv" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="PP3_Nouv" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Jour_Abs_Nouv" RelativeSize="22.981366459627328" />
+                      </LayoutGroup>
+                    </LayoutGroup>
+                    <LayoutGroup Id="recapes_Nouv" Caption="Recapes Nouv" TextAlignMode="AlignWithChildren" RelativeSize="28.444444444444443">
+                      <LayoutItem Id="recapes_Nouv" RelativeSize="100" />
+                    </LayoutGroup>
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Item13" Caption="Salaire Décembre">
+                  <LayoutGroup Id="777799dd-0f19-45c8-99fa-6f6a3728f2b2" Caption="777799dd-0f19-45c8-99fa-6f6a3728f2b2(158)">
+                    <LayoutGroup Id="Autofc9e3c6c-7a14-4c75-b965-bc8dc494c90b" Caption="Autofc9e3c6c-7a14-4c75-b965-bc8dc494c90b(255)" RelativeSize="71.555555555555557">
+                      <LayoutGroup Id="Auto3665f6e4-607d-49fe-bec2-2098ce7de883" Caption="Auto3665f6e4-607d-49fe-bec2-2098ce7de883(256)" RelativeSize="45.298507462686565">
+                        <LayoutItem Id="Brut_Cotis_Dec" RelativeSize="14.596273291925465" />
+                        <LayoutItem Id="Brut_Impo_Bareme_Dec" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="Brut_Impo_Taux_Dec" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Brut_Impo_Dec" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="NET_Dec" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Entree_Dec" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="Sortie_Dec" RelativeSize="33.229813664596271" />
+                      </LayoutGroup>
+                      <LayoutGroup Id="Auto683c2cc9-c2d3-47a6-92f7-03ba0e12ade2" Caption="Auto683c2cc9-c2d3-47a6-92f7-03ba0e12ade2(264)" RelativeSize="54.701492537313435">
+                        <LayoutItem Id="SS_Dec" RelativeSize="14.596273291925465" />
+                        <LayoutItem Id="IRG_Bareme_Dec" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="IRG_Taux_Dec" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="IRG_Dec" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="PP1_Dec" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="PP2_Dec" RelativeSize="10.559006211180124" />
+                        <LayoutItem Id="PP3_Dec" RelativeSize="10.248447204968944" />
+                        <LayoutItem Id="Jour_Abs_Dec" RelativeSize="22.981366459627328" />
+                      </LayoutGroup>
+                    </LayoutGroup>
+                    <LayoutGroup Id="recapes_Dec" Caption="Recapes Dec" TextAlignMode="AlignWithChildren" RelativeSize="28.444444444444443">
+                      <LayoutItem Id="recapes_Dec" RelativeSize="100" />
+                    </LayoutGroup>
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Item7" Caption="Total Annuel">
+                  <LayoutGroup Id="Auto50a2e73a-67ee-4882-b4e1-3e19ffa13d1c" Caption="Auto50a2e73a-67ee-4882-b4e1-3e19ffa13d1c(227)" RelativeSize="41.940298507462686">
+                    <LayoutItem Id="Brut_Cotis" RelativeSize="11.333333333333334" />
+                    <LayoutItem Id="Brut_Impo_Bareme" RelativeSize="8.2222222222222214" />
+                    <LayoutItem Id="Brut_Impo_Taux" RelativeSize="8.2222222222222214" />
+                    <LayoutItem Id="Brut_Impo" RelativeSize="8.2222222222222214" />
+                    <LayoutItem Id="PP2" RelativeSize="56" />
+                  </LayoutGroup>
+                  <LayoutGroup Id="Autoa7e56c06-4c17-43f4-981b-3c43acc7042f" Caption="Autoa7e56c06-4c17-43f4-981b-3c43acc7042f(234)" RelativeSize="58.059701492537314">
+                    <LayoutItem Id="SS" RelativeSize="11.333333333333334" />
+                    <LayoutItem Id="IRG_Bareme" RelativeSize="8.2222222222222214" />
+                    <LayoutItem Id="IRG_Taux" RelativeSize="8.2222222222222214" />
+                    <LayoutItem Id="IRG" RelativeSize="8.2222222222222214" />
+                    <LayoutItem Id="PP3" RelativeSize="56" />
+                  </LayoutGroup>
+                </LayoutGroup>
+              </TabbedGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Recape_Annuelle_ListView" Filter="" FilterEnabled="True" ShowFindPanel="True">
+      <Columns>
+        <ColumnInfo Id="Entree_Juin" Index="-1" />
+        <ColumnInfo Id="NumEmployeur" SortOrder="None" GroupIndex="-1" Index="0" />
+        <ColumnInfo Id="personne.Cod_personne" SortOrder="Ascending" />
+        <ColumnInfo Id="Nbr_jour_cong_Janv" Index="2" />
+        <ColumnInfo Id="Unite" SortOrder="None" GroupIndex="-1" Index="3" />
+        <ColumnInfo Id="personne" Index="4" />
+        <ColumnInfo Id="personne.Dat_entre" PropertyName="personne.Dat_entre" Index="5" IsNewNode="True" />
+        <ColumnInfo Id="personne.Dat_sortie" PropertyName="personne.Dat_sortie" Index="6" IsNewNode="True" />
+        <ColumnInfo Id="IRG_Taux_Dec" Index="7" />
+        <ColumnInfo Id="IRG_Bareme_Dec" Index="8" />
+      </Columns>
+    </ListView>
+    <ListView Id="Recape_Annuelle_recapes_Dec_ListView">
+      <Columns>
+        <ColumnInfo Id="Categorie" Width="85" />
+        <ColumnInfo Id="Brut_Impo_Taux" Width="61" />
+        <ColumnInfo Id="IRG_Taux" Width="61" />
+        <ColumnInfo Id="Brut_Impo_Bareme" Width="61" />
+        <ColumnInfo Id="IRG_Bareme" Width="61" />
+        <ColumnInfo Id="Brut_Cotis" Width="61" />
+        <ColumnInfo Id="SS" Width="61" />
+        <ColumnInfo Id="Brut_Impo" Width="61" />
+        <ColumnInfo Id="IRG" Width="103" />
+        <ColumnInfo Id="NET" Width="57" />
+        <ColumnInfo Id="Nbr_jour_abs" Width="57" />
+        <ColumnInfo Id="Jour_Abs" Width="57" />
+        <ColumnInfo Id="Nbr_jour_ouv" Width="57" />
+        <ColumnInfo Id="Taux_pp1" Width="57" />
+        <ColumnInfo Id="Taux_pp2" Width="57" />
+        <ColumnInfo Id="Taux_pp3" Width="57" />
+        <ColumnInfo Id="PP1" Width="57" />
+        <ColumnInfo Id="PP2" Width="57" />
+        <ColumnInfo Id="PP3" Width="57" />
+        <ColumnInfo Id="Mois" Width="91" />
+      </Columns>
+    </ListView>
+    <ListView Id="ReportData_ListView">
+      <Columns>
+        <ColumnInfo Id="ReportName" SortIndex="0" SortOrder="Ascending" />
+        <ColumnInfo Id="DataTypeCaption" SortIndex="-1" SortOrder="None" />
+        <ColumnInfo Id="IsInplaceReport" Index="2" />
+      </Columns>
+    </ListView>
+    <DetailView Id="SecuritySystemRole_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors1" ShowCaption="False" RelativeSize="15.053763440860216">
+            <LayoutItem Id="Name" SizeConstraintsType="Default" RelativeSize="38.095238095238095" />
+            <LayoutItem Id="IsAdministrative" SizeConstraintsType="Default" RelativeSize="27.38095238095238" />
+            <LayoutItem Id="CanEditModel" SizeConstraintsType="Default" RelativeSize="34.523809523809526" />
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs1" RelativeSize="84.946236559139791">
+            <LayoutGroup Id="Users" ShowCaption="True" TextAlignMode="AlignWithChildren" RelativeSize="100">
+              <LayoutItem Id="Users" TextAlignMode="AutoSize" SizeConstraintsType="Default" Index="0" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="TypePermissions" ShowCaption="True" TextAlignMode="AlignWithChildren" RelativeSize="100">
+              <LayoutItem Id="TypePermissions" TextAlignMode="AutoSize" SizeConstraintsType="Default" Index="0" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="ChildRoles" ShowCaption="True" TextAlignMode="AlignWithChildren" RelativeSize="100">
+              <LayoutItem Id="ChildRoles" TextAlignMode="AutoSize" SizeConstraintsType="Default" Index="0" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="ParentRoles" ShowCaption="True" TextAlignMode="AlignWithChildren" RelativeSize="100">
+              <LayoutItem Id="ParentRoles" TextAlignMode="AutoSize" SizeConstraintsType="Default" Index="0" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="Item1" ShowCaption="True" CaptionLocation="Top" CaptionHorizontalAlignment="Default" TextAlignMode="AlignWithChildren" Index="4" RelativeSize="100" IsNewNode="True">
+              <LayoutItem Id="TypePermissionMatrix" ViewItem="TypePermissionMatrix" CaptionHorizontalAlignment="Default" SizeConstraintsType="Default" Index="0" RelativeSize="100" IsNewNode="True" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="SecuritySystemTypePermissionsObjectOwner_TypePermissionMatrix_ListView">
+      <Columns>
+        <ColumnInfo Id="AllowRead" Index="1" />
+        <ColumnInfo Id="Category" Index="2" />
+      </Columns>
+    </ListView>
+    <ListView Id="Service_ListView">
+      <Columns>
+        <ColumnInfo Id="Cod_ser" SortIndex="1" SortOrder="Ascending" />
+      </Columns>
+    </ListView>
+    <ListView Id="Service_LookupListView" GroupSummary="Empty" />
+    <ListView Id="Sexe_LookupListView" GroupSummary="Empty" />
+    <ListView Id="Situation_Conjoint_LookupListView" GroupSummary="Empty" />
+    <ListView Id="Situation_Employe_LookupListView" GroupSummary="Empty" />
+    <ListView Id="Situation_Familiale_LookupListView" GroupSummary="Empty" />
+    <ListView Id="Type_Absence_LookupListView" GroupSummary="Empty" />
+    <ListView Id="TypeContrat_LookupListView" GroupSummary="Empty" />
+    <ListView Id="Unite_ListView">
+      <Columns>
+        <ColumnInfo Id="Cod_uni" Width="68" />
+        <ColumnInfo Id="Denomination" Width="255" />
+        <ColumnInfo Id="Des_fr" Width="227" />
+        <ColumnInfo Id="NumEmployeur" Width="140" />
+        <ColumnInfo Id="TypeDeclaration" Width="53" />
+        <ColumnInfo Id="CentrePayeur" Width="53" />
+        <ColumnInfo Id="Region_Fr" Width="53" />
+        <ColumnInfo Id="Commune_Fr" Width="53" />
+        <ColumnInfo Id="Daira_Fr" Width="53" />
+        <ColumnInfo Id="Wilaya_Fr" Width="53" />
+        <ColumnInfo Id="AgenceCNAS" Width="53" />
+        <ColumnInfo Id="AgenceCacobatph" Width="82" />
+      </Columns>
+    </ListView>
+    <ListView Id="Unite_LookupListView" GroupSummary="Empty" IsGroupPanelVisible="True">
+      <Columns>
+        <ColumnInfo Id="Denomination" Width="222" Index="-1" />
+        <ColumnInfo Id="Dénomination" Width="160" Index="-1" />
+        <ColumnInfo Id="NumEmployeur" PropertyName="NumEmployeur" Index="0" IsNewNode="True" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

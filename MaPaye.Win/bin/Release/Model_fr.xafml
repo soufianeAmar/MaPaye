@@ -1,0 +1,2060 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application ProtectedContentText="Contenu protégé">
+  <ActionDesign>
+    <Actions>
+      <Action Id="About Info" Caption="A propos..." />
+      <Action Id="AddFromFile" ToolTip="Boîte de dialogue Ouvrir, sélectionnez le fichier à ajouter" Caption="Ajouter à partir d'un fichier..." ShortCaption="Ajouter à partir d'un fichier..." />
+      <Action Id="Cancel" Caption="Annuler" />
+      <Action Id="CancelAction" Caption="Annuler" />
+      <Action Id="ChangePasswordByUser" Caption="Changer mon mot de passe" />
+      <Action Id="ChooseSkin" Caption="Choisissez Thème" />
+      <Action Id="CopyCellValue" ToolTip="Copiez la valeur de la cellule" ShortCaption="Copiez la valeur de la cellule" Caption="Copiez la valeur de la cellule" />
+      <Action Id="CreateDashboard" Caption="Créer le tableau de bord" />
+      <Action Id="Delete" Caption="Supprimer" ConfirmationMessage="Vous êtes sur le point de supprimer les articles sélectionnés. Vous voulez procéder ?" />
+      <Action Id="Delete Item" Caption="Supprimer l'Element" ConfirmationMessage="Vous êtes sur le point de supprimer les éléments sélectionnés. Vous voulez procéder ?" />
+      <Action Id="Deny_TypePermissionMatrixItem" Caption="Refuser">
+        <ChoiceActionItems>
+          <ChoiceActionItem Id="Create" Caption="Créer" />
+          <ChoiceActionItem Id="Delete" Caption="Supprimer" />
+          <ChoiceActionItem Id="Deny All" Caption="Refuser tout" />
+          <ChoiceActionItem Id="Deny Modification" Caption="Refuser la Modification" />
+          <ChoiceActionItem Id="Navigate" Caption="Naviguer" />
+          <ChoiceActionItem Id="Read" Caption="Lecture" />
+          <ChoiceActionItem Id="Write" Caption="Écriture" />
+        </ChoiceActionItems>
+      </Action>
+      <Action Id="Diagnostic Info" Caption="Diagnostique" />
+      <Action Id="Diagnostic Info.Actions Info" Caption="Information sur le diagnostic Info.Actions" />
+      <Action Id="Diagnostic Info.View Info" Caption="Information sur le diagnostic Info.View">
+        <ChoiceActionItems>
+          <ChoiceActionItem Id="View Info" Caption="Affichage Info" />
+        </ChoiceActionItems>
+      </Action>
+      <Action Id="DialogCancel" Caption="Annuler" />
+      <Action Id="DialogClose" Caption="Fermer" />
+      <Action Id="EditReportController.Edit" Caption="Edition" />
+      <Action Id="ExecuteReport" Caption="Exécuter le Rapport" ToolTip="Exécuter le Rapport" ShortCaption="Exécuter le Rapport" />
+      <Action Id="Export" Caption="Exporter vers" />
+      <Action Id="FullTextSearch" Caption="Filtrer par texte" ShortCaption="Chercher" ToolTip="Objets de filtre de texte" NullValuePrompt="Texte à rechercher..." />
+      <Action Id="Grant_TypePermissionMatrixItem" Caption="Accorder">
+        <ChoiceActionItems>
+          <ChoiceActionItem Id="Create" Caption="Créer" />
+          <ChoiceActionItem Id="Delete" Caption="Supprimer" />
+          <ChoiceActionItem Id="Full Access" Caption="Accès complet" />
+          <ChoiceActionItem Id="Navigate" Caption="Naviguer" />
+          <ChoiceActionItem Id="Read" Caption="Lecture" />
+          <ChoiceActionItem Id="Read Only Access" Caption="Accès en lecture seule" />
+          <ChoiceActionItem Id="Write" Caption="Écriture" />
+        </ChoiceActionItems>
+      </Action>
+      <Action Id="HideItemsFromDashboard" Caption="Masquer le tableau de bord" ToolTip="Masquer les éléments sélectionnés du tableau de bord" />
+      <Action Id="Link" Caption="Lien" />
+      <Action Id="ListViewShowObject" Caption="Ouvrir" />
+      <Action Id="Logoff" Caption="Fermer la session" />
+      <Action Id="Logon" Caption="Ouvrir une session" />
+      <Action Id="MyDetails" Caption="Mes coordonnées" />
+      <Action Id="NavigateBack" Caption="Précédent" ToolTip="Accédez à la vue précédente" ShortCaption="Précédent" />
+      <Action Id="NavigateForward" Caption="Suivant" ToolTip="Accéder à la vue suivante" />
+      <Action Id="New" Caption="Nouveau">
+        <DisableReasons>
+          <Reason Id="MasterObjectIsNew" Caption="L'objet édité est nouvelle." />
+        </DisableReasons>
+      </Action>
+      <Action Id="NextObject" Caption="Enregistrement Suivant" />
+      <Action Id="Open" Caption="Ouvrir..." />
+      <Action Id="OpenObject" Caption="Ouvrir l'Enregistrement Associé" />
+      <Action Id="OrganizeDashboard" Caption="Organiser le tableau de bord" />
+      <Action Id="PageSetup" ShortCaption="Mise en page..." Caption="Mise en page..." ToolTip="Mise en page" />
+      <Action Id="PreviewReport" Caption="Aperçu" />
+      <Action Id="PreviousObject" Caption="Enregistrement Précédent" />
+      <Action Id="Print" Caption="Imprimer..." />
+      <Action Id="PrintPreview" ToolTip="Aperçu avant impression" Caption="Aperçu avant impression..." />
+      <Action Id="Refresh" Caption="Actualiser" />
+      <Action Id="RefreshAction" Caption="Actualiser" />
+      <Action Id="ResetPassword" Caption="Réinitialiser mot de passe" ToolTip="Générer un nouveau mot de passe pour l'utilisateur sélectionné" />
+      <Action Id="Save" Caption="Enregistrer" />
+      <Action Id="SaveAndClose" Caption="Enregistrer et fermer" />
+      <Action Id="SaveAndNew" Caption="Enregistrer et nouveau" />
+      <Action Id="SaveTo" Caption="Enregistrer Sous..." />
+      <Action Id="SetFilter" Caption="Filtre" />
+      <Action Id="ShowInReport" Caption="Impression" />
+      <Action Id="ShowItemsOnDashboard" Caption="Afficher le tableau de bord" ToolTip="Afficher les éléments sélectionnés sur le tableau de bord" />
+      <Action Id="ShowReportDesigner" Caption="Concepteur de Rapport" ToolTip="Concepteur de Rapport" ShortCaption="Concepteur de Rapport" />
+      <Action Id="ShowToolbar" Caption="Afficher la barre d'outils" />
+      <Action Id="Unlink" Caption="Délier" ConfirmationMessage="Vous êtes sur de dissocier les dossiers sélectionnés. Vous voulez procéder ?" />
+    </Actions>
+    <DisableReasons>
+      <Reason Id="ByContext_RequireMultipleObjects" Caption="Il faut au moins un objet sélectionné" />
+      <Reason Id="ByContext_RequireSingleObject" Caption="Nécessite un objet sélectionné" />
+      <Reason Id="Security" Caption="Autorisation refusée" />
+    </DisableReasons>
+  </ActionDesign>
+  <BOModel>
+    <Class Name="DevExpress.ExpressApp.Editors.CriteriaProvider" Caption="Fournisseur de critères">
+      <OwnMembers>
+        <Member Name="FilteredObjectsType" Caption="Type d'objets filtrés" />
+        <Member Name="FilterString" Caption="Chaîne de filtrage" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Reports.Win.NewXafReportWizardParameters">
+      <OwnMembers>
+        <Member Name="ReportName" Caption="Nom du rapport" />
+        <Member Name="ReportType" Caption="Type de rapport" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters" Caption="Paramètres d'ouverture de session Standard d'authentification">
+      <OwnMembers>
+        <Member Name="Password" Caption="Mot de passe" />
+        <Member Name="UserName" Caption="Nom d'utilisateur" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.ChangePasswordOnLogonParameters" Caption="Changement de mot de passe sur les paramètres d'ouverture de session">
+      <OwnMembers>
+        <Member Name="ConfirmPassword" Caption="Confirmer le mot de passe" />
+        <Member Name="NewPassword" Caption="Nouveau mot de passe" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.ChangePasswordParameters" Caption="Changement de mot de passe paramètres">
+      <OwnMembers>
+        <Member Name="OldPassword" Caption="Ancien mot de passe" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.EditModelPermission" Caption="Modèle Permission de modifier">
+      <OwnMembers>
+        <Member Name="Modifier" Caption="Modificateur" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.ObjectAccessPermission" Caption="Autorisation d'accès objet">
+      <OwnMembers>
+        <Member Name="CreateAccess" Caption="Créer des accès" />
+        <Member Name="DeleteAccess" Caption="Supprimer l'Accès" />
+        <Member Name="NavigateAccess" Caption="Naviguer dans Access" />
+        <Member Name="ObjectType" Caption="Type d'objet" />
+        <Member Name="ReadAccess" Caption="Accès en lecture" />
+        <Member Name="WriteAccess" Caption="Accès en écriture" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.ResetPasswordParameters" Caption="Réinitialiser les paramètres de mot de passe">
+      <OwnMembers>
+        <Member Name="Password" Caption="Mot de passe" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.Strategy.PermissionMatrix.TypePermissionMatrixItem" Caption="Élément de matrice type Permission">
+      <OwnMembers>
+        <Member Name="AllowCreate" Caption="Créer" />
+        <Member Name="AllowDelete" Caption="Supprimer" />
+        <Member Name="AllowRead" Caption="Lecture" />
+        <Member Name="AllowWrite" Caption="Écriture" />
+        <Member Name="Category" Caption="Catégorie" />
+        <Member Name="MemberPermissions" Caption="Autorisations du membre" />
+        <Member Name="Object" Caption="Objet" />
+        <Member Name="ObjectPermissions" Caption="Autorisations d'objet" />
+        <Member Name="TargetType" Caption="Type de cible" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.Strategy.SecuritySystemMemberPermissionsObject" Caption="Autorisations d'exploitation membre">
+      <OwnMembers>
+        <Member Name="AllowRead" Caption="Permettre la Lecture" />
+        <Member Name="AllowWrite" Caption="Permettre l'Ecriture" />
+        <Member Name="EffectiveRead" Caption="Lecture" />
+        <Member Name="EffectiveWrite" Caption="Écriture" />
+        <Member Name="InheritedFrom" Caption="Héritée de" />
+        <Member Name="Members" Caption="Membres" />
+        <Member Name="Owner" Caption="Propriétaire" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.Strategy.SecuritySystemObjectPermissionsObject" Caption="Autorisations de fonctionnement des objets">
+      <OwnMembers>
+        <Member Name="AllowDelete" Caption="Permettre de Supprimer" />
+        <Member Name="AllowNavigate" Caption="Permettre de Naviguer" />
+        <Member Name="AllowRead" Caption="Permettre la Lecture" />
+        <Member Name="AllowWrite" Caption="Permettre l'Ecriture" />
+        <Member Name="Criteria" Caption="Critères" />
+        <Member Name="EffectiveDelete" Caption="Supprimer" />
+        <Member Name="EffectiveNavigate" Caption="Naviguer" />
+        <Member Name="EffectiveRead" Caption="Lecture" />
+        <Member Name="EffectiveWrite" Caption="Écriture" />
+        <Member Name="InheritedFrom" Caption="Héritée de" />
+        <Member Name="Owner" Caption="Propriétaire" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.Strategy.SecuritySystemRole" Caption="Rôle">
+      <OwnMembers>
+        <Member Name="ParentRoles" Caption="Rôles du parent" />
+        <Member Name="Users" Caption="Utilisateurs" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.Strategy.SecuritySystemRoleBase">
+      <OwnMembers>
+        <Member Name="CanEditModel" Caption="Peut Modifier le Modèle" />
+        <Member Name="IsAdministrative" Caption="Est Administrative" />
+        <Member Name="Name" Caption="Nom" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.Strategy.SecuritySystemTypePermissionObject" Caption="Autorisations d'exploitation de type">
+      <OwnMembers>
+        <Member Name="Owner" Caption="Propriétaire" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.Strategy.SecuritySystemTypePermissionsObjectBase">
+      <OwnMembers>
+        <Member Name="AllowCreate" Caption="Créer" />
+        <Member Name="AllowDelete" Caption="Supprimer" />
+        <Member Name="AllowNavigate" Caption="Naviguer" />
+        <Member Name="AllowRead" Caption="Lecture" />
+        <Member Name="AllowWrite" Caption="Écriture" />
+        <Member Name="MemberPermissions" Caption="Autorisations du membre" />
+        <Member Name="Object" Caption="Objet" />
+        <Member Name="ObjectPermissions" Caption="Autorisations d'objet" />
+        <Member Name="TargetType" Caption="Type de cible" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.Strategy.SecuritySystemTypePermissionsObjectOwner" Caption="Type opération autorisations Propriétaire">
+      <OwnMembers>
+        <Member Name="TypePermissionMatrix" Caption="Autorisations d'accès aux données" />
+        <Member Name="TypePermissions" Caption="Autorisations de type" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.Strategy.SecuritySystemUser" Caption="Utilisateur">
+      <OwnMembers>
+        <Member Name="Roles" Caption="Rôles" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.Strategy.SecuritySystemUserBase">
+      <OwnMembers>
+        <Member Name="UserName" Caption="Nom d'Utilisateur" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.AboutInfo" Caption="Info à propos">
+      <OwnMembers>
+        <Member Name="Company" Caption="Entreprise" />
+        <Member Name="Copyright" Caption="Droit d'auteur" />
+        <Member Name="LogoImageName" Caption="Nom de l'Image logo" />
+        <Member Name="ProductName" Caption="Nom du produit" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.ActionContainerDashboardOrganizationItem" Caption="Conteneur de l'action">
+      <OwnMembers>
+        <Member Name="ActionContainer" Caption="Conteneur de l'action" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.ActionContainerDescriptor" Caption="Action conteneur descripteur">
+      <OwnMembers>
+        <Member Name="ActionContainerId" Caption="Action Id de conteneur" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.DashboardCreationInfo" Caption="Assistant de création de tableau de bord">
+      <OwnMembers>
+        <Member Name="DashboardName" Caption="Nom" />
+        <Member Name="NavigationGroupName" Caption="Créer un élément de Navigation" />
+        <Member Name="ViewItems" Caption="Points de vue" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.DashboardOrganizationItem" Caption="Élément d'organisation de tableau de bord">
+      <OwnMembers>
+        <Member Name="Item" Caption="Élément" />
+        <Member Name="Visibility" Caption="Visibilité" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.DashboardOrganizer" Caption="Organisateur de tableau de bord">
+      <OwnMembers>
+        <Member Name="ViewItems" Caption="Elément de vue" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.DashboardViewItemDescriptor" Caption="Descripteur de point de vue Tableau de bord">
+      <OwnMembers>
+        <Member Name="ViewCaption" Caption="Légende de la vue" />
+        <Member Name="ViewDescription" Caption="Description de la vue" />
+        <Member Name="ViewId" Caption="Id de la vue" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.DiagnosticInfoObject" Caption="Diagnostic Info objet">
+      <OwnMembers>
+        <Member Name="AsText" Caption="Sous Forme de Texte" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.StaticImageDashboardOrganizationItem" Caption="Image statique">
+      <OwnMembers>
+        <Member Name="ImageName" Caption="Nom de l'image" />
+        <Member Name="Preview" Caption="Aperçu" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.StaticTextDashboardOrganizationItem" Caption="Texte statique">
+      <OwnMembers>
+        <Member Name="Text" Caption="Texte" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.ViewDashboardOrganizationItem" Caption="Affichage">
+      <OwnMembers>
+        <Member Name="ActionsToolbarVisibility" Caption="Visibilité de barre d'outils de mesures" />
+        <Member Name="Criteria" Caption="Critères" />
+        <Member Name="ObjectType" Caption="Type d'objet" />
+        <Member Name="ViewDescriptor" Caption="Affichage" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Validation.AllContextsView.DisplayableValidationResultItem">
+      <OwnMembers>
+        <Member Name="ErrorMessage" Caption="Message d'erreur" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.BaseObject" Caption="Enregistrement de base">
+      <OwnMembers>
+        <Member Name="Oid" Caption="OID" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.Country">
+      <OwnMembers>
+        <Member Name="Name" Caption="Nom" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.FileAttachmentBase">
+      <OwnMembers>
+        <Member Name="File" Caption="Fichier" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.FileData" Caption="Fichier de données">
+      <OwnMembers>
+        <Member Name="FileName" Caption="Nom de fichier" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.Party">
+      <OwnMembers>
+        <Member Name="DisplayName" Caption="Nom d'affichage" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.Person">
+      <OwnMembers>
+        <Member Name="Birthday" Caption="Date de Naissance" />
+        <Member Name="FullName" Caption="Nom Complet" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.ReportData" Caption="Rapport">
+      <OwnMembers>
+        <Member Name="ReportName" Caption="Nom du rapport" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.Validation.IRuleBaseProperties">
+      <OwnMembers>
+        <Member Name="Name" Caption="Nom" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.Validation.RuleBaseProperties">
+      <OwnMembers>
+        <Member Name="Name" Caption="Nom" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.Validation.RuleSetValidationResultItem">
+      <OwnMembers>
+        <Member Name="DisplayObjectName" Caption="Nom d'objet complet" />
+        <Member Name="ErrorMessage" Caption="Message d'erreur" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Xpo.PersistentBase" Caption="Base persistante" />
+    <Class Name="DevExpress.Xpo.XPBaseObject" Caption="Objet XPBase" />
+    <Class Name="DevExpress.Xpo.XPCustomObject" Caption="Objet XPCustom" />
+    <Class Name="DevExpress.Xpo.XPObjectType" Caption="Type de XPObject">
+      <OwnMembers>
+        <Member Name="Oid" Caption="OID" />
+      </OwnMembers>
+    </Class>
+    <Class Name="MaPaye.Module.CustomLogonParameter">
+      <OwnMembers>
+        <Member Name="Password" Caption="Mot de passe" />
+        <Member Name="UserName" Caption="Nom d'Utilisateur" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <Localization>
+    <LocalizationGroup Name="Captions">
+      <LocalizationItem Name="ExportLayout" Value="Exportez l'affichage au fichier..." />
+      <LocalizationItem Name="ReportDesignerError" Value="Erreur" />
+      <LocalizationItem Name="ReportDesignerWarning" Value="Avertissement" />
+    </LocalizationGroup>
+    <LocalizationGroup Name="Confirmations">
+      <LocalizationItem Name="Cancel" Value="Vous voulez annuler vos modifications ?" />
+      <LocalizationItem Name="Save" Value="Voulez-vous enregistrer les modifications ?" />
+    </LocalizationGroup>
+    <LocalizationGroup Name="Controls">
+      <LocalizationGroup Name="DevExpress.Printing">
+        <LocalizationItem Name="BarText_MainMenu" Value="Menu principal" />
+        <LocalizationItem Name="BarText_Toolbar" Value="Barre d'outils" />
+        <LocalizationItem Name="Button_Apply" Value="Appliquer" />
+        <LocalizationItem Name="Button_Cancel" Value="Annuler" />
+        <LocalizationItem Name="ExportOption_HtmlExportMode" Value="Mode d'exportation :" />
+        <LocalizationItem Name="ExportOption_ImageExportMode" Value="Mode d'exportation :" />
+        <LocalizationItem Name="ExportOption_PdfChangingPermissions_None" Value="Aucun" />
+        <LocalizationItem Name="ExportOption_PdfPrintingPermissions_None" Value="Aucun" />
+        <LocalizationItem Name="ExportOption_PdfSignature_EmptyCertificate" Value="Aucun" />
+        <LocalizationItem Name="ExportOption_RtfExportMode" Value="Mode d'exportation :" />
+        <LocalizationItem Name="ExportOption_XlsExportMode" Value="Mode d'exportation :" />
+        <LocalizationItem Name="ExportOption_XlsxExportMode" Value="Mode d'exportation :" />
+        <LocalizationItem Name="MenuItem_Copy" Value="Copier" />
+        <LocalizationItem Name="MenuItem_GraphicDocument" Value="Fichier image" />
+        <LocalizationItem Name="MenuItem_PrintDirect" Value="I&amp;mprimer" />
+        <LocalizationItem Name="MenuItem_PrintSelection" Value="Imprimer..." />
+        <LocalizationItem Name="MenuItem_View" Value="&amp;Afficher" />
+        <LocalizationItem Name="Msg_Caption" Value="Impression" />
+        <LocalizationItem Name="Msg_CustomDrawWarning" Value="Avertissement!" />
+        <LocalizationItem Name="Msg_ErrorTitle" Value="Erreur" />
+        <LocalizationItem Name="Msg_ExportingDocument" Value="Exporter le document..." />
+        <LocalizationItem Name="Msg_OpenFileQuestion" Value="Voulez-vous ouvrir ce fichier ?" />
+        <LocalizationItem Name="Msg_OpenFileQuestionCaption" Value="Exporter" />
+        <LocalizationItem Name="Msg_WrongPrinting" Value="Une erreur s'est produite au cours de l'impression d'un document." />
+        <LocalizationItem Name="OpenFileDialog_Title" Value="Ouvrir" />
+        <LocalizationItem Name="ParametersRequest_Reset" Value="Réinitialiser" />
+        <LocalizationItem Name="ParametersRequest_Submit" Value="Valider" />
+        <LocalizationItem Name="PreviewForm_Caption" Value="Aperçu" />
+        <LocalizationItem Name="PrinterStatus_Error" Value="Erreur" />
+        <LocalizationItem Name="PrinterStatus_Printing" Value="Impression..." />
+        <LocalizationItem Name="RibbonPreview_ClosePreview_Caption" Value="Fermer" />
+        <LocalizationItem Name="RibbonPreview_ClosePreview_STipTitle" Value="Fermer l'aperçu avant impression" />
+        <LocalizationItem Name="RibbonPreview_ExportFile_Caption" Value="Exporter vers" />
+        <LocalizationItem Name="RibbonPreview_ExportFile_STipTitle" Value="Exporter vers..." />
+        <LocalizationItem Name="RibbonPreview_ExportGraphic_Caption" Value="Fichier image" />
+        <LocalizationItem Name="RibbonPreview_Find_Caption" Value="Trouver" />
+        <LocalizationItem Name="RibbonPreview_Find_STipTitle" Value="Trouver" />
+        <LocalizationItem Name="RibbonPreview_Open_Caption" Value="Ouvrir" />
+        <LocalizationItem Name="RibbonPreview_Open_STipTitle" Value="Ouvrir (Ctrl + O)" />
+        <LocalizationItem Name="RibbonPreview_PageGroup_Close" Value="Fermer" />
+        <LocalizationItem Name="RibbonPreview_PageGroup_Export" Value="Exporter" />
+        <LocalizationItem Name="RibbonPreview_PageGroup_PageSetup" Value="Mise en page" />
+        <LocalizationItem Name="RibbonPreview_PageGroup_PageSetup_STipTitle" Value="Mise en page" />
+        <LocalizationItem Name="RibbonPreview_PageGroup_Print" Value="Imprimer" />
+        <LocalizationItem Name="RibbonPreview_PageSetup_STipTitle" Value="Mise en page" />
+        <LocalizationItem Name="RibbonPreview_PageText" Value="Aperçu avant impression" />
+        <LocalizationItem Name="RibbonPreview_Print_Caption" Value="Imprimer" />
+        <LocalizationItem Name="RibbonPreview_Print_STipTitle" Value="Imprimer (Ctrl+P)" />
+        <LocalizationItem Name="RibbonPreview_PrintDirect_Caption" Value="Impression rapide" />
+        <LocalizationItem Name="RibbonPreview_PrintDirect_STipTitle" Value="Impression rapide" />
+        <LocalizationItem Name="RibbonPreview_Save_Caption" Value="Enregistrer" />
+        <LocalizationItem Name="RibbonPreview_Save_STipTitle" Value="Enregistrer (Ctrl + S)" />
+        <LocalizationItem Name="RibbonPreview_SendGraphic_Caption" Value="Fichier image" />
+        <LocalizationItem Name="RibbonPreview_ShowLastPage_Caption" Value="Dernière Page" />
+        <LocalizationItem Name="RibbonPreview_ShowLastPage_STipTitle" Value="Dernière Page (Ctrl+End)" />
+        <LocalizationItem Name="RibbonPreview_ShowNextPage_Caption" Value="Page Suivante" />
+        <LocalizationItem Name="RibbonPreview_ShowNextPage_STipTitle" Value="Page Suivante (PageDown)" />
+        <LocalizationItem Name="RibbonPreview_ShowPrevPage_Caption" Value="Page Précédente" />
+        <LocalizationItem Name="RibbonPreview_ShowPrevPage_STipTitle" Value="Page Précédente (PageUp)" />
+        <LocalizationItem Name="SaveDlg_Title" Value="Enregistrer Sous" />
+        <LocalizationItem Name="TB_TTip_Close" Value="Fermer l'aperçu" />
+        <LocalizationItem Name="TB_TTip_Customize" Value="Personnaliser" />
+        <LocalizationItem Name="TB_TTip_LastPage" Value="Dernière Page" />
+        <LocalizationItem Name="TB_TTip_NextPage" Value="Page Suivante" />
+        <LocalizationItem Name="TB_TTip_PageSetup" Value="Mise en page" />
+        <LocalizationItem Name="TB_TTip_PreviousPage" Value="Page Précédente" />
+        <LocalizationItem Name="TB_TTip_Print" Value="Imprimer" />
+        <LocalizationItem Name="TB_TTip_PrintDirect" Value="Impression rapide" />
+        <LocalizationItem Name="TB_TTip_Search" Value="Chercher" />
+        <LocalizationItem Name="WaitForm_Caption" Value="Veuillez patienter" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.Reports">
+        <LocalizationItem Name="CatAppearance" Value="Apparence" />
+        <LocalizationItem Name="CatPageSettings" Value="Paramètres de la page" />
+        <LocalizationItem Name="CatPrinting" Value="Impression" />
+        <LocalizationItem Name="Cmd_BandMoveDown" Value="Déplacer vers le bas" />
+        <LocalizationItem Name="Cmd_BandMoveUp" Value="Déplacer vers le haut" />
+        <LocalizationItem Name="Cmd_Copy" Value="Copie&amp;r" />
+        <LocalizationItem Name="Cmd_Cut" Value="Co&amp;uper" />
+        <LocalizationItem Name="Cmd_DeleteFormattingRule" Value="Supprimer" />
+        <LocalizationItem Name="Cmd_DeleteStyle" Value="Supprimer" />
+        <LocalizationItem Name="Cmd_RtfClear" Value="Effacer" />
+        <LocalizationItem Name="Cmd_RtfLoad" Value="Charger le fichier..." />
+        <LocalizationItem Name="Cmd_TableDelete" Value="Su&amp;pprimer" />
+        <LocalizationItem Name="Dlg_SaveFile_Title" Value="Enregistrer '{0}'" />
+        <LocalizationItem Name="GroupSort_Delete" Value="Supprimer" />
+        <LocalizationItem Name="GroupSort_MoveDown" Value="Déplacer vers le bas" />
+        <LocalizationItem Name="GroupSort_MoveUp" Value="Déplacer vers le haut" />
+        <LocalizationItem Name="Msg_ApplyChangesQuestion" Value="Êtes-vous certain de que vouloir appliquer ces changements ?" />
+        <LocalizationItem Name="Msg_ErrorTitle" Value="Erreur" />
+        <LocalizationItem Name="Msg_WrongReportClassName" Value="Une erreur s'est produite lors de la désérialisation - nom de la classe possible mauvais rapport" />
+        <LocalizationItem Name="PivotGridForm_GroupMain_Caption" Value="Principal" />
+        <LocalizationItem Name="PivotGridForm_GroupPrinting_Caption" Value="Impression" />
+        <LocalizationItem Name="RepTabCtl_Preview" Value="Aperçu" />
+        <LocalizationItem Name="RibbonXRDesign_Close_Caption" Value="Fermer" />
+        <LocalizationItem Name="RibbonXRDesign_Close_STipTitle" Value="Fermer" />
+        <LocalizationItem Name="RibbonXRDesign_Copy_Caption" Value="Copier" />
+        <LocalizationItem Name="RibbonXRDesign_Copy_STipTitle" Value="Copier" />
+        <LocalizationItem Name="RibbonXRDesign_Cut_Caption" Value="Couper" />
+        <LocalizationItem Name="RibbonXRDesign_Cut_STipTitle" Value="Couper" />
+        <LocalizationItem Name="RibbonXRDesign_Exit_Caption" Value="Sortie" />
+        <LocalizationItem Name="RibbonXRDesign_Exit_STipTitle" Value="Sortie" />
+        <LocalizationItem Name="RibbonXRDesign_HtmlBackward_Caption" Value="Précédent" />
+        <LocalizationItem Name="RibbonXRDesign_HtmlBackward_STipTitle" Value="Précédent" />
+        <LocalizationItem Name="RibbonXRDesign_HtmlFind_Caption" Value="Trouver" />
+        <LocalizationItem Name="RibbonXRDesign_HtmlFind_STipContent" Value="Trouver le texte sur cette page." />
+        <LocalizationItem Name="RibbonXRDesign_HtmlFind_STipTitle" Value="Trouver" />
+        <LocalizationItem Name="RibbonXRDesign_HtmlForward_Caption" Value="Vers l'avant" />
+        <LocalizationItem Name="RibbonXRDesign_HtmlForward_STipTitle" Value="Vers l'avant" />
+        <LocalizationItem Name="RibbonXRDesign_HtmlHome_Caption" Value="Accueil" />
+        <LocalizationItem Name="RibbonXRDesign_HtmlHome_STipTitle" Value="Accueil" />
+        <LocalizationItem Name="RibbonXRDesign_HtmlRefresh_Caption" Value="Actualiser" />
+        <LocalizationItem Name="RibbonXRDesign_HtmlRefresh_STipTitle" Value="Actualiser" />
+        <LocalizationItem Name="RibbonXRDesign_OpenFile_Caption" Value="Ouvrir..." />
+        <LocalizationItem Name="RibbonXRDesign_PageGroup_Edit" Value="Edition" />
+        <LocalizationItem Name="RibbonXRDesign_PageGroup_Report" Value="Raport" />
+        <LocalizationItem Name="RibbonXRDesign_PageGroup_View" Value="Affichage" />
+        <LocalizationItem Name="RibbonXRDesign_Redo_Caption" Value="Refaire" />
+        <LocalizationItem Name="RibbonXRDesign_Redo_STipTitle" Value="Refaire" />
+        <LocalizationItem Name="RibbonXRDesign_SaveAll_Caption" Value="Enregistrer Tous" />
+        <LocalizationItem Name="RibbonXRDesign_SaveFile_Caption" Value="Enregistrer" />
+        <LocalizationItem Name="RibbonXRDesign_SaveFileAs_Caption" Value="Enregistrer Sous..." />
+        <LocalizationItem Name="RibbonXRDesign_StatusBar_HtmlDone" Value="Fait" />
+        <LocalizationItem Name="RibbonXRDesign_Undo_Caption" Value="Annuler" />
+        <LocalizationItem Name="RibbonXRDesign_Undo_STipTitle" Value="Annuler" />
+        <LocalizationItem Name="SSForm_Btn_Close" Value="Fermer" />
+        <LocalizationItem Name="STag_Name_Checked" Value="Coché" />
+        <LocalizationItem Name="UD_Capt_Cut" Value="Co&amp;uper" />
+        <LocalizationItem Name="UD_Capt_MainMenuName" Value="Menu principal" />
+        <LocalizationItem Name="UD_Capt_SaveAll" Value="Enregistrer T&amp;ous" />
+        <LocalizationItem Name="UD_Capt_SaveFileAs" Value="Enregistrer &amp;Sous..." />
+        <LocalizationItem Name="UD_Capt_ToolbarName" Value="Barre d'outils" />
+        <LocalizationItem Name="UD_Group_View" Value="&amp;Afficher" />
+        <LocalizationItem Name="UD_Title_FieldList_NonePickerNodeText" Value="Aucun" />
+        <LocalizationItem Name="UD_Title_GroupAndSort" Value="Groupe et tri" />
+        <LocalizationItem Name="UD_Title_ReportExplorer_NullControl" Value="Aucun" />
+        <LocalizationItem Name="UD_TTip_EditCopy" Value="Copier" />
+        <LocalizationItem Name="UD_TTip_EditCut" Value="Couper" />
+        <LocalizationItem Name="UD_TTip_Redo" Value="Refaire" />
+        <LocalizationItem Name="UD_TTip_Undo" Value="Annuler" />
+        <LocalizationItem Name="Verb_Delete" Value="Supprimer..." />
+        <LocalizationItem Name="Verb_Insert" Value="Insérer..." />
+        <LocalizationItem Name="Verb_RTFClear" Value="Effacer" />
+        <LocalizationItem Name="Verb_RTFLoad" Value="Charger le fichier..." />
+        <LocalizationItem Name="Verb_Save" Value="Enregistrer..." />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.XtraBars">
+        <LocalizationItem Name="CancelButton" Value="Annuler" />
+        <LocalizationItem Name="CloseButton" Value="Fermer" />
+        <LocalizationItem Name="CollapseRibbonSuperTipHeader" Value="Réduire le ruban (Ctrl+F1)" />
+        <LocalizationItem Name="CollapseRibbonSuperTipText" Value="Afficher uniquement les noms de l'onglet sur le ruban" />
+        <LocalizationItem Name="CustomizeButton" Value="&amp;Personnaliser..." />
+        <LocalizationItem Name="CustomizeRibbon" Value="Personnaliser le &amp;Ruban..." />
+        <LocalizationItem Name="CustomizeToolbarSuperTipText" Value="Personnaliser la barre d'outils accès rapide" />
+        <LocalizationItem Name="CustomizeWindowCaption" Value="Personnalisation" />
+        <LocalizationItem Name="MenuAnimationNone" Value="Aucun" />
+        <LocalizationItem Name="NewMenuName" Value="Menu principal" />
+        <LocalizationItem Name="NewToolbarCustomNameFormat" Value="Personnalisé {0}" />
+        <LocalizationItem Name="NewToolbarName" Value="Outils" />
+        <LocalizationItem Name="ResetBarCaption" Value="Personnaliser" />
+        <LocalizationItem Name="RibbonCustomizationDownText" Value="Déplacer vers le bas" />
+        <LocalizationItem Name="RibbonCustomizationRemoveText" Value="Supprimer" />
+        <LocalizationItem Name="RibbonCustomizationRenameText" Value="Renommer" />
+        <LocalizationItem Name="RibbonCustomizationStandardCustomItemSuffix" Value="Personnalisé" />
+        <LocalizationItem Name="RibbonCustomizationUpText" Value="Déplacer vers le haut" />
+        <LocalizationItem Name="RibbonGalleryFilterNone" Value="Aucun" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.XtraBars.Docking">
+        <LocalizationItem Name="CommandAutoHide" Value="Masquer Automatiquement" />
+        <LocalizationItem Name="CommandClose" Value="Fermer" />
+        <LocalizationItem Name="MessageFormPropertyChangedCaption" Value="Avertissement" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.XtraBars.Docking2010">
+        <LocalizationItem Name="ApplyWorkspaceButtonText" Value="Appliquer l'espace de travail" />
+        <LocalizationItem Name="CloseAllDocumentsButtonText" Value="Fermer tous les Documents" />
+        <LocalizationItem Name="CloseAllDocumentsWarningMessage" Value="Êtes-vous sûr de que vouloir fermer tous les documents ?" />
+        <LocalizationItem Name="CloseDocumentButtonText" Value="Fermer le Document" />
+        <LocalizationItem Name="CloseDocumentWarningMessage" Value="Êtes-vous sûr de vouloir fermer le document {0} ?" />
+        <LocalizationItem Name="CommandBack" Value="Précédent" />
+        <LocalizationItem Name="CommandClose" Value="Fermer" />
+        <LocalizationItem Name="CommandCloseAll" Value="Fermer tous les Documents" />
+        <LocalizationItem Name="CommandCloseAllButThis" Value="Fermer tous sauf cela" />
+        <LocalizationItem Name="CommandExit" Value="Sortie" />
+        <LocalizationItem Name="CommandExitDescription" Value="Quittez l'application" />
+        <LocalizationItem Name="CommandHome" Value="Accueil" />
+        <LocalizationItem Name="LoadingIndicatorCaption" Value="Veuillez patienter" />
+        <LocalizationItem Name="LoadingIndicatorDescription" Value="Chargement..." />
+        <LocalizationItem Name="OpenedWindowsDialogNameColumnCaption" Value="Nom" />
+        <LocalizationItem Name="SplashScreenCaption" Value="Chargement..." />
+        <LocalizationItem Name="WorkspacesDialogNameColumnCaption" Value="Nom" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.XtraEditors">
+        <LocalizationItem Name="Apply" Value="Appliquer" />
+        <LocalizationItem Name="CalcButtonBack" Value="Précédent" />
+        <LocalizationItem Name="Cancel" Value="Annuler" />
+        <LocalizationItem Name="CaptionError" Value="Erreur" />
+        <LocalizationItem Name="CheckChecked" Value="Coché" />
+        <LocalizationItem Name="CheckUnchecked" Value="Décochée" />
+        <LocalizationItem Name="ColorPickPopupAutomaticItemCaption" Value="Automatique" />
+        <LocalizationItem Name="ColorTabCustom" Value="Personnalisé" />
+        <LocalizationItem Name="DataEmpty" Value="Aucune donnée d'image" />
+        <LocalizationItem Name="DateEditClear" Value="Effacer" />
+        <LocalizationItem Name="DefaultBooleanDefault" Value="Par défaut" />
+        <LocalizationItem Name="FilterAggregateCount" Value="Nombre" />
+        <LocalizationItem Name="FilterAggregateExists" Value="Il existe" />
+        <LocalizationItem Name="FilterClauseBeginsWith" Value="Commence par" />
+        <LocalizationItem Name="FilterClauseBetweenAnd" Value="et" />
+        <LocalizationItem Name="FilterClauseEndsWith" Value="Se termine par" />
+        <LocalizationItem Name="FilterClauseEquals" Value="Est égal à" />
+        <LocalizationItem Name="FilterCriteriaToStringFunctionCustom" Value="Personnalisé" />
+        <LocalizationItem Name="FilterCriteriaToStringFunctionEndsWith" Value="Se termine par" />
+        <LocalizationItem Name="FilterCriteriaToStringFunctionLocalDateTimeNow" Value="Maintenant" />
+        <LocalizationItem Name="FilterCriteriaToStringFunctionNone" Value="Aucun" />
+        <LocalizationItem Name="FilterCriteriaToStringFunctionNow" Value="Maintenant" />
+        <LocalizationItem Name="FilterCriteriaToStringFunctionRemove" Value="Supprimer" />
+        <LocalizationItem Name="FilterCriteriaToStringGroupOperatorAnd" Value="Et" />
+        <LocalizationItem Name="FilterGroupAnd" Value="Et" />
+        <LocalizationItem Name="FilterMenuClearAll" Value="Vider Tous" />
+        <LocalizationItem Name="FormatRuleMenuItemEqualTo" Value="Égale à" />
+        <LocalizationItem Name="LookUpColumnDefaultName" Value="Nom" />
+        <LocalizationItem Name="ManageRuleAverageEqualOrAbove" Value="Égal ou supérieur" />
+        <LocalizationItem Name="ManageRuleAverageEqualOrBelow" Value="Égale ou inférieure à" />
+        <LocalizationItem Name="ManageRuleCellValueEqualTo" Value="Égale à" />
+        <LocalizationItem Name="ManageRuleCommonPreview" Value="Aperçu:" />
+        <LocalizationItem Name="ManageRuleEqualOrAboveAverage" Value="Égale ou supérieure à moyenne" />
+        <LocalizationItem Name="ManageRuleEqualOrBelowAverage" Value="Égale ou inférieure à moyenne" />
+        <LocalizationItem Name="ManageRuleFormatCellsClear" Value="Effacer" />
+        <LocalizationItem Name="ManageRuleFormatCellsNone" Value="Aucun" />
+        <LocalizationItem Name="ManageRuleGridCaptionApplyToTheRow" Value="Appliquer à la ligne" />
+        <LocalizationItem Name="ManageRuleSpecificTextBeginningWith" Value="En commençant par" />
+        <LocalizationItem Name="ManageRuleSpecificTextEndingWith" Value="Se terminant par" />
+        <LocalizationItem Name="ManageRuleThatContainErrors" Value="Erreurs" />
+        <LocalizationItem Name="NavigatorCancelEditButtonHint" Value="Annuler Edition" />
+        <LocalizationItem Name="NavigatorEditButtonHint" Value="Edition" />
+        <LocalizationItem Name="NavigatorEndEditButtonHint" Value="Fin de l'Edition" />
+        <LocalizationItem Name="NavigatorLastButtonHint" Value="Dernier" />
+        <LocalizationItem Name="NavigatorNextButtonHint" Value="Suivant" />
+        <LocalizationItem Name="NavigatorNextPageButtonHint" Value="Page Suivante" />
+        <LocalizationItem Name="NavigatorPreviousButtonHint" Value="Précédent" />
+        <LocalizationItem Name="NavigatorPreviousPageButtonHint" Value="Page Précédente" />
+        <LocalizationItem Name="NavigatorRemoveButtonHint" Value="Supprimer" />
+        <LocalizationItem Name="PictureEditMenuCopy" Value="Copier" />
+        <LocalizationItem Name="PictureEditMenuCut" Value="Couper" />
+        <LocalizationItem Name="PictureEditMenuDelete" Value="Supprimer" />
+        <LocalizationItem Name="PictureEditMenuLoad" Value="Charger" />
+        <LocalizationItem Name="PictureEditMenuSave" Value="Enregistrer" />
+        <LocalizationItem Name="PictureEditOpenFileTitle" Value="Ouvrir" />
+        <LocalizationItem Name="PictureEditSaveFileTitle" Value="Enregistrer Sous" />
+        <LocalizationItem Name="PreviewPanelText" Value="Aperçu:" />
+        <LocalizationItem Name="ProgressCancel" Value="Annuler" />
+        <LocalizationItem Name="ProgressLoadingData" Value="Chargement des données" />
+        <LocalizationItem Name="ProgressPrinting" Value="Impression" />
+        <LocalizationItem Name="TabHeaderButtonClose" Value="Fermer" />
+        <LocalizationItem Name="TakePictureDialogSave" Value="Enregistrer" />
+        <LocalizationItem Name="TextEditMenuCut" Value="Co&amp;uper" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.XtraGrid">
+        <LocalizationItem Name="CardViewQuickCustomizationButton" Value="Personnaliser" />
+        <LocalizationItem Name="CardViewQuickCustomizationButtonFilter" Value="Filtre" />
+        <LocalizationItem Name="CustomFilterDialogCancelButton" Value="&amp;Annuler" />
+        <LocalizationItem Name="CustomFilterDialogClearFilter" Value="E&amp;ffacer le Filtre" />
+        <LocalizationItem Name="CustomFilterDialogFormCaption" Value="Filtre automatique personnalisé" />
+        <LocalizationItem Name="CustomFilterDialogRadioAnd" Value="&amp;Et" />
+        <LocalizationItem Name="CustomizationCaption" Value="Personnalisation" />
+        <LocalizationItem Name="EditFormCancelButton" Value="Annuler" />
+        <LocalizationItem Name="EditFormCancelMessage" Value="Vous voulez annuler la modification ?" />
+        <LocalizationItem Name="FilterBuilderCaption" Value="Éditeur de filtre" />
+        <LocalizationItem Name="FilterPanelCustomizeButton" Value="Modifier le Filtre" />
+        <LocalizationItem Name="FindControlClearButton" Value="Effacer" />
+        <LocalizationItem Name="FindControlFindButton" Value="Trouver" />
+        <LocalizationItem Name="FindNullPrompt" Value="Entrez le texte à rechercher..." />
+        <LocalizationItem Name="GridGroupPanelText" Value="Faites glisser un en-tête de colonne ici pour grouper par cette colonne" />
+        <LocalizationItem Name="GroupSummaryEditorFormCancelButton" Value="Annuler" />
+        <LocalizationItem Name="GroupSummaryEditorSummaryCount" Value="Nombre" />
+        <LocalizationItem Name="LayoutViewButtonCustomizeHide" Value="Masquer Personna&amp;lisation" />
+        <LocalizationItem Name="LayoutViewColumnModeBtnHint" Value="Une seule Colonne" />
+        <LocalizationItem Name="LayoutViewCustomizeBtnHint" Value="Personnalisation" />
+        <LocalizationItem Name="LayoutViewFormLoadLayoutCaption" Value="Charger la Mise en charge" />
+        <LocalizationItem Name="LayoutViewGroupCustomization" Value="Personnalisation" />
+        <LocalizationItem Name="LayoutViewGroupView" Value="Affichage" />
+        <LocalizationItem Name="MenuColumnAutoFilterRowHide" Value="Masquer ligne filtre Auto" />
+        <LocalizationItem Name="MenuColumnAutoFilterRowShow" Value="Affichier la ligne de filtre Auto" />
+        <LocalizationItem Name="MenuColumnBestFit" Value="Meilleur Ajustement" />
+        <LocalizationItem Name="MenuColumnBestFitAllColumns" Value="Meilleur Ajustement (toutes les colonnes)" />
+        <LocalizationItem Name="MenuColumnClearAllSorting" Value="Effacer tous les tri" />
+        <LocalizationItem Name="MenuColumnClearFilter" Value="Effacer le filtre" />
+        <LocalizationItem Name="MenuColumnClearSorting" Value="Effacer le tri" />
+        <LocalizationItem Name="MenuColumnColumnCustomization" Value="Sélecteur de colonne" />
+        <LocalizationItem Name="MenuColumnCountSummaryTypeDescription" Value="Nombre" />
+        <LocalizationItem Name="MenuColumnCustomSummaryTypeDescription" Value="Personnalisé" />
+        <LocalizationItem Name="MenuColumnFilter" Value="Peut Filtrer" />
+        <LocalizationItem Name="MenuColumnFilterEditor" Value="Éditeur de filtre..." />
+        <LocalizationItem Name="MenuColumnFilterMode" Value="Mode de filtre" />
+        <LocalizationItem Name="MenuColumnFindFilterHide" Value="Masquer le panneau Rechercher" />
+        <LocalizationItem Name="MenuColumnFindFilterShow" Value="Afficher le panneau de recherche" />
+        <LocalizationItem Name="MenuColumnGroup" Value="Grouper par cette colonne" />
+        <LocalizationItem Name="MenuColumnGroupBox" Value="Grouper par boîte" />
+        <LocalizationItem Name="MenuColumnGroupIntervalNone" Value="Aucun" />
+        <LocalizationItem Name="MenuColumnRemoveColumn" Value="Masquer cette colonne" />
+        <LocalizationItem Name="MenuColumnShowColumn" Value="Afficher cette colonne" />
+        <LocalizationItem Name="MenuColumnSortAscending" Value="Tri Ascendant" />
+        <LocalizationItem Name="MenuColumnSortDescending" Value="Tri Descendant" />
+        <LocalizationItem Name="MenuFooterCount" Value="Nombre" />
+        <LocalizationItem Name="MenuFooterCountFormat" Value="Nombre" />
+        <LocalizationItem Name="MenuFooterNone" Value="Aucun" />
+        <LocalizationItem Name="MenuGroupPanelClearGrouping" Value="Désactivez le groupement" />
+        <LocalizationItem Name="MenuGroupPanelFullCollapse" Value="Effondrement complet" />
+        <LocalizationItem Name="MenuGroupPanelFullExpand" Value="Pleine expansion" />
+        <LocalizationItem Name="MenuGroupPanelHide" Value="Masquer la Boite Grouper par" />
+        <LocalizationItem Name="MenuGroupPanelShow" Value="Afficher la Boite Grouper par" />
+        <LocalizationItem Name="PopupFilterCustom" Value="(Personnalisé)" />
+        <LocalizationItem Name="WindowErrorCaption" Value="Erreur" />
+        <LocalizationItem Name="WindowWarningCaption" Value="Avertissement" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.XtraLayout">
+        <LocalizationItem Name="BestFitMenuText" Value="Meilleur ajustement" />
+        <LocalizationItem Name="CustomizationFormTitle" Value="Personnalisation" />
+        <LocalizationItem Name="CustomizationParentName" Value="Personnalisation" />
+        <LocalizationItem Name="DefaultEmptyText" Value="aucun" />
+        <LocalizationItem Name="DeleteTemplateText" Value="Supprimer" />
+        <LocalizationItem Name="LoadHintCaption" Value="Charger (Ctrl+O)" />
+        <LocalizationItem Name="RedoHintCaption" Value="Refaire (Ctrl+Y)" />
+        <LocalizationItem Name="RenameMenuText" Value="Renommer" />
+        <LocalizationItem Name="RenameSelected" Value="Renommer" />
+        <LocalizationItem Name="ResetLayoutMenuText" Value="Réinitialiser la Mise en page" />
+        <LocalizationItem Name="SaveHintCaption" Value="Enregistrer (Ctrl+S)" />
+        <LocalizationItem Name="ShowCustomizationFormMenuText" Value="Personnaliser l'Affichage" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.XtraNavBar">
+        <LocalizationItem Name="NavPaneChevronHint" Value="Configurer les boutons" />
+        <LocalizationItem Name="NavPaneOptionsFormCancel" Value="Annuler" />
+        <LocalizationItem Name="NavPaneOptionsFormMoveDown" Value="Déplacer vers le bas" />
+        <LocalizationItem Name="NavPaneOptionsFormMoveUp" Value="Déplacer vers le haut" />
+        <LocalizationItem Name="NavPaneOptionsFormReset" Value="Réinitialiser" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.XtraRichEdit">
+        <LocalizationItem Name="BorderLineStyleNone" Value="Aucun" />
+        <LocalizationItem Name="Caption_ColorAutomatic" Value="Automatique" />
+        <LocalizationItem Name="Caption_ConditionalTableStyleFormattingTypes_LastColumn" Value="Dernière colonne" />
+        <LocalizationItem Name="Caption_NumberingListBoxNone" Value="Aucun" />
+        <LocalizationItem Name="Caption_PageSetupSectionStartOddPage" Value="Page impaire" />
+        <LocalizationItem Name="Caption_ParagraphFirstLineIndent_None" Value="Aucun" />
+        <LocalizationItem Name="FindAndReplaceForm_EndOfLine" Value="Fin du paragraphe" />
+        <LocalizationItem Name="FindAndReplaceForm_EndOfWord" Value="Fin du mot" />
+        <LocalizationItem Name="MenuCmd_ClosePageHeaderFooter" Value="Fermer l'en-tête et pied de page" />
+        <LocalizationItem Name="MenuCmd_CopySelection" Value="Copier" />
+        <LocalizationItem Name="MenuCmd_CutSelection" Value="Couper" />
+        <LocalizationItem Name="MenuCmd_Delete" Value="Supprimer" />
+        <LocalizationItem Name="MenuCmd_DeleteComment" Value="Supprimer" />
+        <LocalizationItem Name="MenuCmd_DeleteDescription" Value="Supprimer" />
+        <LocalizationItem Name="MenuCmd_DeleteTableColumns" Value="Supprimer les Colonnes" />
+        <LocalizationItem Name="MenuCmd_DeleteTableColumnsDescription" Value="Supprimer les Colonnes" />
+        <LocalizationItem Name="MenuCmd_DeleteTableElements" Value="Supprimer" />
+        <LocalizationItem Name="MenuCmd_DeleteTableRows" Value="Supprimer les Lignes" />
+        <LocalizationItem Name="MenuCmd_DeleteTableRowsDescription" Value="Supprimer les Lignes" />
+        <LocalizationItem Name="MenuCmd_Find" Value="Trouver" />
+        <LocalizationItem Name="MenuCmd_FindDescription" Value="Rechercher le texte dans le document." />
+        <LocalizationItem Name="MenuCmd_FindNext" Value="Trouver Suivant" />
+        <LocalizationItem Name="MenuCmd_FindPrev" Value="Trouver Precedent" />
+        <LocalizationItem Name="MenuCmd_FirstDataRecord" Value="Premier enregistrement" />
+        <LocalizationItem Name="MenuCmd_FirstDataRecordDescription" Value="Premier enregistrement" />
+        <LocalizationItem Name="MenuCmd_IgnoreAllMistakenWords" Value="Ignorer tout" />
+        <LocalizationItem Name="MenuCmd_IgnoreAllMistakenWordsDescription" Value="Ignorer tout" />
+        <LocalizationItem Name="MenuCmd_IgnoreMistakenWord" Value="Ignorer" />
+        <LocalizationItem Name="MenuCmd_IgnoreMistakenWordDescription" Value="Ignorer" />
+        <LocalizationItem Name="MenuCmd_LastDataRecord" Value="Dernier Enregistrement" />
+        <LocalizationItem Name="MenuCmd_LastDataRecordDescription" Value="Dernier Enregistrement" />
+        <LocalizationItem Name="MenuCmd_LoadDocument" Value="Ouvrir" />
+        <LocalizationItem Name="MenuCmd_NewEmptyDocument" Value="Nouveau" />
+        <LocalizationItem Name="MenuCmd_NextComment" Value="Suivant" />
+        <LocalizationItem Name="MenuCmd_NextDataRecord" Value="Enregistrement Suivant" />
+        <LocalizationItem Name="MenuCmd_NextDataRecordDescription" Value="Enregistrement Suivant" />
+        <LocalizationItem Name="MenuCmd_PasteFiles" Value="Fichiers" />
+        <LocalizationItem Name="MenuCmd_PreviousComment" Value="Précédent" />
+        <LocalizationItem Name="MenuCmd_PreviousDataRecord" Value="Enregistrement Précédent" />
+        <LocalizationItem Name="MenuCmd_PreviousDataRecordDescription" Value="Enregistrement Précédent" />
+        <LocalizationItem Name="MenuCmd_PrintPreview" Value="Ape&amp;rçu avant impression" />
+        <LocalizationItem Name="MenuCmd_PrintView" Value="Vue d'impression" />
+        <LocalizationItem Name="MenuCmd_PrintViewDescription" Value="Vue d'impression" />
+        <LocalizationItem Name="MenuCmd_Redo" Value="Refaire" />
+        <LocalizationItem Name="MenuCmd_SaveDocument" Value="Enregistrer" />
+        <LocalizationItem Name="MenuCmd_SaveDocumentAs" Value="Enregistrer Sous" />
+        <LocalizationItem Name="MenuCmd_SetSectionLineNumberingNone" Value="Aucun" />
+        <LocalizationItem Name="MenuCmd_SetSectionOneColumnDescription" Value="Une seule colonne." />
+        <LocalizationItem Name="MenuCmd_ShowColumnsSetupForm" Value="Autres &amp;Colonnes..." />
+        <LocalizationItem Name="MenuCmd_ShowPageSetupForm" Value="Mise en page" />
+        <LocalizationItem Name="MenuCmd_SwitchToPrintLayoutView" Value="Imprimer Mise en page" />
+        <LocalizationItem Name="MenuCmd_ToggleHiddenTextDescription" Value="Caché." />
+        <LocalizationItem Name="MenuCmd_ToggleLastColumn" Value="Dernière colonne" />
+        <LocalizationItem Name="MenuCmd_ToggleTableAutoFitPlaceholder" Value="Ajustement automatique" />
+        <LocalizationItem Name="MenuCmd_ToggleWhitespace" Value="Afficher/Masquer ¶" />
+        <LocalizationItem Name="MenuCmd_Undo" Value="Annuler" />
+        <LocalizationItem Name="Msg_Loading" Value="Chargement..." />
+        <LocalizationItem Name="Msg_Saving" Value="Enregistrement..." />
+        <LocalizationItem Name="TabForm_All" Value="Tous" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.XtraTreeList">
+        <LocalizationItem Name="ColumnCustomizationText" Value="Personnalisation" />
+        <LocalizationItem Name="FilterEditorCaption" Value="Éditeur de filtre" />
+        <LocalizationItem Name="FilterPanelCustomizeButton" Value="Modifier le Filtre" />
+        <LocalizationItem Name="FindControlClearButton" Value="Effacer" />
+        <LocalizationItem Name="FindControlFindButton" Value="Trouver" />
+        <LocalizationItem Name="FindNullPrompt" Value="Entrez le texte à rechercher..." />
+        <LocalizationItem Name="InvalidNodeExceptionText" Value="Vous voulez corriger la valeur ?" />
+        <LocalizationItem Name="MenuColumnAutoFilterRowHide" Value="Masquer ligne filtre Auto" />
+        <LocalizationItem Name="MenuColumnAutoFilterRowShow" Value="Afficher la ligne de filtre Auto" />
+        <LocalizationItem Name="MenuColumnBestFit" Value="Meilleur Ajustement" />
+        <LocalizationItem Name="MenuColumnBestFitAllColumns" Value="Meilleur Ajustement (toutes les colonnes)" />
+        <LocalizationItem Name="MenuColumnClearFilter" Value="Effacer le filtre" />
+        <LocalizationItem Name="MenuColumnClearSorting" Value="Effacer le tri" />
+        <LocalizationItem Name="MenuColumnColumnCustomization" Value="Sélecteur de colonne" />
+        <LocalizationItem Name="MenuColumnFilterEditor" Value="Éditeur de filtre..." />
+        <LocalizationItem Name="MenuColumnFindFilterHide" Value="Masquer le Panneau de Recherche" />
+        <LocalizationItem Name="MenuColumnFindFilterShow" Value="Afficher le Panneau de Recherche" />
+        <LocalizationItem Name="MenuColumnSortAscending" Value="Tri Ascendant" />
+        <LocalizationItem Name="MenuColumnSortDescending" Value="Tri Descendant" />
+        <LocalizationItem Name="MenuFooterAllNodes" Value="Tous les nœuds" />
+        <LocalizationItem Name="MenuFooterCount" Value="Nombre" />
+        <LocalizationItem Name="MenuFooterCountFormat" Value="Nombre" />
+        <LocalizationItem Name="MenuFooterNone" Value="Aucun" />
+        <LocalizationItem Name="WindowErrorCaption" Value="Erreur" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.XtraVerticalGrid">
+        <LocalizationItem Name="FindControlClearButton" Value="Effacer" />
+        <LocalizationItem Name="FindControlFindButton" Value="Trouver" />
+        <LocalizationItem Name="FindNullPrompt" Value="Entrez le texte à rechercher..." />
+        <LocalizationItem Name="InvalidRecordExceptionText" Value="Vous voulez corriger la valeur ?" />
+        <LocalizationItem Name="MenuReset" Value="Réinitialiser" />
+        <LocalizationItem Name="RowCustomizationDeleteCategoryText" Value="&amp;Supprimer" />
+        <LocalizationItem Name="RowCustomizationNewCategoryText" Value="&amp;Nouveau..." />
+        <LocalizationItem Name="RowCustomizationText" Value="Personnalisation" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="LargeStringEditFindForm">
+        <LocalizationItem Name="FindLabelText" Value="Rechercher le texte :" />
+        <LocalizationItem Name="FindMenuItemText" Value="Trouver" />
+        <LocalizationItem Name="FindNextButtonText" Value="Trouver Suivant" />
+        <LocalizationItem Name="FormText" Value="Trouver" />
+      </LocalizationGroup>
+    </LocalizationGroup>
+    <LocalizationGroup Name="DashboardOrganizationItems">
+      <LocalizationItem Name="StaticText" Value="Texte" />
+    </LocalizationGroup>
+    <LocalizationGroup Name="DialogButtons">
+      <LocalizationItem Name="Abort" Value="&amp;Abandonner" />
+      <LocalizationItem Name="Add" Value="Ajouter" />
+      <LocalizationItem Name="Apply" Value="Appliquer" />
+      <LocalizationItem Name="Back" Value="&lt;&gt;" />
+      <LocalizationItem Name="Cancel" Value="&amp;Annuler" />
+      <LocalizationItem Name="Clear" Value="E&amp;ffacer" />
+      <LocalizationItem Name="Close" Value="Fermer" />
+      <LocalizationItem Name="Find" Value="Trouver" />
+      <LocalizationItem Name="Ignore" Value="&amp;Ignorer" />
+      <LocalizationItem Name="Next" Value="Prochaine &gt;" />
+      <LocalizationItem Name="No" Value="&amp;Non" />
+      <LocalizationItem Name="Remove" Value="Supprimer" />
+      <LocalizationItem Name="Retry" Value="&amp;Réessayer" />
+      <LocalizationItem Name="Yes" Value="&amp;Oui" />
+    </LocalizationGroup>
+    <LocalizationGroup Name="Enums">
+      <LocalizationGroup Name="DevExpress.Data.Filtering.Aggregate">
+        <LocalizationItem Name="Count" Value="Nombre" />
+        <LocalizationItem Name="Exists" Value="Il existe" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.ExpressApp.Editors.ViewItemVisibility" Value="Visibilité de point de vue">
+        <LocalizationItem Name="Hide" Value="Cacher" />
+        <LocalizationItem Name="Show" Value="Afficher" />
+        <LocalizationItem Name="ShowEmptySpace" Value="Afficher l'espace vide" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.ExpressApp.Reports.Win.ReportType" Value="Type de rapport" />
+      <LocalizationGroup Name="DevExpress.ExpressApp.Security.ModelAccessModifier" Value="Modificateur d'Accès de Modèle">
+        <LocalizationItem Name="Allow" Value="Permettre" />
+        <LocalizationItem Name="Deny" Value="Refuser" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.ExpressApp.Security.ObjectAccess" Value="Accès aux objets">
+        <LocalizationItem Name="AllAccess" Value="TousAccess" />
+        <LocalizationItem Name="Create" Value="Créer" />
+        <LocalizationItem Name="Delete" Value="Supprimer" />
+        <LocalizationItem Name="Navigate" Value="Naviguer" />
+        <LocalizationItem Name="NoAccess" Value="Pasd'Access" />
+        <LocalizationItem Name="Read" Value="Lecture" />
+        <LocalizationItem Name="Write" Value="Écriture" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.ExpressApp.Security.ObjectAccessModifier" Value="Modificateur d'accès objet">
+        <LocalizationItem Name="Allow" Value="Permettre" />
+        <LocalizationItem Name="Deny" Value="Refuser" />
+        <LocalizationItem Name="None" Value="Aucun" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.ExpressApp.Templates.ActionsToolbarVisibility" Value="Visibilité de barre d'outils de mesures">
+        <LocalizationItem Name="Default" Value="Par défaut" />
+        <LocalizationItem Name="Hide" Value="Cacher" />
+        <LocalizationItem Name="Show" Value="Afficher" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.Persistent.Validation.StringComparisonType">
+        <LocalizationItem Name="EndsWith" Value="Se termine par" />
+        <LocalizationItem Name="Equals" Value="Est égal à" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.Persistent.Validation.ValidationOutcome">
+        <LocalizationItem Name="Error" Value="Erreur" />
+        <LocalizationItem Name="Warning" Value="Avertissement" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.Persistent.Validation.ValidationResultType">
+        <LocalizationItem Name="Error" Value="Erreur" />
+        <LocalizationItem Name="Warning" Value="Avertissement" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.Persistent.Validation.ValueComparisonType">
+        <LocalizationItem Name="Equals" Value="Est égal à" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.XtraBars.Docking.DockVisibility">
+        <LocalizationItem Name="AutoHide" Value="Masquer Automatiquement" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="TP.Shell.XAF.Module.Win.Permissions.MultiEditPermissionAccessModifier">
+        <LocalizationItem Name="Allow" Value="Permettre" />
+        <LocalizationItem Name="Deny" Value="Refuser" />
+      </LocalizationGroup>
+    </LocalizationGroup>
+    <LocalizationGroup Name="Exceptions">
+      <LocalizationItem Name="CanNotDeleteObject" Value="Vous ne pouvez pas supprimer le '{0}' objet en raison des restrictions de sécurité." />
+      <LocalizationItem Name="CanNotSaveObject" Value="Vous ne pouvez pas enregistrer le '{0}' objet en raison des restrictions de sécurité." />
+      <LocalizationGroup Name="SystemExceptions">
+        <LocalizationItem Name="ActionMethodShouldBeNonGeneric" Value="Impossible de créer l'action de la méthode {0} de classe {1}. Méthode d'action devrait être non générique" />
+        <LocalizationItem Name="ActionMethodShouldBeParameterless" Value="Impossible de créer l'action de la méthode {0} de classe {1}. Méthode d'action devrait être sans paramètre" />
+        <LocalizationItem Name="AlreadyUsedObjectSpace" Value="Le ObjectSpace a déjà été attribué à une autre vue de la racine : '{0}'. Cette erreur se produit uniquement lorsque vous essayez d'attribuer un ObjectSpace qui est déjà utilisé par une racine vue à une autre vue de la racine. Par exemple, vous pouvez recevoir cette erreur lorsque l'aide des méthodes XafApplication.CreateDetailView/CreateListView dans un ViewController et en passant l'objet View.ObjectSpace en tant que paramètre de ces méthodes lorsque la propriété View.IsRoot est true.\r\nTo évitent cette erreur, il suffit de passer une nouvelle instance de ObjectSpace créée via la méthode XafApplication.CreateObjectSpace dans ces méthodes, ou créer des vues non-root en passant un paramètre correspondant à ces methods.\r\nIf cela ne vous aide pas, veuillez communiquer avec notre équipe de soutien à http://www.devexpress.com/Support/Center/" />
+        <LocalizationItem Name="AnErrorHasOccurredWhileLoadingTheModel" Value="Une erreur s'est produite lors du chargement du modèle. Source : '{0}'" />
+        <LocalizationItem Name="AnErrorHasOccurredWhileProcessingAShortcut" Value="Une erreur se produit pendant le traitement d'un raccourci : {0}" />
+        <LocalizationItem Name="AnErrorHasOccurredWithContext" Value="Une erreur est survenue, contexte : {0}" />
+        <LocalizationItem Name="AnUnsavedObjectCannotBeShown" Value="Un objet non enregistré ne peuvent pas être affichée" />
+        <LocalizationItem Name="ApplicationIsNotStarted" Value="Application n'est pas démarrée" />
+        <LocalizationItem Name="ApplicationUpdaterAssemblyDoesNotExist" Value="L'application ne peut pas être mis à jour parce que la '{1}' Assemblée n'existe pas dans le '{0}' dossier." />
+        <LocalizationItem Name="ApplicationUpdaterDatabaseVersionIsNewer" Value="Impossible d'exécuter l'application. La version de base de données est plus récente que la version de l'application, mais ne trouve pas le serveur avec la nouvelle version de l'application. Demandez à l'administrateur pour vérifier que le fichier de configuration contient un chemin d'accès correct vers la nouvelle version de l'application." />
+        <LocalizationItem Name="AttributeModifyingFailed" Value="Modification de l'attribut n'a pas" />
+        <LocalizationItem Name="AttributeShouldStartWithSymbol" Value="Attribut '{0}' devrait se fonder sur la '@' symbole : '{1}'" />
+        <LocalizationItem Name="AutoCreateOptionIs" Value="Le updatingReadOnlyDataStore.AutoCreateOption est {0}" />
+        <LocalizationItem Name="CannotAccessCollectionCollectionSourceIsBeingIntialized" Value="Vous ne peut pas accéder à la propriété de Collection parce que la Source de la Collection est maintenant initialisée. Cette erreur peut se produire, par exemple, lorsque vous essayez d'accéder à la propriété de Collection dans la méthode OnActivated d'un ViewController. Pour éviter cette erreur, il est nécessaire accéder à la propriété de la Collection à un moment plus tard, lorsque la Source de la Collection est déjà initialisée. La meilleure façon de le faire consiste à gérer l'événement CollectionChanged. Veuillez vous référer à la documentation du produit pour plus d'informations sur ces classes et les méthodes. Si cela ne vous aide pas, veuillez communiquer avec notre équipe de soutien à http://www.devexpress.com/Support/Center/" />
+        <LocalizationItem Name="CannotAddCollectionProperty" Value="Impossible d'ajouter le '{0}' collection" />
+        <LocalizationItem Name="CannotAddDuplicateProperty" Value="Impossible d'ajouter un éditeur de propriétés en double : '{0}'" />
+        <LocalizationItem Name="CannotAddToEmptySingleton" Value="Impossible d'ajouter à vide singleton. Créer la nouvelle instance de la collection" />
+        <LocalizationItem Name="CannotCreateAppropriateDetailItem" Value="Ne peut pas créer l'élément de détail approprié pour le '{0}'" />
+        <LocalizationItem Name="CannotCreateAppropriatePropertyEditorForTheProperty" Value="Impossible de créer la propriété appropriée rédacteur en chef de la '{0}.{1}' propriété" />
+        <LocalizationItem Name="CannotCreateSchemaForAttribute" Value="Impossible de modifier le schéma d'attribut" />
+        <LocalizationItem Name="CannotCreateTemplateByName" Value="Ne peut pas créer le modèle par nom : '{0}'" />
+        <LocalizationItem Name="CannotFindDescendantOfXafApplicationClass" Value="Impossible de trouver un descendant de la classe XafApplication pour détecter les paramètres de votre application dans l'ou les dossiers suivant :&#xD;&#xA;{0}&#xD;&#xA;Pour une application Windows Forms, ce ou les dossiers doivent contenir votre fichier exécutable de l'application.&#xD;&#xA;Pour une page ASP.NETTE application, ce ou les dossiers doivent contenir la continaing Assemblée votre descendant WebApplication." />
+        <LocalizationItem Name="CannotFindListViewWithId" Value="Impossible de trouver le ListView avec ID ='{0}'" />
+        <LocalizationItem Name="CannotFindTheMemberWithinTheClass" Value="Impossible de trouver la '{0}' membre au sein de la '{1}' classe" />
+        <LocalizationItem Name="CannotFindThePropertyWithinTheClass" Value="Impossible de trouver la '{0}' propriété au sein de la '{1}' classe" />
+        <LocalizationItem Name="CannotGenerateContent" Value="Impossible de générer le contenu : la 'ClassName' l'attribut est vide" />
+        <LocalizationItem Name="CannotObtainTheEditingObject" Value="Impossible d'obtenir l'objet édition" />
+        <LocalizationItem Name="CannotProcessTheRequestedUrl" Value="Ne peut pas traiter l'url demandée" />
+        <LocalizationItem Name="CannotProcessTheRequestedUrlActionItemWasNotFound" Value="Ne peut pas traiter l'url demandée, la '{0}' élément d'action n'a été trouvé" />
+        <LocalizationItem Name="CannotReadDictionaryFromResource" Value="Impossible de lire le dictionnaire de '{0}' ressources de la '{1}' Assemblée" />
+        <LocalizationItem Name="CannotSetEditValueAvailableValues" Value="Impossible de définir EditValue la '{0}' texte, valeurs : \r\n disponible{1}" />
+        <LocalizationItem Name="CannotSetEditValueListIsEmpty" Value="Impossible de définir EditValue la '{0}' texte, la liste est vide" />
+        <LocalizationItem Name="CannotShowViewUnknownContext" Value="Ne peut pas afficher la vue, contexte inconnu : '{0}'" />
+        <LocalizationItem Name="CannotShowViewUnknownTarget" Value="Ne peut pas afficher la vue, cible inconnue : '{0}'" />
+        <LocalizationItem Name="ClassDoesntImplementInterface" Value="Classe '{0}' n'implémente l'interface '{1}'" />
+        <LocalizationItem Name="CompatibilityApplicationIsOldError" Value="La version de base de données est supérieure à la version de l'application. L'application doit être mis à jour. Veuillez contacter votre administrateur système ou télécharger une nouvelle dénonciation de version.\r\nAdditional : la version locale {0} du module '{1}' est plus petit que la version {2} dans la base de données." />
+        <LocalizationItem Name="CompatibilityDatabaseIsOldError" Value="La base de données est une ancienne version de l'application. La base de données doit être mis à jour." />
+        <LocalizationItem Name="ConfigFileDoesNotExists" Value="Fichier de config '{0}' n'existe pas" />
+        <LocalizationItem Name="ConfigFileHasNoModuleNames" Value="Le 'add\[@key=&quot;Modules&quot;]' nœud doit contenir une liste de module, le fichier de config '{0}'" />
+        <LocalizationItem Name="CurrentObjectIsNotSet" Value="Impossible de définir '{0}' propriété. L'objet actuel n'est pas définie" />
+        <LocalizationItem Name="CustomizePopupWindowParamsEventArgsViewIsNull" Value="Pour éviter cette erreur, il est nécessaire d'attribuer la propriété de CustomizePopupWindowParamsEventArgs.View lors du traitement de l'événement CustomizePopupWindowParams. Pour ce faire, créez une vue à l'aide des méthodes XafApplication.CreateDetailView/CreateListView. Veuillez vous référer à la documentation du produit pour plus d'informations sur ces classes et les méthodes. Si cela ne vous aide pas, veuillez communiquer avec notre équipe de soutien à http://www.devexpress.com/Support/Center/" />
+        <LocalizationItem Name="DataLayerAlreadyExists" Value="Il existe déjà un dataLayer : '{0}'" />
+        <LocalizationItem Name="DictionaryPathItemParsingFailed" Value="Dictionnaire chemin point l'analyse a échoué. Il y a une erreur de syntaxe dans l'expression '{0}'" />
+        <LocalizationItem Name="DictionaryPathParsingFailed" Value="Analyse de chemin d'accès du dictionnaire a échoué. Il y a une erreur de syntaxe dans l'expression '{0}'" />
+        <LocalizationItem Name="DuplicateComponentIdentifier" Value="Identificateur d'élément en double '{0}'" />
+        <LocalizationItem Name="ErrorOccursWhileAddingTheCustomProperty" Value="Erreur se produit lors de l'ajout du '{2}' propriété personnalisée ('{0}' type de propriété) à la '{1}' type : '{3}'" />
+        <LocalizationItem Name="ExceptionDialogLabel" Value="L'erreur suivante s'est produite :" />
+        <LocalizationItem Name="GridColumnDoesNotExist" Value="Colonne '{0}' n'existe pas dans la grille" />
+        <LocalizationItem Name="GridColumnExists" Value="Colonne '{0}' existe déjà dans la grille" />
+        <LocalizationItem Name="GridControlIsAlreadyCreated" Value="Impossible de définir la propriété EditMode. GridControl a été créé déjà" />
+        <LocalizationItem Name="IncompatibleParametersCombinationOnViewChanged" Value="Combinaison de paramètres incompatibles. La popup a la même ObjectSpace comme la vue principale.  Toutefois, la propriété SaveOnAccept de DialogController de la fenêtre Popup est définie sur true. Utilisez un nouveau ObjectSpace pour la fenêtre Popup invoquée ou définir le DialogController. Propriété SaveOnAccept à false." />
+        <LocalizationItem Name="IncorrectConfigFile" Value="Le fichier de configuration passés '{0}' ne contient pas le '&lt;add key=&quot;Modules&quot;' nœud" />
+        <LocalizationItem Name="InfiniteRecursionDetected" Value="Détecté une récurrence infinie : la '{0}' vue détaillée a été créée {1} fois" />
+        <LocalizationItem Name="InvalidApplicationVersion" Value="Version d'application non valide sur '{0}'" />
+        <LocalizationItem Name="InvalidParametrizedActionValueType" Value="Type valeur non valide est affecté à la '{0}' action paramétrée. Définir la place du type Int, String ou DateTime." />
+        <LocalizationItem Name="InvalidValueOfEnumProperty" Value="Le {0} l'objet {1} propriété a une valeur incorrecte {2}. Initialiser la propriété avec une bonne {3} valeur d'énumération dans la {4} méthode de AfterConstruction de la classe affaires." />
+        <LocalizationItem Name="IsNotValidNamespacePrefixDescription" Value="'{0}' n'est pas un espace de noms valide description de préfixe" />
+        <LocalizationItem Name="ItsImpossibleToFindPathForNode" Value="Il est imposible de trouver le chemin d'accès ='{0}« pour le nœud '{1}'" />
+        <LocalizationItem Name="ItsImpossibleToFindSourceNode" Value="Il est imposible de trouver SourceNode ='{0}\\{1}'" />
+        <LocalizationItem Name="LayoutControlInvalidCount" Value="Nombre incorrect : '{0}'" />
+        <LocalizationItem Name="ListEditorShouldImplement" Value="ListEditor doit implémenter l'interface IDXPopupMenuHolder" />
+        <LocalizationItem Name="MethodShouldBeUsed" Value="Le '{0}' méthode doit être utilisée" />
+        <LocalizationItem Name="ModulesHasAlreadyBeenLoaded" Value="Modules a déjà été chargé" />
+        <LocalizationItem Name="NameAndValueCollectionsShouldHaveEqualLengths" Value="Les noms et les valeurs des collections devraient avoir des longueurs égales" />
+        <LocalizationItem Name="NodeContainsDuplicatedChildNodes" Value="Le '{0}' nœud contient deux nœuds enfants avec la '{1}' valeur de l'attribut de clé. \r\n ud1 : '{2}'\r\n ud2 : '{3}'" />
+        <LocalizationItem Name="NodeWasNotFound" Value="Le '{0}' nœud n'a pas trouvé" />
+        <LocalizationItem Name="NotRegisteredReadOnlyParameterException" Value="Le '{0}' paramètre de lecture seule n'est pas enregistré dans le ParametersFactory." />
+        <LocalizationItem Name="ObjectFormatterFormatStringIsInvalid" Value="Objet ne peut pas être mis en forme parce que la chaîne de format spécifiée n'est pas valide : '{0}'" />
+        <LocalizationItem Name="PageCanOnlyContainOneInstanceOfControl" Value="Page ne peut contenir qu'une seule instance de '{0}' contrôle" />
+        <LocalizationItem Name="ParameterConflictsWithPropertyException" Value="Contient le critère de la '{0}' paramètre de lecture seule qui est en conflit avec la '{0}' propriété de la '{1}' classe. Pour faire référence au paramètre de lecture seule, utilisez la '@@{0}' syntaxe. Pour faire référence à la propriété, utilisez la '@this.{0}' syntaxe." />
+        <LocalizationItem Name="PassedObjectBelongsToAnotherObjectSpace" Value="L'objet qui a été passé appartient à un autre ObjectSpace. Cette erreur peut se produire lorsque vous manipuler vos objets via un ObjectSpace qui ces objets n'appartiennent pas à. Par exemple, vous pouvez recevoir cette erreur lorsque vous utilisez la méthode XafApplication.CreateDetailView dans le cas où vous avez passé un objet qui a été obtenu d'un ObjectSpace différente que la ObjectSpace utilisé comme paramètre de cette méthode. Pour corriger cette erreur, vous devez vous assurer que tous les objets que vous manipuler appartiennent à un ObjectSpace.\r\nIn la plupart des cas, pour éviter cette erreur, il suffit d'appeler les méthodes ObjectSpace.GetObject/GetObjectByKey pour obtenir un objet passé dans la cible ObjectSpace.\r\nIf cela ne vous aide, veuillez communiquer avec notre équipe de soutien à http://www.devexpress.com/Support/Center/" />
+        <LocalizationItem Name="PermissionIsDenied" Value="L'autorisation est refusée." />
+        <LocalizationItem Name="ProcessWasAborted" Value="Processus a été interrompu." />
+        <LocalizationItem Name="RequiresCurrentObjectException" Value="Impossible de mettre à jour le CriteriaWrapper parce que le critère utilise des paramètres dynamiques, mais l'objet n'est pas spécifié. Mise à jour de la CriteriaWrapper, appelez la méthode UpdateParametersValues(Object currentObject) et passez l'objet comme paramètre." />
+        <LocalizationItem Name="ResourceItemWithNameIsNotFound" Value="Élément de ressource avec le nom '{0}' n'est pas trouvé" />
+        <LocalizationItem Name="RuleSetClearingIsDenied" Value="Ensemble de règles compensation est refusée" />
+        <LocalizationItem Name="SourceAttributeExpressionShouldStartWith" Value="Expression d'attribut source devrait commencer avec '{0}': '{1}'" />
+        <LocalizationItem Name="SourceAttributePathShouldConsistOf" Value="Chemin d'attribut source devrait être composé d'un ou plusieurs nom de nœud et au nom de l'attribut, qui sont délimités par la '\\' symbole : '{0}'" />
+        <LocalizationItem Name="SourceNodeExpressionShouldStartWith" Value="SourceNode expression devrait commencer avec '{0}': '{1}'" />
+        <LocalizationItem Name="TemplateTypeInfoMissed" Value="Impossible de trouver TypeInfo type '{0}'. Vous devez mettre votre modèle dans un module XAF ou inscrire manuellement à l'aide de la XafTypesInfo.Instance.FindTypeInfo (typeof){0}méthode))." />
+        <LocalizationItem Name="TheAspectIsNotPresentInAspectsCollection" Value="L'aspect '{0}' n'est pas présent dans la collection des aspects" />
+        <LocalizationItem Name="TheAssemblyDoesntReferAssembly" Value="Le '{0}' Assemblée ne référence Assemblée {1} ({2})" />
+        <LocalizationItem Name="TheClassIsNotFoundInBOModel" Value="Le '{0}' classe ne se trouve pas dans le BOModel" />
+        <LocalizationItem Name="TheClassNameAttributeIsEmpty" Value="L'attribut ClassName du nœud vue référencé est vide :" />
+        <LocalizationItem Name="TheClassNameAttributeRefersToADifferentType" Value="L'attribut ClassName du noeud référencé vue fait référence à un type différent. type d'objet \r\nShortcut : {0}type d'objet nœud \r\nView : {1}" />
+        <LocalizationItem Name="TheCreateApplicationModulesManagerReturnsNull" Value="La méthode CreateApplicationModulesManager retourne null" />
+        <LocalizationItem Name="TheExpressionShouldConsistOf" Value="L'expression devrait être composé du nom de l'attribut source qui sont délimitées par l'expression de recherche et ';' symbole : '{0}'" />
+        <LocalizationItem Name="TheExpressionStringContainsANumberOfExpressions" Value="Le 'expressionString' chaîne contient {0} expressions" />
+        <LocalizationItem Name="ThePassedFileIsNotADllOrConfig" Value="Le passé '{0}' fichier n'est pas un fichier *.dll ou *.config" />
+        <LocalizationItem Name="ThereIsAlreadyRegisteredCreatorForFormat" Value="Il y a déjà un créateur enregistré pour le format '{0}'" />
+        <LocalizationItem Name="TheTypeAttributeCannotBeEmpty" Value="Le 'Type' attribut ne peut pas être vide" />
+        <LocalizationItem Name="TheTypeIsNotDescendantOf" Value="le '{0}' type n'est pas descendant de '{1}'" />
+        <LocalizationItem Name="TheValueWasLocked" Value="La valeur a été verrouillée" />
+        <LocalizationItem Name="TypeDoesNotContainTheMember" Value="Le '{0}' type ne contient pas le '{1}' membres" />
+        <LocalizationItem Name="TypeIsNotAEnum" Value="Le '{0}' type n'est pas un type enum" />
+        <LocalizationItem Name="UnableToAssignDisabledActionItem" Value="Impossible d'assigner un élément ayant une déficience. Action : {0}. Point : {1}. Désactiver les raisons : {2}" />
+        <LocalizationItem Name="UnableToAssignInvisibleActionItem" Value="Impossible d'affecter un élément invisible. Action : {0}. Point : {1}. Motifs invisibles : {2}" />
+        <LocalizationItem Name="UnableToCast" Value="Impossible d'objet cast de type '{0}' taper '{1}'" />
+        <LocalizationItem Name="UnableToChangeChildrenOfNodeDueItIsLocked" Value="Impossible de changer les enfants de '{0}' nœud en raison il est verrouillé." />
+        <LocalizationItem Name="UnableToChangeConnectionString" Value="Impossible de changer la chaîne de connexion. Déjà connecté" />
+        <LocalizationItem Name="UnableToChangeValueOfAttributeDueItIsLocked" Value="Impossible de changer la valeur de '{0}' attribut cause il est verrouillé" />
+        <LocalizationItem Name="UnableToCreateObjectSpace" Value="Impossible de créer ObjectSpace. Un dataLayer est null ou connectionString est vide" />
+        <LocalizationItem Name="UnableToCreateUpdateSessionAutoCreateOption" Value="Impossible de créer UpdatingSession. Le dataLayer.AutoCreateOption est {0}" />
+        <LocalizationItem Name="UnableToCreateUpdateSessionDataLayerIsNull" Value="Impossible de créer UpdatingSession. Un dataLayer est null ou connectionString est vide" />
+        <LocalizationItem Name="UnableToCreateUpdatingReadonlySessionAutoCreateOption" Value="Impossible de créer UpdatingReadOnlySession. Le dataLayer.AutoCreateOption est {0}" />
+        <LocalizationItem Name="UnableToExecuteDisabledOrInactiveAction" Value="Impossible d'exécuter l'action handicapée ou inactif {2}. Désactiver les raisons : {0}, motifs inactifs : {1}" />
+        <LocalizationItem Name="UnableToFindADetailViewForType" Value="Impossible de trouver une vue détaillée de la '{0}' type d'objet" />
+        <LocalizationItem Name="UnableToFindAListViewForType" Value="Impossible de trouver un affichage de liste pour la '{0}' type d'objet" />
+        <LocalizationItem Name="UnableToFindPropertyInType" Value="Impossible de trouver la propriété '{0}' dans le type '{1}'" />
+        <LocalizationItem Name="UnableToFindType" Value="Impossible de trouver le type '{0}'" />
+        <LocalizationItem Name="UnableToInitializeFileDataProperty" Value="Impossible d'initialiser le {0} propriété dans la {1} objet, car cette propriété est en lecture seule, ou la {2} type n'a pas un constructeur par défaut, ou vous n'avez pas les autorisations pour le créer" />
+        <LocalizationItem Name="UnableToSetReadOnlyProperty" Value="Impossible de définir la propriété readonly '{0}'" />
+        <LocalizationItem Name="UnknownException" Value="Exception inconnue se produit. Impossible de récupérer les détails de l'exception" />
+        <LocalizationItem Name="UnknownValue" Value="Valeur inconnue : '{0}'" />
+        <LocalizationItem Name="UnknownViewNodeName" Value="Nom de nœud de vue inconnue : '{0}'les noms de \r\nAllowed : '{1}', '{2}'" />
+        <LocalizationItem Name="ValidationCannotFindTheAssociatedMemberInTargetClassForCollectionProperty" Value="Le {0} propriété de la collection de la {1} classe n'a pas de membre associé à la classe d'objet cible {2}" />
+        <LocalizationItem Name="ValidationCannotFindThePropertyWithinTheClass" Value="Impossible de vérifier la '{0}' règle de validation qui est à l'aide du '{1}' propriété parce que cette propriété n'existe pas dans la cible '{2}' classe" />
+        <LocalizationItem Name="ValidationMessageTemplateHasInvalidFormat" Value="Modèle de message de validation a un format non valide : '{0}'" />
+        <LocalizationItem Name="ValueCannotBeStoredIntoTheProperty" Value="Le '{1}' valeur ne peuvent pas être stockée dans le '{0}' propriété" />
+        <LocalizationItem Name="WindowWasNotFound" Value="La fenêtre n'a été trouvée par id '{0}'. Windows enregistrés : '{1}'" />
+        <LocalizationItem Name="XPDictionaryIsNull" Value="Le XPDictionary est null" />
+        <LocalizationItem Name="YouCannotChangeCurrentAspect" Value="Vous ne pouvez modifier l'aspect actuel. Cela dépend de la culture du thread en cours" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="UserVisibleExceptions">
+        <LocalizationItem Name="ActionIsNotSingleChoiceAction" Value="Impossible d'inscrire la '{0}' Action dans le '{1}' Conteneur de l'action. Le '{0}' Action n'est pas de la '{2}' Type." />
+        <LocalizationItem Name="ApplicationUpdateError" Value="La mise à jour a été terminé avec succès. Toutefois, la version de base de données est toujours supérieure à la version de l'application. Veuillez contacter votre administrateur système." />
+        <LocalizationItem Name="CircularReference" Value="Cette opération ne peut pas être terminée, car elle conduit à une référence circulaire." />
+        <LocalizationItem Name="CriteriaEditorsDataTypeIsNull" Value="Veuillez préciser le type d'objet pour lequel vous souhaitez construire un critère." />
+        <LocalizationItem Name="FieldValueSizeExceedsMaxLength" Value="La longueur de la valeur de ce champ ne doit pas dépasser {0}" />
+        <LocalizationItem Name="LogonAttemptsAmountedToLimitWin" Value="Après trois tentatives de connexion infructueuses, l'application sera désormais fermé. Veuillez tenir compte contacter un administrateur sur vos détails de connexion." />
+        <LocalizationItem Name="MaskValidationErrorMessage" Value="Entrée manquante des symboles" />
+        <LocalizationItem Name="ObjectAccessPermissionCannotBeEmpty" Value="Le 'Object Type' champ ne doit pas être vide et le champ de l'accès au moins un doit avoir une valeur différente de None." />
+        <LocalizationItem Name="ObjectToSaveWasChanged" Value="L'objet que vous essayez d'enregistrer a été modifié par un autre utilisateur. Veuillez actualiser les données." />
+        <LocalizationItem Name="RequestedObjectHasBeenDeleted" Value="Données s'affiche en mode lecture seule, parce qu'il a été supprimé." />
+        <LocalizationItem Name="RequestedObjectIsNotFound" Value="Objet demandé est introuvable et ne peuvent pas être traitée." />
+        <LocalizationGroup Name="Security">
+          <LocalizationItem Name="LastAdmin" Value="Le '{0}' utilisateur est dernier administrateur du système. Impossible de révoquer les droits d'administration." />
+          <LocalizationItem Name="LoginFailed" Value="Échec de la connexion '{0}'. {1}" />
+          <LocalizationItem Name="NewPasswordIsEqualToOldPassword" Value="Nouveau mot de passe est égal à l'ancien mot de passe." />
+          <LocalizationItem Name="OldPasswordIsWrong" Value="Ancien mot de passe est erroné." />
+          <LocalizationItem Name="PasswordsAreDifferent" Value="Mots de passe sont différents." />
+          <LocalizationItem Name="RetypeTheInformation" Value="Assurez-vous que votre nom d'utilisateur est correct et retapez le mot de passe dans la bonne affaire." />
+          <LocalizationItem Name="UserNameIsEmpty" Value="Le nom d'utilisateur ne doit pas être vide." />
+        </LocalizationGroup>
+        <LocalizationItem Name="SimultaneousChangeDataMessage" Value="Avertissement : des modifications simultanées de la même information dans windows/points de vue différents sont détectées : \n&#xD;&#xA;{0}\n&#xD;&#xA;Il sera possible d'enregistrer les modifications dans une seule fenêtre et vue." />
+        <LocalizationItem Name="SimultaneousChangeDataMessageItem" Value="- '{0}' (fenêtre/vue{1}), '{2}' objet){3})" />
+        <LocalizationItem Name="SystemExceptionMessageFormat" Value="Une erreur de numéro {0} a message de occurred.\r\nError : {1}" />
+        <LocalizationItem Name="TheFollowingErrorOccurred" Value="L'erreur suivante s'est produite :" />
+        <LocalizationItem Name="UserFriendlyConnectionFailedException" Value="Échec de la connexion à la base de données. Veuillez contacter votre administrateur système." />
+        <LocalizationItem Name="UserFriendlySqlException" Value="Une erreur s'est produite à la base de données. Veuillez contacter votre administrateur système." />
+        <LocalizationGroup Name="Validation">
+          <LocalizationItem Name="ActionErrorMessageObjectFormat" Value="Nombre" />
+          <LocalizationItem Name="DeleteErrorMessageObjectFormat" Value="Nombre" />
+          <LocalizationItem Name="SaveErrorMessageObjectFormat" Value="Nombre" />
+        </LocalizationGroup>
+      </LocalizationGroup>
+    </LocalizationGroup>
+    <LocalizationGroup Name="FileAttachments">
+      <LocalizationItem Name="Editor_Open" Value="Ouvrir" />
+      <LocalizationItem Name="Editor_Save" Value="Enregistrer Sous..." />
+      <LocalizationItem Name="OverwritePromptCaption" Value="Enregistrer Sous..." />
+      <LocalizationItem Name="WordAll" Value="Tous" />
+    </LocalizationGroup>
+    <LocalizationGroup Name="FrameTemplates">
+      <LocalizationGroup Name="DevExpress.ExpressApp.Win.Templates.Bars.DetailFormV2">
+        <LocalizationItem Name="_mainMenuBar.Text" Value="Menu principal" />
+        <LocalizationItem Name="barContainerClose.Caption" Value="Fermer" />
+        <LocalizationItem Name="barContainerEdit.Caption" Value="Edition" />
+        <LocalizationItem Name="barContainerExport.Caption" Value="Exporter" />
+        <LocalizationItem Name="barContainerFile.Caption" Value="Fichier" />
+        <LocalizationItem Name="barContainerFilters.Caption" Value="Filtres" />
+        <LocalizationItem Name="barContainerFullTextSearch.Caption" Value="Recherche en texte intégral" />
+        <LocalizationItem Name="barContainerOpenObject.Caption" Value="Ouvrir l'Enregistrement Associé" />
+        <LocalizationItem Name="barContainerPrint.Caption" Value="Imprimer" />
+        <LocalizationItem Name="barContainerReports.Caption" Value="Rapports" />
+        <LocalizationItem Name="barContainerSave.Caption" Value="Enregistrer" />
+        <LocalizationItem Name="barContainerSearch.Caption" Value="Chercher" />
+        <LocalizationItem Name="barContainerTools.Caption" Value="Outils" />
+        <LocalizationItem Name="barContainerUndoRedo.Caption" Value="AnnulerRefaire" />
+        <LocalizationItem Name="barContainerView.Caption" Value="Affichage" />
+        <LocalizationItem Name="barSubItemEdit.Caption" Value="Edition" />
+        <LocalizationItem Name="barSubItemFile.Caption" Value="Fichier" />
+        <LocalizationItem Name="barSubItemTools.Caption" Value="Outils" />
+        <LocalizationItem Name="barSubItemView.Caption" Value="Affichage" />
+        <LocalizationItem Name="standardToolBar.Text" Value="Barre d'outils principale" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.ExpressApp.Win.Templates.Bars.MainFormV2">
+        <LocalizationItem Name="barChooseSkinItem.Caption" Value="Apparence" />
+        <LocalizationItem Name="barContainerDefault.Caption" Value="Par défaut" />
+        <LocalizationItem Name="barContainerEdit.Caption" Value="Edition" />
+        <LocalizationItem Name="barContainerExit.Caption" Value="Sortie" />
+        <LocalizationItem Name="barContainerExport.Caption" Value="Exporter" />
+        <LocalizationItem Name="barContainerFile.Caption" Value="Fichier" />
+        <LocalizationItem Name="barContainerFilters.Caption" Value="Filtres" />
+        <LocalizationItem Name="barContainerFullTextSearch.Caption" Value="Recherche en texte intégral" />
+        <LocalizationItem Name="barContainerOpenObject.Caption" Value="Ouvrir l'Enregistrement Associé" />
+        <LocalizationItem Name="barContainerPanels.Caption" Value="Panneaux" />
+        <LocalizationItem Name="barContainerPrint.Caption" Value="Imprimer" />
+        <LocalizationItem Name="barContainerReports.Caption" Value="Rapports" />
+        <LocalizationItem Name="barContainerSave.Caption" Value="Enregistrer" />
+        <LocalizationItem Name="barContainerSearch.Caption" Value="Chercher" />
+        <LocalizationItem Name="barContainerTools.Caption" Value="Outils" />
+        <LocalizationItem Name="barContainerUndoRedo.Caption" Value="AnnulerRefaire" />
+        <LocalizationItem Name="barContainerView.Caption" Value="Affichage" />
+        <LocalizationItem Name="barSubItemEdit.Caption" Value="Edition" />
+        <LocalizationItem Name="barSubItemFile.Caption" Value="Fichier" />
+        <LocalizationItem Name="barSubItemPanels.Caption" Value="Panneaux" />
+        <LocalizationItem Name="barSubItemTools.Caption" Value="Outils" />
+        <LocalizationItem Name="barSubItemView.Caption" Value="Affichage" />
+        <LocalizationItem Name="mainMenuBar.Text" Value="Menu principal" />
+        <LocalizationItem Name="standardToolBar.Text" Value="Barre d'outils principale" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.ExpressApp.Win.Templates.DetailViewForm">
+        <LocalizationItem Name="_mainMenuBar.Text" Value="Menu principal" />
+        <LocalizationItem Name="barSubItemEdit.Caption" Value="Edition" />
+        <LocalizationItem Name="barSubItemFile.Caption" Value="Fichier" />
+        <LocalizationItem Name="barSubItemTools.Caption" Value="Outils" />
+        <LocalizationItem Name="barSubItemView.Caption" Value="Affichage" />
+        <LocalizationItem Name="cClose.Caption" Value="Fermer" />
+        <LocalizationItem Name="cEdit.Caption" Value="Edition" />
+        <LocalizationItem Name="cExport.Caption" Value="Exporter" />
+        <LocalizationItem Name="cFile.Caption" Value="Fichier" />
+        <LocalizationItem Name="cFilters.Caption" Value="Filtres" />
+        <LocalizationItem Name="cFullTextSearch.Caption" Value="Recherche en texte intégral" />
+        <LocalizationItem Name="cOpenObject.Caption" Value="Ouvrir l'Enregistrement Associé" />
+        <LocalizationItem Name="cPrint.Caption" Value="Imprimer" />
+        <LocalizationItem Name="cReports.Caption" Value="Rapports" />
+        <LocalizationItem Name="cReports.TargetPageGroupCaption" Value="Affichage" />
+        <LocalizationItem Name="cSave.Caption" Value="Enregistrer" />
+        <LocalizationItem Name="cSearch.Caption" Value="Chercher" />
+        <LocalizationItem Name="cTools.Caption" Value="Outils" />
+        <LocalizationItem Name="cUndoRedo.Caption" Value="AnnulerRefaire" />
+        <LocalizationItem Name="cUndoRedo.TargetPageGroupCaption" Value="Edition" />
+        <LocalizationItem Name="cView.Caption" Value="Affichage" />
+        <LocalizationItem Name="standardToolBar.Text" Value="Barre d'outils principale" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.ExpressApp.Win.Templates.LookupControlTemplate">
+        <LocalizationItem Name="AvailableRecords.Text" Value="Enregistrements disponibles :" />
+        <LocalizationItem Name="searchActionContainerLayoutItem.CustomizationFormText" Value="Trouver :" />
+        <LocalizationItem Name="searchActionContainerLayoutItem.Text" Value="Trouver :" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.ExpressApp.Win.Templates.MainForm">
+        <LocalizationItem Name="_mainMenuBar.Text" Value="Menu principal" />
+        <LocalizationItem Name="barSubItemEdit.Caption" Value="Edition" />
+        <LocalizationItem Name="barSubItemFile.Caption" Value="Fichier" />
+        <LocalizationItem Name="barSubItemPanels.Caption" Value="Panneaux" />
+        <LocalizationItem Name="barSubItemTools.Caption" Value="Outils" />
+        <LocalizationItem Name="barSubItemView.Caption" Value="Affichage" />
+        <LocalizationItem Name="cAppearance.Caption" Value="Apparence" />
+        <LocalizationItem Name="cDefault.Caption" Value="Par défaut" />
+        <LocalizationItem Name="cEdit.Caption" Value="Edition" />
+        <LocalizationItem Name="cExit.Caption" Value="Sortie" />
+        <LocalizationItem Name="cExport.Caption" Value="Exporter" />
+        <LocalizationItem Name="cFile.Caption" Value="Fichier" />
+        <LocalizationItem Name="cFilters.Caption" Value="Filtres" />
+        <LocalizationItem Name="cFullTextSearch.Caption" Value="Recherche en texte intégral" />
+        <LocalizationItem Name="cOpenObject.Caption" Value="Ouvrir l'Enregistrement Associé" />
+        <LocalizationItem Name="cPanels.Caption" Value="Panneaux" />
+        <LocalizationItem Name="cPanels.TargetPageCaption" Value="Affichage" />
+        <LocalizationItem Name="cPrint.Caption" Value="Imprimer" />
+        <LocalizationItem Name="cReports.Caption" Value="Rapports" />
+        <LocalizationItem Name="cReports.TargetPageGroupCaption" Value="Affichage" />
+        <LocalizationItem Name="cSave.Caption" Value="Enregistrer" />
+        <LocalizationItem Name="cSearch.Caption" Value="Chercher" />
+        <LocalizationItem Name="cTools.Caption" Value="Outils" />
+        <LocalizationItem Name="cUndoRedo.Caption" Value="AnnulerRefaire" />
+        <LocalizationItem Name="cUndoRedo.TargetPageGroupCaption" Value="Edition" />
+        <LocalizationItem Name="cView.Caption" Value="Affichage" />
+        <LocalizationItem Name="cWindows.TargetPageCaption" Value="Affichage" />
+        <LocalizationItem Name="standardToolBar.Text" Value="Barre d'outils principale" />
+        <LocalizationItem Name="Window.TargetPageCaption" Value="Affichage" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.ExpressApp.Win.Templates.NestedFrameTemplate">
+        <LocalizationItem Name="cEdit.Caption" Value="Edition" />
+        <LocalizationItem Name="cExport.Caption" Value="Exporter" />
+        <LocalizationItem Name="cFilters.Caption" Value="Filtres" />
+        <LocalizationItem Name="cOpenObject.Caption" Value="Ouvrir l'Enregistrement Associé" />
+        <LocalizationItem Name="cPrint.Caption" Value="Imprimer" />
+        <LocalizationItem Name="cReports.Caption" Value="Rapports" />
+        <LocalizationItem Name="cSave.Caption" Value="Enregistrer" />
+        <LocalizationItem Name="cView.Caption" Value="Affichage" />
+        <LocalizationItem Name="standardToolBar.Text" Value="Barre d'outils" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.ExpressApp.Win.Templates.Ribbon.DetailRibbonFormV2">
+        <LocalizationItem Name="barContainerClose.Caption" Value="Fermer" />
+        <LocalizationItem Name="barContainerEdit.Caption" Value="Edition" />
+        <LocalizationItem Name="barContainerExport.Caption" Value="Exporter" />
+        <LocalizationItem Name="barContainerFile.Caption" Value="Fichier" />
+        <LocalizationItem Name="barContainerFilters.Caption" Value="Filtres" />
+        <LocalizationItem Name="barContainerFullTextSearch.Caption" Value="Recherche en texte intégral" />
+        <LocalizationItem Name="barContainerOpenObject.Caption" Value="Ouvrir l'Enregistrement Associé" />
+        <LocalizationItem Name="barContainerPrint.Caption" Value="Imprimer" />
+        <LocalizationItem Name="barContainerReports.Caption" Value="Rapports" />
+        <LocalizationItem Name="barContainerSave.Caption" Value="Enregistrer" />
+        <LocalizationItem Name="barContainerSearch.Caption" Value="Chercher" />
+        <LocalizationItem Name="barContainerTools.Caption" Value="Outils" />
+        <LocalizationItem Name="barContainerUndoRedo.Caption" Value="AnnulerRefaire" />
+        <LocalizationItem Name="barContainerView.Caption" Value="Affichage" />
+        <LocalizationItem Name="defaultPage.Text" Value="Accueil" />
+        <LocalizationItem Name="ribbonGroupClose.Text" Value="Fermer" />
+        <LocalizationItem Name="ribbonGroupEdit.Text" Value="Edition" />
+        <LocalizationItem Name="ribbonGroupFilters.Text" Value="Filtres" />
+        <LocalizationItem Name="ribbonGroupFullTextSearch.Text" Value="Recherche en texte intégral" />
+        <LocalizationItem Name="ribbonGroupOpenObject.Text" Value="Ouvrir l'Enregistrement Associé" />
+        <LocalizationItem Name="ribbonGroupSave.Text" Value="Enregistrer" />
+        <LocalizationItem Name="ribbonGroupSearch.Text" Value="Chercher" />
+        <LocalizationItem Name="ribbonGroupTools.Text" Value="Outils" />
+        <LocalizationItem Name="ribbonGroupView.Text" Value="Affichage" />
+        <LocalizationItem Name="toolsPage.Text" Value="Outils" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.ExpressApp.Win.Templates.Ribbon.MainRibbonFormV2">
+        <LocalizationItem Name="barContainerDefault.Caption" Value="Par défaut" />
+        <LocalizationItem Name="barContainerEdit.Caption" Value="Edition" />
+        <LocalizationItem Name="barContainerExit.Caption" Value="Sortie" />
+        <LocalizationItem Name="barContainerExport.Caption" Value="Exporter" />
+        <LocalizationItem Name="barContainerFile.Caption" Value="Fichier" />
+        <LocalizationItem Name="barContainerFilters.Caption" Value="Filtres" />
+        <LocalizationItem Name="barContainerFullTextSearch.Caption" Value="Recherche en texte intégral" />
+        <LocalizationItem Name="barContainerOpenObject.Caption" Value="Ouvrir l'Enregistrement Associé" />
+        <LocalizationItem Name="barContainerPanels.Caption" Value="Panneaux" />
+        <LocalizationItem Name="barContainerPrint.Caption" Value="Imprimer" />
+        <LocalizationItem Name="barContainerReports.Caption" Value="Rapports" />
+        <LocalizationItem Name="barContainerSave.Caption" Value="Enregistrer" />
+        <LocalizationItem Name="barContainerSearch.Caption" Value="Chercher" />
+        <LocalizationItem Name="barContainerTools.Caption" Value="Outils" />
+        <LocalizationItem Name="barContainerUndoRedo.Caption" Value="AnnulerRefaire" />
+        <LocalizationItem Name="barContainerView.Caption" Value="Affichage" />
+        <LocalizationItem Name="barSubItemPanels.Caption" Value="Panneaux" />
+        <LocalizationItem Name="defaultPage.Text" Value="Accueil" />
+        <LocalizationItem Name="ribbonGroupAppearance.Text" Value="Apparence" />
+        <LocalizationItem Name="ribbonGroupDefault.Text" Value="Par défaut" />
+        <LocalizationItem Name="ribbonGroupEdit.Text" Value="Edition" />
+        <LocalizationItem Name="ribbonGroupFilters.Text" Value="Filtres" />
+        <LocalizationItem Name="ribbonGroupFullTextSearch.Text" Value="Recherche en texte intégral" />
+        <LocalizationItem Name="ribbonGroupOpenObject.Text" Value="Ouvrir l'Enregistrement Associé" />
+        <LocalizationItem Name="ribbonGroupSave.Text" Value="Enregistrer" />
+        <LocalizationItem Name="ribbonGroupSearch.Text" Value="Chercher" />
+        <LocalizationItem Name="ribbonGroupTools.Text" Value="Outils" />
+        <LocalizationItem Name="ribbonGroupView.Text" Value="Affichage" />
+        <LocalizationItem Name="toolsPage.Text" Value="Outils" />
+        <LocalizationItem Name="viewPage.Text" Value="Affichage" />
+      </LocalizationGroup>
+    </LocalizationGroup>
+    <LocalizationGroup Name="Messages">
+      <LocalizationItem Name="Create" Value="Créer" />
+      <LocalizationItem Name="Delete" Value="Supprimer" />
+      <LocalizationItem Name="IsGrantedFrom" Value="est accordée sur le membre en '{0}' classe." />
+      <LocalizationItem Name="IsInheritedFrom" Value="héritée de '{0}' classe." />
+      <LocalizationItem Name="Navigate" Value="Naviguer" />
+      <LocalizationItem Name="Read" Value="Lecture" />
+      <LocalizationItem Name="User" Value="Utilisateur : {0}" />
+      <LocalizationItem Name="Write" Value="Écriture" />
+    </LocalizationGroup>
+    <LocalizationGroup Name="Namespaces">
+      <LocalizationItem Name="DevExpress.ExpressApp.Editors" Value="Editeurs" />
+      <LocalizationItem Name="DevExpress.ExpressApp.Security" Value="Sécurité" />
+    </LocalizationGroup>
+    <LocalizationGroup Name="NotificationsPostponeTimesList">
+      <LocalizationItem Name="None" Value="Aucun" />
+    </LocalizationGroup>
+    <LocalizationGroup Name="Ribbon">
+      <LocalizationItem Name="HomePage" Value="Accueil" />
+    </LocalizationGroup>
+    <LocalizationGroup Name="Texts">
+      <LocalizationItem Name="Error" Value="Erreur" />
+      <LocalizationItem Name="Warning" Value="Avertissement" />
+    </LocalizationGroup>
+  </Localization>
+  <NavigationItems>
+    <Items>
+      <Item Id="Default">
+        <Items>
+          <Item Id="MyDetails" Caption="Mes Coordonnées" />
+        </Items>
+      </Item>
+      <Item Id="Reports" Caption="Impression">
+        <Items>
+          <Item Id="Reports" Caption="Impression" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Validation>
+    <Contexts>
+      <ValidationContext Id="Save" Caption="Enregistrer" />
+    </Contexts>
+  </Validation>
+  <Views>
+    <DetailView Id="AboutInfo_DetailView" Caption="A propos">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="ActionContainerDashboardOrganizationItem_DetailView" Caption="Conteneur de l'action">
+      <Items>
+        <PropertyEditor Id="ActionContainer" Caption="Conteneur de l'action" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="ActionContainerDashboardOrganizationItem" Caption="Conteneur de l'action" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="ActionContainerDescriptor_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Address_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="AuthenticationStandardLogonParameters_DetailView" Caption="Ouvrir une session">
+      <Items>
+        <StaticText Id="LogonText" Text="Bienvenue ! Veuillez entrer votre nom d'utilisateur et mot de passe ci-dessous." />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal">
+          <LayoutGroup Id="RootGroup" Caption="Grouperacine">
+            <LayoutGroup Id="ImageGroup" Caption="ImageGroup(3)" />
+            <LayoutGroup Id="EditorsGroup" Caption="EditorsGroup">
+              <LayoutGroup Id="Editors" Caption="Rédacteurs en chef" />
+              <LayoutGroup Id="Text" Caption="Text(6)" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Bareme_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="BaremePMG_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="BaremeShiftNuit_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="BaseObject_DetailView" Caption="Enregistrement de base" />
+    <ListView Id="BaseObject_ListView" Caption="Enregistrement de base" />
+    <ListView Id="BaseObject_LookupListView" Caption="Enregistrement de base" />
+    <DetailView Id="Bordereau_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Categorie_Rapport_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="ChangePasswordOnLogonParameters_DetailView" Caption="Mot de passe de modification sur la première ouverture de session">
+      <Items>
+        <StaticText Id="ChangePasswordText" Text="Pour des raisons de sécurité, vous devez maintenant définir votre propre mot de passe. Veuillez entrez votre nouveau mot de passe dans les champs de deux texte ci-dessous et n'oubliez pas ne pas de réutiliser un mot de passe que vous avez utilisé avant." />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal">
+          <LayoutGroup Id="Static" Caption="Statique" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="ChangePasswordParameters_DetailView" Caption="Changement mot de passe">
+      <Items>
+        <StaticText Id="ChangePasswordText" Text="Pour modifier votre mot de passe, veuillez saisir votre anciens et nouveau mots de passe dans les champs de texte ci-dessous." />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal">
+          <LayoutGroup Id="Static" Caption="Statique" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Cloture_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="ContextValidationResult_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="ContratPersonne_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Corps_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Country_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="CriteriaProvider_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="CustomLogonParameter_DetailView">
+      <Items>
+        <StaticText Id="Information" Text="Nom d'utilisateur : Admin, Mot de passe : 123" />
+        <StaticText Id="LogonText" Text="Bienvenue ! Veuillez entrer votre nom d'utilisateur et mot de passe ci-dessous." />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal">
+          <LayoutGroup Id="Auto1b3eea70-3cc8-430e-aef9-ea81abafb244" Caption="" />
+          <LayoutGroup Id="SimpleEditors" Caption="SimpleEditors" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="DAS_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="DAS_G_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Das_Personnes_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="DashboardCreationInfo_DetailView">
+      <Items>
+        <PropertyEditor Id="ViewItems" Caption="Points de vue" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="DashboardCreationInfo">
+              <LayoutGroup Id="ViewItems" Caption="Points de vue" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="DashboardOrganizationItem_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="DashboardOrganizer_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="DashboardViewItemDescriptor_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="DiagnosticInfoObject_DetailView">
+      <Items>
+        <PropertyEditor Id="AsText" Caption="Sous Forme de Texte" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="DisplayableValidationResultItem_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Dossier_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="EditModelPermission_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="ExcelReader_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Exercice_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="FileAttachmentBase_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="FileData_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Fonction_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Gestion_Pret_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Indem_Fonction_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Indem_Personne_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleBaseProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleCollectionPropertyProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleCombinationOfPropertiesIsUniqueProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleCriteriaProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleFromBoolPropertyProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleIsReferencedProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleObjectExistsProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRulePropertyValueProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleRangeProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleRegularExpressionProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleRequiredFieldProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleSearchObjectProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleStringComparisonProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleSupportsCollectionAggregatesProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleUniqueValueProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleValueComparisonProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Mode_Paiement_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="ModelDifferenceCopyParameters_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Mois_Pret_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="MoisActuel_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Motif_Etat_Matrice_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="MultiEditPermission_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="NewXafReportWizardParameters_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="ObjectAccessPermission_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="ObjectAccessPermission" Caption="Autorisation d'accès objet" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="parametre_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Party_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="paye_indem_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Periodes_DAS_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Person_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Personne_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="PhoneNumber_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="PMGMois_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="PortfolioFileData_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Prime_Scolarite_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="PrimePMG_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="PrimeShiftNuit_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="ProcessDataLockingInfoMergeDialog_DetailView" Caption="Avertissement" />
+    <DetailView Id="ProcessDataLockingInfoRefreshDialog_DetailView" Caption="Avertissement" />
+    <DetailView Id="Raison_Sortie_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Rappel_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Rappel_indem_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Recape_Annuelle_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Recapes_Aout_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Recapes_Avr_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Recapes_Dec_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Recapes_Fev_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Recapes_Janv_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Recapes_Juill_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Recapes_Juin_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Recapes_Mai_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Recapes_Mars_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Recapes_Nouv_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Recapes_Oct_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Recapes_Sept_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="ReportData_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <ListView Id="ReportData_ListView" Caption="Rapports" />
+    <DetailView Id="ReportViewer_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="ResetPasswordParameters_DetailView" Caption="Réinitialiser mot de passe">
+      <Items>
+        <StaticText Id="ResetPasswordText" Text="Définition mot de passe de l'utilisateur créer un nouveau mot de passe pour l'utilisateur automatiquement et en même temps désactiver la connexion de l'utilisateur avec l'ancien mot de passe. Vous devez alors passer sur le nouveau mot de passe de l'utilisateur, afin qu'il puisse continuer à travailler avec l'application. Vous êtes sûr que vous voulez faire cela ?" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal">
+          <LayoutGroup Id="Static" Caption="Statique" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="RuleBaseProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="RuleCombinationOfPropertiesIsUniqueProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="RuleCriteriaProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="RuleFromBoolPropertyProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="RuleIsReferencedProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="RuleObjectExistsProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="RulePropertyValueProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="RuleRangeProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="RuleRegularExpressionProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="RuleRequiredFieldProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="RuleSearchObjectProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="RuleSetValidationResult_ByTarget_Error_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="RuleSetValidationResult_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="RuleSetValidationResultItem_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="RuleSetValidationResultItemAggregate_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="RuleStringComparisonProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="RuleUniqueValueProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="RuleValueComparisonProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="SecuritySystemMemberPermissionsObject_DetailView">
+      <Items>
+        <PropertyEditor Id="AllowRead" Caption="Permettre la Lecture" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="SecuritySystemObjectPermissionsObject_DetailView">
+      <Items>
+        <PropertyEditor Id="AllowDelete" Caption="Permettre de Supprimer" />
+        <PropertyEditor Id="AllowNavigate" Caption="Permettre de Naviguer" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <ListView Id="SecuritySystemObjectPermissionsObject_ListView">
+      <Columns>
+        <ColumnInfo Id="AllowDelete" Caption="Permettre de Supprimer" />
+      </Columns>
+    </ListView>
+    <DetailView Id="SecuritySystemRole_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="SecuritySystemRoleBase_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="SecuritySystemTypePermissionObject_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal">
+          <TabbedGroup Id="Tabs">
+            <LayoutGroup Id="MemberPermissions" Caption="Autorisations du membre" />
+            <LayoutGroup Id="ObjectPermissions" Caption="Autorisations d'objet" />
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="SecuritySystemTypePermissionsObjectBase_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="SecuritySystemTypePermissionsObjectBase" Caption="Base objet Type autorisations du système de sécurité" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="SecuritySystemTypePermissionsObjectOwner_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="SecuritySystemUser_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal">
+          <LayoutGroup Id="Roles_Group1" Caption="Rôles" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="SecuritySystemUserBase_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Service_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Sexe_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="ShiftNuitMois_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Situation_Conjoint_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Situation_Employe_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Situation_Familiale_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="StaticImageDashboardOrganizationItem_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="StaticTextDashboardOrganizationItem_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="Type_Absence_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="TypeContrat_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="TypePermissionMatrixItem_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Permissions" Caption="Autorisations" />
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs">
+            <LayoutGroup Id="MemberPermissions" Caption="Autorisations du membre" />
+            <LayoutGroup Id="ObjectPermissions" Caption="Autorisations d'objet" />
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Unite_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="ValidationResults_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="ValidationResults_Error_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="ValidationResults_Passed_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="ViewDashboardOrganizationItem_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

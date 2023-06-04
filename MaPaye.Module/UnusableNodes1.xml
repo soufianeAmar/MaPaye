@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="Default">
+        <Items Id="Items">
+          <Item Id="Prime_Amelioration_Performance_ListView" Caption="Prime Amelioration Performance" Visible="False" Index="9" Removed="True" />
+          <Item Id="Prime_Rendement_ListView" Caption="Prime Rendement" Visible="False" Index="10" Removed="True" />
+          <Item Id="ExcelReader_ListView" Visible="False" Index="11" Removed="True" />
+          <Item Id="Heurs_Supplementaires_ListView" Visible="False" Caption="Heurs Supplementaires" Index="12" Removed="True" />
+          <Item Id="Prime_Scolarite_ListView" Caption="Prime Scolarite" Visible="False" Index="13" Removed="True" />
+          <Item Id="BANQU_ListView" Removed="True" />
+          <Item Id="BANQUE_EDEVAL_ListView" Removed="True" />
+          <Item Id="Bareme2001_ListView" Removed="True" />
+          <Item Id="Bareme2008_ListView" Removed="True" />
+          <Item Id="Bareme89_ListView" Removed="True" />
+          <Item Id="CONJOINT_EDEVAL_ListView" Removed="True" />
+          <Item Id="CONJOINT_ListView" Removed="True" />
+          <Item Id="CORP_ListView" Removed="True" />
+          <Item Id="CORPS_EDEVAL_ListView" Removed="True" />
+          <Item Id="EMPLOYE_EDEVAL_ListView" Removed="True" />
+          <Item Id="EMPLOYE_ListView" Removed="True" />
+          <Item Id="Employeur_Cacobatph_ListView" Removed="True" />
+          <Item Id="EMPSIT_EDEVAL_ListView" Removed="True" />
+          <Item Id="EMPSIT_ListView" Removed="True" />
+          <Item Id="FONCTION_EDEVAL_ListView" Removed="True" />
+          <Item Id="INDEMNITE_ListView" Removed="True" />
+          <Item Id="Matricule_EDEVAL_ListView" Removed="True" />
+          <Item Id="Motif_Etat_Matrice_ListView" Removed="True" />
+          <Item Id="PayeIndem_ListView" Removed="True" />
+          <Item Id="RESPONSABLE_EDEVAL_ListView" Removed="True" />
+          <Item Id="RESPONSABLE_ListView" Removed="True" />
+          <Item Id="Secteur_Organisme_ListView" Caption="Secteur Organisme" Removed="True" />
+          <Item Id="SERVIC_ListView" Removed="True" />
+          <Item Id="SERVICE_EDEVAL_ListView" Removed="True" />
+          <Item Id="SEX_ListView" Removed="True" />
+          <Item Id="SEXE_EDEVAL_ListView" Removed="True" />
+          <Item Id="SITFAM_EDEVAL_ListView" Removed="True" />
+          <Item Id="SITFAM_ListView" Removed="True" />
+          <Item Id="Unite_EDEVAL_ListView" Removed="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <BOModel Id="BOModel">
+    <Class Name="MaPaye.Module.Fonction">
+      <OwnMembers Id="OwnMembers">
+        <Member Name="Secteur_Organisme" Removed="True" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <ActionDesign Id="ActionDesign">
+    <ActionToContainerMapping Id="ActionToContainerMapping">
+      <ActionContainer Id="Unspecified">
+        <ActionLink ActionId="ExporterFichierIndemnites" Index="-1" Removed="True" />
+        <ActionLink ActionId="ImporterFichierIndemnites" Index="-1" Removed="True" />
+        <ActionLink ActionId="IRG" Index="-1" Removed="True" />
+        <ActionLink ActionId="MatriculeEmployes" Index="-1" Removed="True" />
+        <ActionLink ActionId="AffecterDateDebut" Removed="True" />
+        <ActionLink ActionId="AffecterDateDebutEM" Removed="True" />
+        <ActionLink ActionId="AffecterDateFin" Removed="True" />
+        <ActionLink ActionId="AffecterDateFinEM" Removed="True" />
+        <ActionLink ActionId="AffecterNotePRI" Removed="True" />
+        <ActionLink ActionId="AffecterNotePRIPaye" Removed="True" />
+        <ActionLink ActionId="Calculer Paye à l'Envers Emp" Removed="True" />
+        <ActionLink ActionId="CalculerEtatMatrice" Removed="True" />
+        <ActionLink ActionId="CalculerEtatMatriceIndividuel" Removed="True" />
+        <ActionLink ActionId="CalculerPrimeAmelioration" Removed="True" />
+        <ActionLink ActionId="CalculerPrimeRendement" Removed="True" />
+        <ActionLink ActionId="Employe" Removed="True" />
+        <ActionLink ActionId="GenererFormuleCalcul" Removed="True" />
+        <ActionLink ActionId="InsererEtatMatriceAncSet" Removed="True" />
+        <ActionLink ActionId="InsererEtatMatriceNouvSet" Removed="True" />
+        <ActionLink ActionId="InsererIndemPersonneRateb4" Removed="True" />
+        <ActionLink ActionId="InsererUnePaye" Removed="True" />
+        <ActionLink ActionId="TransférerBanquesRateb4" Removed="True" />
+        <ActionLink ActionId="TransférerCorpsRateb4" Removed="True" />
+        <ActionLink ActionId="TransférerEmployésRateb4" Removed="True" />
+        <ActionLink ActionId="TransférerPayeIndemRateb4" Removed="True" />
+        <ActionLink ActionId="TransférerServicesRateb4" Removed="True" />
+        <ActionLink ActionId="TransférerUnitésRateb4" Removed="True" />
+      </ActionContainer>
+    </ActionToContainerMapping>
+  </ActionDesign>
+  <Views Id="Views">
+    <DetailView Id="Banque_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Banque">
+              <LayoutGroup Id="Banque_col1">
+                <LayoutItem Id="des_a" SizeConstraintsType="Default" Index="3" RelativeSize="10" ViewItem="des_a" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Categorie_Rapport_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Categorie_Rapport">
+              <LayoutItem Id="Categorie_Ar" ViewItem="Categorie_Ar" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Corps_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Corps">
+              <LayoutItem Id="DesCorpsAr" ViewItem="DesCorpsAr" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Fonction_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Fonction">
+              <LayoutGroup Id="Fonction_col2" RelativeSize="54" ImageName="" Caption="Fonction_col2" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" Direction="Horizontal" Removed="True">
+                <LayoutItem Id="Categ89" ViewItem="Categ89" Removed="True" />
+                <LayoutItem Id="Categorie" ViewItem="Categorie" Removed="True" />
+                <LayoutItem Id="Corps" ViewItem="Corps" Removed="True" />
+                <LayoutItem Id="parametres" ViewItem="parametres" Removed="True" />
+                <LayoutItem Id="Secteur_Organisme" ViewItem="Secteur_Organisme" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Fonction_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="Categ08" Index="-1" Removed="True" />
+        <ColumnInfo Id="parametres" Removed="True" />
+        <ColumnInfo Id="Secteur_Organisme" Removed="True" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Indem_Fonction_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Indem_Fonction">
+              <LayoutGroup Id="Indem_Fonction_col1">
+                <LayoutItem Id="Base" RelativeSize="79" Index="2" ViewItem="Base" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Indem_Personne_DetailView">
+      <Items Id="Items">
+        <PropertyEditor Id="Cod_personne" Removed="True" />
+        <PropertyEditor Id="Ligne" Removed="True" />
+        <PropertyEditor Id="Ligne_cod_per_cod_indem" Removed="True" />
+      </Items>
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Indem_Personne">
+              <LayoutGroup Id="Indem_Personne_col2">
+                <LayoutItem Id="Divise_Par_2" ViewItem="Divise_Par_2" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Indem_Personne_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="Cod_indem" Removed="True" />
+        <ColumnInfo Id="Cod_personne" Removed="True" />
+        <ColumnInfo Id="Ligne" Removed="True" />
+        <ColumnInfo Id="Ligne_cod_per_cod_indem" Removed="True" />
+      </Columns>
+    </ListView>
+    <DetailView Id="parametre_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="parametre">
+              <LayoutGroup Id="parametre_col2">
+                <LayoutItem Id="Nbr_heure_tra_Mois" RelativeSize="2" Index="2" ViewItem="Nbr_heure_tra_Mois" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" Removed="True" />
+                <LayoutItem Id="Nbr_heure_tra_Temporaire" RelativeSize="2" Index="2" ViewItem="Nbr_heure_tra_Temporaire" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" Removed="True" />
+                <LayoutItem Id="Trimestre" RelativeSize="1" Index="2" ViewItem="Trimestre" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" Removed="True" />
+                <LayoutItem Id="Valeur_mutuelle" Index="3" RelativeSize="2" ViewItem="Valeur_mutuelle" Removed="True" />
+                <LayoutItem Id="Commune_Ar" RelativeSize="1" Index="4" ViewItem="Commune_Ar" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" Removed="True" />
+                <LayoutItem Id="Daira_Ar" RelativeSize="1" Index="4" ViewItem="Daira_Ar" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" Removed="True" />
+                <LayoutItem Id="Wilaya_Ar" RelativeSize="1" Index="4" ViewItem="Wilaya_Ar" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" Removed="True" />
+                <LayoutItem Id="Nom_Organisme_Ar" RelativeSize="1" Index="6" ViewItem="Nom_Organisme_Ar" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" Removed="True" />
+                <LayoutItem Id="Receveur_Ar" RelativeSize="2" Index="6" ViewItem="Receveur_Ar" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" Removed="True" />
+                <LayoutItem Id="Region_Ar" RelativeSize="1" Index="6" ViewItem="Region_Ar" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" Removed="True" />
+                <LayoutItem Id="Secteur_Organisme" RelativeSize="2" Index="10" ViewItem="Secteur_Organisme" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="paye_indem_DetailView">
+      <Items Id="Items">
+        <PropertyEditor Id="Cod_paye" Index="2" Removed="True" />
+        <PropertyEditor Id="Cotisable" Index="3" Removed="True" />
+        <PropertyEditor Id="Imposable" Index="4" Removed="True" />
+        <PropertyEditor Id="Ligne" Index="5" Removed="True" />
+        <PropertyEditor Id="Ligne_cod_paye_cod_indem" Index="6" Removed="True" />
+        <PropertyEditor Id="Mod_cal_irg" Index="7" Removed="True" />
+      </Items>
+    </DetailView>
+    <ListView Id="paye_indem_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="Cod_paye" Removed="True" />
+        <ColumnInfo Id="Cotisable" Removed="True" />
+        <ColumnInfo Id="Imposable" Removed="True" />
+        <ColumnInfo Id="Ligne" Removed="True" />
+        <ColumnInfo Id="Ligne_cod_paye_cod_indem" Removed="True" />
+        <ColumnInfo Id="Mod_cal_irg" Removed="True" />
+      </Columns>
+    </ListView>
+    <ListView Id="paye_indem_LookupListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="Cod_paye" Removed="True" />
+        <ColumnInfo Id="Ligne" Removed="True" />
+        <ColumnInfo Id="Ligne_cod_paye_cod_indem" Removed="True" />
+      </Columns>
+    </ListView>
+    <ListView Id="Paye_paye_indems_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="Cod_paye" Removed="True" />
+        <ColumnInfo Id="Ligne" Removed="True" />
+        <ColumnInfo Id="Ligne_cod_paye_cod_indem" Removed="True" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Personne_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="Indems_Group" ShowCaption="False" Caption="Indems" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" Direction="Vertical" Index="1" RelativeSize="52" Removed="True">
+            <LayoutItem Id="Indems" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" RelativeSize="100" ViewItem="Indems" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Personne_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="abat" Removed="True" />
+        <ColumnInfo Id="Adresse" Removed="True" />
+        <ColumnInfo Id="Anne_nais" Removed="True" />
+        <ColumnInfo Id="Cacobath_code" Removed="True" />
+        <ColumnInfo Id="categorie" Removed="True" />
+        <ColumnInfo Id="cod_banque" Removed="True" />
+        <ColumnInfo Id="cod_fonction" Removed="True" />
+        <ColumnInfo Id="Cod_postal" Removed="True" />
+        <ColumnInfo Id="Cod_ser" Removed="True" />
+        <ColumnInfo Id="Cod_uni" Removed="True" />
+        <ColumnInfo Id="Dat_nais" Removed="True" />
+        <ColumnInfo Id="experience" Removed="True" />
+        <ColumnInfo Id="iep_fixe" Removed="True" />
+        <ColumnInfo Id="Irg_code" Removed="True" />
+        <ColumnInfo Id="Jour_nais" Removed="True" />
+        <ColumnInfo Id="Mois_nais" Removed="True" />
+        <ColumnInfo Id="Nom" Removed="True" />
+        <ColumnInfo Id="Num_ccp" Removed="True" />
+        <ColumnInfo Id="Num_matricule" Removed="True" />
+        <ColumnInfo Id="paye_banque" Removed="True" />
+        <ColumnInfo Id="Prenom" Removed="True" />
+        <ColumnInfo Id="Presume" Removed="True" />
+        <ColumnInfo Id="sdb" Removed="True" />
+        <ColumnInfo Id="Ss_code" Removed="True" />
+        <ColumnInfo Id="Tel" Removed="True" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Rappel_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="Etat_Matrice_indems_Group" Direction="Vertical" Index="1" RelativeSize="2" ImageName="" Removed="True">
+            <LayoutItem Id="Etat_Matrice_indems" RelativeSize="37" ViewItem="Etat_Matrice_indems" />
+          </LayoutGroup>
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Etat_Matrice" Removed="True" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Service_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Service">
+              <LayoutItem Id="Service_Lib_Ar" SizeConstraintsType="Default" RelativeSize="7" Index="1" ViewItem="Service_Lib_Ar" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Situation_Familiale_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Situation_Familiale">
+              <LayoutItem Id="Sit_Fam_Lib_Ara" ViewItem="Sit_Fam_Lib_Ara" SizeConstraintsType="Default" Index="0" RelativeSize="38" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

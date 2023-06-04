@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="Prime_Amelioration_Performance_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="Categ01" Index="-1" />
+        <ColumnInfo Id="Categori" Index="-1" />
+        <ColumnInfo Id="Echelon01" Index="-1" />
+        <ColumnInfo Id="Echelon08" Index="-1" />
+        <ColumnInfo Id="EchelonIEP" Index="-1" />
+        <ColumnInfo Id="Jabs_Perso_PAP" Index="-1" />
+        <ColumnInfo Id="Nbr_Jour_Trv" Index="-1" />
+        <ColumnInfo Id="Nbr_Mois_PAP" Index="-1" />
+        <ColumnInfo Id="Nbr_Mois_Perso_PAP" Index="-1" />
+        <ColumnInfo Id="parametres" Index="-1" />
+        <ColumnInfo Id="Secteur_Organisme" Index="-1" />
+        <ColumnInfo Id="TAUX_PAP" Index="-1" />
+        <ColumnInfo Id="personne.Cod_personne" PropertyName="personne.Cod_personne" Index="0" />
+        <ColumnInfo Id="personne" Index="1" />
+        <ColumnInfo Id="personne.FullName_Ar" PropertyName="personne.FullName_Ar" Index="2" />
+        <ColumnInfo Id="LaFonction" Index="3" />
+        <ColumnInfo Id="Corps" Index="4" />
+        <ColumnInfo Id="SDB" Index="5" />
+        <ColumnInfo Id="IEP" Index="6" />
+        <ColumnInfo Id="Categ08" Index="7" />
+        <ColumnInfo Id="Categ_IEP" Index="10" />
+        <ColumnInfo Id="Bloque_PAP" Index="14" />
+        <ColumnInfo Id="Note_Perso_PAP" Index="15" />
+        <ColumnInfo Id="Brut_PAP" Index="19" />
+        <ColumnInfo Id="SS_PAP" Index="20" />
+        <ColumnInfo Id="Brut_Imposable_PAP" Index="21" />
+        <ColumnInfo Id="Irg_taux" Index="22" />
+        <ColumnInfo Id="Irg_PAP" Index="23" />
+        <ColumnInfo Id="Net_PAP" Index="24" />
+        <ColumnInfo Id="Annee_PAP" Index="25" />
+        <ColumnInfo Id="Trimestre_PAP" Index="26" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Prime_Rendement_DetailView" DefaultFocusedItem="SDB">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main" RelativeSize="100" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100" ImageName="" Caption="SimpleEditors" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+            <LayoutGroup Id="fdfac06c-1e1f-43f2-b971-397ae93b1ac3" ShowCaption="False" Caption="fdfac06c-1e1f-43f2-b971-397ae93b1ac3(3)" Direction="Vertical" Index="0" RelativeSize="100">
+              <LayoutGroup Id="02df75ee-3d2c-4615-9761-336feeca3b66" ShowCaption="False" Caption="02df75ee-3d2c-4615-9761-336feeca3b66(4)" Direction="Horizontal" Index="0" RelativeSize="4">
+                <LayoutItem Id="personne" ShowCaption="True" ViewItem="personne" Index="0" RelativeSize="64" />
+                <LayoutItem Id="Corps" ShowCaption="True" ViewItem="Corps" Index="1" RelativeSize="36" />
+              </LayoutGroup>
+              <LayoutGroup Id="643346b5-9bb6-4e45-8c74-489484bb25c7" ShowCaption="False" Caption="643346b5-9bb6-4e45-8c74-489484bb25c7(7)" Index="1" RelativeSize="8">
+                <LayoutGroup Id="6027f422-20f2-495a-a192-8320f72d6d19" ShowCaption="False" Caption="6027f422-20f2-495a-a192-8320f72d6d19(8)" Direction="Horizontal" Index="0" RelativeSize="50">
+                  <LayoutItem Id="LaFonction" ViewItem="LaFonction" Index="0" RelativeSize="64" />
+                  <LayoutItem Id="Secteur_Organisme" ShowCaption="True" ViewItem="Secteur_Organisme" Index="1" RelativeSize="36" />
+                </LayoutGroup>
+                <LayoutGroup Id="30d28a3e-b5f7-4358-8620-f29760c79c5c" ShowCaption="False" Caption="30d28a3e-b5f7-4358-8620-f29760c79c5c(11)" Direction="Horizontal" Index="1" RelativeSize="50">
+                  <LayoutItem Id="Categ08" ShowCaption="True" ViewItem="Categ08" Index="0" RelativeSize="44" />
+                  <LayoutItem Id="Echelon08" ShowCaption="True" ViewItem="Echelon08" Index="1" RelativeSize="55" />
+                </LayoutGroup>
+              </LayoutGroup>
+              <LayoutGroup Id="Prime_Rendement" ShowCaption="True" Direction="Horizontal" Index="2" RelativeSize="86">
+                <LayoutGroup Id="Prime_Rendement_col1" ShowCaption="False" Index="0" RelativeSize="43">
+                  <LayoutItem Id="Bloque_Pri" ViewItem="Bloque_Pri" Index="0" RelativeSize="5" />
+                  <LayoutItem Id="IEP" ShowCaption="True" ViewItem="IEP" Index="1" RelativeSize="3" />
+                  <LayoutItem Id="Trimestre_Pri" ViewItem="Trimestre_Pri" Index="2" RelativeSize="3" />
+                  <LayoutItem Id="Nbr_Jour_Trv" ShowCaption="True" ViewItem="Nbr_Jour_Trv" Index="3" RelativeSize="3" />
+                  <LayoutItem Id="Note_Perso_Pri" ShowCaption="True" ViewItem="Note_Perso_Pri" Index="4" RelativeSize="3" />
+                  <LayoutItem Id="TAUX_PRI" ShowCaption="True" ViewItem="TAUX_PRI" Index="5" RelativeSize="3" />
+                  <LayoutItem Id="Brut_Pri" ViewItem="Brut_Pri" Index="6" RelativeSize="3" />
+                  <LayoutItem Id="Brut_Imposable_Pri" ViewItem="Brut_Imposable_Pri" Index="7" RelativeSize="3" />
+                  <LayoutItem Id="Net_Pri" ViewItem="Net_Pri" Index="8" RelativeSize="68" />
+                </LayoutGroup>
+                <LayoutGroup Id="Prime_Rendement_col2" ShowCaption="False" Index="1" RelativeSize="53">
+                  <LayoutItem Id="SDB" ShowCaption="True" ViewItem="SDB" Index="0" RelativeSize="5" />
+                  <LayoutItem Id="Categ_IEP" ShowCaption="True" ViewItem="Categ_IEP" Index="1" RelativeSize="3" />
+                  <LayoutItem Id="Annee_Pri" ViewItem="Annee_Pri" Index="2" RelativeSize="3" />
+                  <LayoutItem Id="Nbr_Mois_Perso_Pri" ShowCaption="True" ViewItem="Nbr_Mois_Perso_Pri" Index="3" RelativeSize="3" />
+                  <LayoutItem Id="Jabs_Perso_Pri" ViewItem="Jabs_Perso_Pri" Index="4" RelativeSize="3" />
+                  <LayoutItem Id="Irg_taux" ShowCaption="True" ViewItem="Irg_taux" Index="5" RelativeSize="3" />
+                  <LayoutItem Id="SS_Pri" ViewItem="SS_Pri" Index="6" RelativeSize="3" />
+                  <LayoutItem Id="Irg_Pri" ViewItem="Irg_Pri" Index="7" RelativeSize="72" />
+                </LayoutGroup>
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="Person" Index="0" RelativeSize="26" ImageName="" Direction="Vertical">
+              <LayoutGroup Id="Person_col1" RelativeSize="72" ImageName="">
+                <LayoutGroup Id="20f91218-60d6-4779-868a-acec31f8ea69" ShowCaption="False" Caption="" Direction="Horizontal" Index="0" RelativeSize="36">
+                  <LayoutItem Id="Cod_personne" ViewItem="Cod_personne" Index="0" RelativeSize="27" />
+                  <LayoutItem Id="Item1" ShowCaption="False" ViewItem="" Index="1" RelativeSize="72" />
+                </LayoutGroup>
+                <LayoutItem Id="FirstName" RelativeSize="27" Index="1" ViewItem="FirstName" />
+                <LayoutItem Id="LastName" RelativeSize="36" Index="2" ViewItem="LastName" />
+                <LayoutItem Id="MiddleName" RelativeSize="36" ViewItem="MiddleName" />
+              </LayoutGroup>
+              <LayoutGroup Id="Person_col2" RelativeSize="48" ImageName="" Caption="Person_col2" Direction="Horizontal">
+                <LayoutItem Id="Birthday" ViewItem="Birthday" />
+                <LayoutItem Id="Email" ViewItem="Email" />
+                <LayoutItem Id="FullName" ViewItem="FullName" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="Party" RelativeSize="52" ImageName="" Index="1" Caption="Party" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" Direction="Horizontal">
+              <LayoutItem Id="Address1" ViewItem="Address1" />
+              <LayoutItem Id="Address2" ViewItem="Address2" />
+              <LayoutItem Id="DisplayName" ViewItem="DisplayName" />
+              <LayoutItem Id="Photo" ViewItem="Photo" />
+            </LayoutGroup>
+            <LayoutGroup Id="Prime_Rendement" Index="1" RelativeSize="50" ImageName="">
+              <LayoutGroup Id="Prime_Rendement_col1" RelativeSize="47" ImageName="">
+                <LayoutItem Id="LaFonction" RelativeSize="15" Index="0" ViewItem="LaFonction" />
+                <LayoutItem Id="Fonction_Stagiere" RelativeSize="11" Index="1" ViewItem="Fonction_Stagiere" />
+                <LayoutItem Id="Bloque_Pri" RelativeSize="11" Index="2" ViewItem="Bloque_Pri" />
+                <LayoutItem Id="Additif_Pri" RelativeSize="11" Index="3" ViewItem="Additif_Pri" />
+                <LayoutItem Id="Note_Pri" RelativeSize="11" Index="4" ViewItem="Note_Pri" />
+                <LayoutItem Id="parametres" RelativeSize="11" Index="5" ViewItem="parametres" />
+                <LayoutItem Id="Jabs_Perso_Pri" RelativeSize="27" Index="6" ViewItem="Jabs_Perso_Pri" />
+                <LayoutItem Id="Cod_personne" RelativeSize="15" ViewItem="Cod_personne" />
+              </LayoutGroup>
+              <LayoutGroup Id="Prime_Rendement_col2" RelativeSize="50" ImageName="">
+                <LayoutItem Id="Annee_Pri" RelativeSize="11" ViewItem="Annee_Pri" />
+                <LayoutItem Id="Brut_Imposable_Pri" RelativeSize="11" ViewItem="Brut_Imposable_Pri" />
+                <LayoutItem Id="Brut_Pri" RelativeSize="15" ViewItem="Brut_Pri" />
+                <LayoutItem Id="Irg_Pri" RelativeSize="11" ViewItem="Irg_Pri" />
+                <LayoutItem Id="Nbr_Mois_Pri" RelativeSize="15" ViewItem="Nbr_Mois_Pri" />
+                <LayoutItem Id="Net_Pri" RelativeSize="11" ViewItem="Net_Pri" />
+                <LayoutItem Id="SS_Pri" RelativeSize="11" ViewItem="SS_Pri" />
+                <LayoutItem Id="Trimestre_Pri" RelativeSize="11" ViewItem="Trimestre_Pri" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="PhoneNumbers_Group" Direction="Vertical" Index="1" RelativeSize="21" ImageName="">
+            <LayoutItem Id="PhoneNumbers" RelativeSize="67" ViewItem="PhoneNumbers" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Prime_Rendement_ListView" FreezeColumnIndices="True">
+      <Columns Id="Columns">
+        <ColumnInfo Id="personne" Index="0" />
+        <ColumnInfo Id="personne.Cod_personne" PropertyName="personne.Cod_personne" Index="1" />
+        <ColumnInfo Id="personne.FullName_Ar" PropertyName="personne.FullName_Ar" Index="2" />
+        <ColumnInfo Id="Corps" Index="3" />
+        <ColumnInfo Id="LaFonction" Index="4" />
+        <ColumnInfo Id="SDB" Index="5" />
+        <ColumnInfo Id="IEP" Index="6" />
+        <ColumnInfo Id="Categ08" Index="7" />
+        <ColumnInfo Id="Categ01" Index="8" />
+        <ColumnInfo Id="Categori" Index="9" />
+        <ColumnInfo Id="Categ_IEP" Index="10" />
+        <ColumnInfo Id="Echelon08" Index="11" />
+        <ColumnInfo Id="Echelon01" Index="12" />
+        <ColumnInfo Id="Bloque_Pri" Index="13" />
+        <ColumnInfo Id="Note_Perso_Pri" Index="14" />
+        <ColumnInfo Id="parametres" Index="15" />
+        <ColumnInfo Id="Nbr_Mois_Perso_Pri" Index="16" />
+        <ColumnInfo Id="Jabs_Perso_Pri" Index="17" />
+        <ColumnInfo Id="Brut_Pri" Index="18" />
+        <ColumnInfo Id="SS_Pri" Index="19" />
+        <ColumnInfo Id="Brut_Imposable_Pri" Index="20" />
+        <ColumnInfo Id="Irg_taux" Index="21" />
+        <ColumnInfo Id="Irg_Pri" Index="22" />
+        <ColumnInfo Id="Net_Pri" Index="23" />
+        <ColumnInfo Id="Annee_Pri" Index="24" />
+        <ColumnInfo Id="Trimestre_Pri" Index="25" GroupIndex="0" />
+        <ColumnInfo Id="Nbr_Mois_Pri" Index="26" />
+        <ColumnInfo Id="TAUX_PRI" Index="27" />
+        <ColumnInfo Id="Nbr_Jour_Trv" Index="28" />
+        <ColumnInfo Id="Secteur_Organisme" Index="29" />
+      </Columns>
+    </ListView>
+  </Views>
+  <BOModel Id="BOModel">
+    <Class Name="MaPaye.Module.Heurs_Supplementaires" Caption="Heurs Supplementaires">
+      <OwnMembers Id="OwnMembers">
+        <Member Name="Bloque_HS" Caption="Bloqué HS" />
+        <Member Name="Brut_HS" Caption="Brut HS" />
+        <Member Name="Brut_Imposable_HS" Caption="Brut Imposable HS" />
+        <Member Name="Categ_IEP" Caption="Catégorie IEP" />
+        <Member Name="Categ01" Caption="Catégorie 2001" />
+        <Member Name="Categ08" Caption="Catégorie 2008" />
+        <Member Name="Categori" Caption="Catégorie" />
+        <Member Name="Echelon01" Caption="Echelon 2001" />
+        <Member Name="Echelon08" Caption="Echelon 2008" />
+        <Member Name="Irg_HS" Caption="IRG HS" />
+        <Member Name="Irg_taux" Caption="Taux IRG" />
+        <Member Name="LaFonction" Caption="Fonction" />
+        <Member Name="Mode_Arrondi" Caption="Mode  Arrondi" />
+        <Member Name="Net_HS" Caption="Net HS" />
+        <Member Name="Note_Perso_HS" Caption="Note Perso HS" />
+        <Member Name="personne" Caption="Personne" />
+        <Member Name="Secteur_Organisme" Caption="Secteur Organisme" />
+        <Member Name="SS_HS" Caption="SS HS" />
+      </OwnMembers>
+    </Class>
+    <Class Name="MaPaye.Module.Prime_Amelioration_Performance" ImageName="resp" Caption="Prime Amelioration Performance">
+      <OwnMembers Id="OwnMembers">
+        <Member Name="Annee_PAP" Caption="Année PAP" />
+        <Member Name="Bloque_PAP" Caption="Bloqué PAP" />
+        <Member Name="Brut_Imposable_PAP" Caption="Brut Imposable PAP" />
+        <Member Name="Brut_PAP" Caption="Brut PAP" />
+        <Member Name="Categ_IEP" Caption="Catégorie IEP" />
+        <Member Name="Categ01" Caption="Catégorie 2001" />
+        <Member Name="Categ08" Caption="Catégorie 2008" />
+        <Member Name="Categori" Caption="Catégorie" />
+        <Member Name="LaFonction" Caption="Fonction" />
+        <Member Name="Nbr_Jour_Trv" Caption="Nbr Jours Travail" />
+        <Member Name="Nbr_Mois_PAP" Caption="Nbr Mois PAP" />
+        <Member Name="Nbr_Mois_Perso_PAP" Caption="Nbr Mois Perso PAP" />
+        <Member Name="Net_PAP" Caption="Net PAP" />
+        <Member Name="Note_Perso_PAP" Caption="Note Perso PAP" />
+        <Member Name="personne" Caption="Personne" />
+        <Member Name="Secteur_Organisme" Caption="Secteur Organisme" />
+        <Member Name="SS_PAP" Caption="SS PAP" />
+        <Member Name="Trimestre_PAP" Caption="Trimestre PAP" />
+      </OwnMembers>
+    </Class>
+    <Class Name="MaPaye.Module.Prime_Rendement" ImageName="encourag" Caption="Prime Rendement">
+      <OwnMembers Id="OwnMembers">
+        <Member Name="Annee_Pri" Caption="Année Pri" />
+        <Member Name="Categ_IEP" LookupProperty="CATEG" />
+        <Member Name="Categ01" LookupProperty="CATEG" />
+        <Member Name="Categ08" LookupProperty="CATEG" />
+        <Member Name="Categori" LookupProperty="CATEG" />
+        <Member Name="Corps" LookupProperty="CorpsLibFr" />
+        <Member Name="LaFonction" LookupProperty="Fct_Lib_Fr" />
+        <Member Name="Mode_Arrondi" Caption="Mode Arrondi" />
+        <Member Name="Nbr_Jour_Trv" Caption="Nbr Jours Travail" />
+        <Member Name="Nbr_Mois_Perso_Pri" Caption="Nbr Mois Perso Pri" />
+        <Member Name="Nbr_Mois_Pri" Caption="Nbr Mois Pri" />
+        <Member Name="Net_Pri" Caption="Net Pri" />
+        <Member Name="Note_Perso_Pri" Caption="Note Perso Pri" />
+        <Member Name="personne" Caption="Personne" />
+        <Member Name="Secteur_Organisme" LookupProperty="Secteur_Org_Lib_Fr" Caption="Secteur Organisme" />
+        <Member Name="SS_Pri" Caption="SS Pri" />
+        <Member Name="Trimestre_Pri" Caption="Trimestre Pri" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+</Application>

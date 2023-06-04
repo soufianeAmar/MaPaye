@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Indem_DetailView">
+      <Layout Id="Layout">
+        <TabbedGroup Id="Item1">
+          <LayoutGroup Id="Main">
+            <LayoutGroup Id="SimpleEditors">
+              <LayoutGroup Id="3bd07aea-b289-408c-873c-fff288176177">
+                <LayoutGroup Id="Item4">
+                  <LayoutGroup Id="01e8d481-b4b9-4107-a8f7-adcd28797eec">
+                    <LayoutGroup Id="dbdb46d0-d9d1-4be5-9589-c4dc8be9cf53">
+                      <LayoutGroup Id="3fb74a1f-c3e5-48ee-a089-6edf8e627173">
+                        <LayoutGroup Id="216445d0-e970-49cf-99dd-df27d52d9a98">
+                          <LayoutGroup Id="5a3d0f0d-1066-471c-b6c4-f0b586b29548">
+                            <LayoutGroup Id="29249037-e7c6-4199-864b-2b24897b2508">
+                              <LayoutItem Id="Divise_Par_2" ViewItem="Divise_Par_2" />
+                            </LayoutGroup>
+                          </LayoutGroup>
+                        </LayoutGroup>
+                      </LayoutGroup>
+                    </LayoutGroup>
+                  </LayoutGroup>
+                </LayoutGroup>
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </TabbedGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

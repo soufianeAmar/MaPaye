@@ -1,0 +1,2101 @@
+<?xml version="1.0" standalone="yes"?>
+<MaPayeData>
+  <xs:schema id="MaPayeData" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="MaPayeData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="parametre">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Taux_ss" type="xs:double" minOccurs="0" />
+                <xs:element name="Taux_pp1" type="xs:double" minOccurs="0" />
+                <xs:element name="Taux_pp2" type="xs:double" minOccurs="0" />
+                <xs:element name="Taux_pp3" type="xs:double" minOccurs="0" />
+                <xs:element name="Taux_pp" type="xs:double" minOccurs="0" />
+                <xs:element name="nbr_jour_ouv" type="xs:int" minOccurs="0" />
+                <xs:element name="Nbr_heure_ouv" type="xs:double" minOccurs="0" />
+                <xs:element name="Nbr_heure_tra" type="xs:double" minOccurs="0" />
+                <xs:element name="Denomination" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Num_employeur" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Adresse" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Ai" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Mf" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Rc" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Centr_Payeur" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Type_dec" type="xs:int" minOccurs="0" />
+                <xs:element name="Agence" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="banqu" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="Mois_debut_Cong" type="xs:int" minOccurs="0" />
+                <xs:element name="Mois_fin_Cong" type="xs:int" minOccurs="0" />
+                <xs:element name="nbr_jour_cong_mois" type="xs:double" minOccurs="0" />
+                <xs:element name="mod_cal_prime_lic" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="nbr_heure_jour" type="xs:double" minOccurs="0" />
+                <xs:element name="Num_compte_banq" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Cle_compte_banq" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="nom_rais_f" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Mod_cal_conge" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Tel" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Fax" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Taux_irg" type="xs:double" minOccurs="0" />
+                <xs:element name="taux_maj_sud" type="xs:double" minOccurs="0" />
+                <xs:element name="Smig" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Base_SU" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Base_SU_Partiel" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Base_AF" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Base_AF_Partiel" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Base_AF_P10" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Base_Prime_Scol" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Base_Prime_Scol_Partiel" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Plafond_mutuelle" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Valeur_mutuelle" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Nbr_heure_tra_Temporaire" type="xs:double" minOccurs="0" />
+                <xs:element name="SDB_Heur" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Nbr_heure_tra_Mois" type="xs:double" minOccurs="0" />
+                <xs:element name="Nbr_heure_tra_Partiel_Mois" type="xs:double" minOccurs="0" />
+                <xs:element name="Nbr_jour_tra" type="xs:int" minOccurs="0" />
+                <xs:element name="Nbr_Jour_Travail_Prime" type="xs:double" minOccurs="0" />
+                <xs:element name="Nbr_jour_tra_Temp" type="xs:int" minOccurs="0" />
+                <xs:element name="Base_Resident" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Taux_Iep_Org" type="xs:double" minOccurs="0" />
+                <xs:element name="Taux_Iep_Hors_Secteur_Prive" type="xs:double" minOccurs="0" />
+                <xs:element name="Taux_Iep_Hors_Secteur_Etat" type="xs:double" minOccurs="0" />
+                <xs:element name="Annee_Travail" type="xs:int" minOccurs="0" />
+                <xs:element name="Type_Abcense" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="Mode_Arrondi" type="xs:int" minOccurs="0" />
+                <xs:element name="Nbr_Mois_Pri" type="xs:int" minOccurs="0" />
+                <xs:element name="Taux_Pri" type="xs:double" minOccurs="0" />
+                <xs:element name="Note_Pri" type="xs:int" minOccurs="0" />
+                <xs:element name="Taux_PAP" type="xs:double" minOccurs="0" />
+                <xs:element name="Nbr_Mois_PAP" type="xs:int" minOccurs="0" />
+                <xs:element name="Note_PAP" type="xs:int" minOccurs="0" />
+                <xs:element name="Receveur_Ar" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Receveur_Fr" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Receveur_Num_Compte" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Receveur_Cle_Compte" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Nom_Organisme_Ar" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Organisme_Fr" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Secteur_Organisme" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="Region_Ar" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Region_Fr" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Commune_Ar" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Commune_Fr" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Daira_Fr" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Daira_Ar" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Wilaya_Ar" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Wilaya_Fr" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Designation_Caisse" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NIS" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="NIF" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="TIN" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Logo" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="Eff_Janv" type="xs:int" minOccurs="0" />
+                <xs:element name="Eff_Fev" type="xs:int" minOccurs="0" />
+                <xs:element name="Eff_Mars" type="xs:int" minOccurs="0" />
+                <xs:element name="Eff_Avr" type="xs:int" minOccurs="0" />
+                <xs:element name="Eff_Mai" type="xs:int" minOccurs="0" />
+                <xs:element name="Eff_Juin" type="xs:int" minOccurs="0" />
+                <xs:element name="Eff_Juill" type="xs:int" minOccurs="0" />
+                <xs:element name="Eff_Aout" type="xs:int" minOccurs="0" />
+                <xs:element name="Eff_Sept" type="xs:int" minOccurs="0" />
+                <xs:element name="Eff_Oct" type="xs:int" minOccurs="0" />
+                <xs:element name="Eff_Nouv" type="xs:int" minOccurs="0" />
+                <xs:element name="Jr_Debut_Mois" type="xs:int" minOccurs="0" />
+                <xs:element name="WeekEnd" type="xs:int" minOccurs="0" />
+                <xs:element name="Eff_Dec" type="xs:int" minOccurs="0" />
+                <xs:element name="Admin" type="xs:boolean" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+                <xs:element name="Taux_cacobatph" type="xs:double" minOccurs="0" />
+                <xs:element name="Taux_chomage_intemperie" type="xs:double" minOccurs="0" />
+                <xs:element name="Email" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Site_Web" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Activite" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Limite_Iep_ext" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Limite_Iep" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Limite_Iep_ext_à" type="xs:double" minOccurs="0" />
+                <xs:element name="Limite_Iep_à" type="xs:double" minOccurs="0" />
+                <xs:element name="nom_DG" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Aug_Auto_Taux_Iep_Org" type="xs:boolean" minOccurs="0" />
+                <xs:element name="AgenceCacobatph" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="30" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="HeureDebutShiftNuit" type="xs:double" minOccurs="0" />
+                <xs:element name="NbrHeuresShiftNuit" type="xs:int" minOccurs="0" />
+                <xs:element name="ShiftNuitCR" type="xs:boolean" minOccurs="0" />
+                <xs:element name="AbsenceDansJrsCongeAnnuel" type="xs:boolean" minOccurs="0" />
+                <xs:element name="NbrJrsTrvPrJrsCR" type="xs:int" minOccurs="0" />
+                <xs:element name="NbrJrsCRPrJrsTrv" type="xs:int" minOccurs="0" />
+                <xs:element name="Taux_Mutuel" type="xs:double" minOccurs="0" />
+                <xs:element name="Calcul_Absence_Auto" type="xs:boolean" minOccurs="0" />
+                <xs:element name="DeclarationMultiple" type="xs:boolean" minOccurs="0" />
+                <xs:element name="CRAvecPaye" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Indem">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Code" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Cod_indem_interne" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Cod_indem" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Lib_indem" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Lib_indem_Ar" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Lib_indem_cour" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Form_cal" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Cotisable" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Imposable" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Condition1" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Form_base" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Form_nbr" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Form_taux" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Pour_tous" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Taux_par_pou" type="xs:boolean" minOccurs="0" />
+                <xs:element name="nbr_dec" type="xs:int" minOccurs="0" />
+                <xs:element name="Ordre_Affichage" type="xs:int" minOccurs="0" />
+                <xs:element name="Mod_cal_irg" type="xs:int" minOccurs="0" />
+                <xs:element name="parametres" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                <xs:element name="Observation" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Brut_Net_Incluse" type="xs:int" minOccurs="0" />
+                <xs:element name="Retenue" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Mode_Calcul_Absence" type="xs:int" minOccurs="0" />
+                <xs:element name="Compte_Comptable" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Compte_Debit" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Compte_Credit" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Valeur_Min" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Valeur_Max" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Valeur_Minimale" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Valeur_Maximale" type="xs:boolean" minOccurs="0" />
+                <xs:element name="OptimisticLockField" type="xs:int" minOccurs="0" />
+                <xs:element name="GCRecord" type="xs:int" minOccurs="0" />
+                <xs:element name="Cod_Rubrique" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <parametre>
+    <Taux_ss>9</Taux_ss>
+    <Taux_pp1>23.75</Taux_pp1>
+    <Taux_pp2>1</Taux_pp2>
+    <Taux_pp3>0.25</Taux_pp3>
+    <Taux_pp>26</Taux_pp>
+    <nbr_jour_ouv>22</nbr_jour_ouv>
+    <Nbr_heure_ouv>173.33</Nbr_heure_ouv>
+    <Nbr_heure_tra>8</Nbr_heure_tra>
+    <Denomination>Société</Denomination>
+    <Type_dec>0</Type_dec>
+    <Mois_debut_Cong>7</Mois_debut_Cong>
+    <Mois_fin_Cong>6</Mois_fin_Cong>
+    <nbr_jour_cong_mois>2.5</nbr_jour_cong_mois>
+    <nbr_heure_jour>0</nbr_heure_jour>
+    <Num_compte_banq />
+    <Cle_compte_banq />
+    <Taux_irg>10</Taux_irg>
+    <taux_maj_sud>0</taux_maj_sud>
+    <Smig>18000.0000</Smig>
+    <Base_SU>800.0000</Base_SU>
+    <Base_SU_Partiel>5.5000</Base_SU_Partiel>
+    <Base_AF>600.0000</Base_AF>
+    <Base_AF_Partiel>300.0000</Base_AF_Partiel>
+    <Base_AF_P10>11.2500</Base_AF_P10>
+    <Base_Prime_Scol>800.0000</Base_Prime_Scol>
+    <Base_Prime_Scol_Partiel>400.0000</Base_Prime_Scol_Partiel>
+    <Plafond_mutuelle>250.0000</Plafond_mutuelle>
+    <Valeur_mutuelle>250.0000</Valeur_mutuelle>
+    <Nbr_heure_tra_Temporaire>0</Nbr_heure_tra_Temporaire>
+    <SDB_Heur>0.0000</SDB_Heur>
+    <Nbr_heure_tra_Mois>0</Nbr_heure_tra_Mois>
+    <Nbr_heure_tra_Partiel_Mois>0</Nbr_heure_tra_Partiel_Mois>
+    <Nbr_jour_tra>22</Nbr_jour_tra>
+    <Nbr_Jour_Travail_Prime>22</Nbr_Jour_Travail_Prime>
+    <Nbr_jour_tra_Temp>0</Nbr_jour_tra_Temp>
+    <Base_Resident>0.0000</Base_Resident>
+    <Taux_Iep_Org>1</Taux_Iep_Org>
+    <Taux_Iep_Hors_Secteur_Prive>0</Taux_Iep_Hors_Secteur_Prive>
+    <Taux_Iep_Hors_Secteur_Etat>0</Taux_Iep_Hors_Secteur_Etat>
+    <Annee_Travail>2015</Annee_Travail>
+    <Type_Abcense>93ab8b3e-e488-4a96-9311-973940bee523</Type_Abcense>
+    <Mode_Arrondi>1</Mode_Arrondi>
+    <Nbr_Mois_Pri>0</Nbr_Mois_Pri>
+    <Taux_Pri>0</Taux_Pri>
+    <Note_Pri>0</Note_Pri>
+    <Taux_PAP>0</Taux_PAP>
+    <Nbr_Mois_PAP>0</Nbr_Mois_PAP>
+    <Note_PAP>0</Note_PAP>
+    <Secteur_Organisme>b8a6ebb0-160b-4692-a239-10ba4629f478</Secteur_Organisme>
+    <Eff_Janv>0</Eff_Janv>
+    <Eff_Fev>0</Eff_Fev>
+    <Eff_Mars>0</Eff_Mars>
+    <Eff_Avr>0</Eff_Avr>
+    <Eff_Mai>0</Eff_Mai>
+    <Eff_Juin>0</Eff_Juin>
+    <Eff_Juill>0</Eff_Juill>
+    <Eff_Aout>0</Eff_Aout>
+    <Eff_Sept>0</Eff_Sept>
+    <Eff_Oct>0</Eff_Oct>
+    <Eff_Nouv>0</Eff_Nouv>
+    <Jr_Debut_Mois>1</Jr_Debut_Mois>
+    <WeekEnd>1</WeekEnd>
+    <Eff_Dec>0</Eff_Dec>
+    <Admin>false</Admin>
+    <OptimisticLockField>21</OptimisticLockField>
+    <Taux_cacobatph>12.21</Taux_cacobatph>
+    <Taux_chomage_intemperie>0.75</Taux_chomage_intemperie>
+    <Limite_Iep_ext>false</Limite_Iep_ext>
+    <Limite_Iep>false</Limite_Iep>
+    <Limite_Iep_ext_à>0</Limite_Iep_ext_à>
+    <Limite_Iep_à>0</Limite_Iep_à>
+    <Aug_Auto_Taux_Iep_Org>true</Aug_Auto_Taux_Iep_Org>
+    <HeureDebutShiftNuit>0</HeureDebutShiftNuit>
+    <NbrHeuresShiftNuit>0</NbrHeuresShiftNuit>
+    <ShiftNuitCR>false</ShiftNuitCR>
+    <AbsenceDansJrsCongeAnnuel>false</AbsenceDansJrsCongeAnnuel>
+    <NbrJrsTrvPrJrsCR>0</NbrJrsTrvPrJrsCR>
+    <NbrJrsCRPrJrsTrv>0</NbrJrsCRPrJrsTrv>
+    <Taux_Mutuel>0</Taux_Mutuel>
+    <Calcul_Absence_Auto>false</Calcul_Absence_Auto>
+    <DeclarationMultiple>false</DeclarationMultiple>
+  </parametre>
+  <Indem>
+    <Cod_indem_interne>Imposable_taux</Cod_indem_interne>
+    <Cod_indem>Brut imposable_Taux</Cod_indem>
+    <Lib_indem>Brut imposable_Taux</Lib_indem>
+    <Lib_indem_Ar>الخام الخاضع لنسبة</Lib_indem_Ar>
+    <Form_cal>Imposable_taux*1.00</Form_cal>
+    <Cotisable>false</Cotisable>
+    <Imposable>false</Imposable>
+    <Form_base>SDB</Form_base>
+    <Form_taux />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>197</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>0</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>13</OptimisticLockField>
+    <GCRecord>547878907</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>HSUP_75</Cod_indem_interne>
+    <Cod_indem>HSUP_75</Cod_indem>
+    <Lib_indem>HSUP_75</Lib_indem>
+    <Lib_indem_Ar />
+    <Form_cal>TAUX*NBR</Form_cal>
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base />
+    <Form_nbr />
+    <Form_taux>Taux_HS*1.75</Form_taux>
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>50</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Observation />
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>2</OptimisticLockField>
+    <GCRecord>2121501097</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>IEP</Cod_indem_interne>
+    <Cod_indem>IEP</Cod_indem>
+    <Lib_indem>Indemnité d'experience</Lib_indem>
+    <Lib_indem_Ar>منحة الأقدمية</Lib_indem_Ar>
+    <Form_cal>IEP*1.00</Form_cal>
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base>SDBAbsence</Form_base>
+    <Form_taux>TAUX_IEP</Form_taux>
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>2</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Observation>Calcul IEP du C.O selon le bareme</Observation>
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>32</OptimisticLockField>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>mutuelle</Cod_indem_interne>
+    <Cod_indem>MUTUEL</Cod_indem>
+    <Lib_indem>Mutuelle</Lib_indem>
+    <Lib_indem_Ar>التعاضدية</Lib_indem_Ar>
+    <Lib_indem_cour>MUTUEL</Lib_indem_cour>
+    <Form_cal>mutuelle*1.00</Form_cal>
+    <Cotisable>false</Cotisable>
+    <Imposable>false</Imposable>
+    <Form_base />
+    <Form_taux />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>250</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Observation>Calcul de la mutuelle = Montant fixe</Observation>
+    <Brut_Net_Incluse>0</Brut_Net_Incluse>
+    <Retenue>true</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>40</OptimisticLockField>
+    <GCRecord>2126861689</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>AF_Global</Cod_indem_interne>
+    <Cod_indem>AF_Global</Cod_indem>
+    <Lib_indem>Allocation familiale global</Lib_indem>
+    <Lib_indem_Ar>مجموع المنح العائلية</Lib_indem_Ar>
+    <Form_cal>AF_Global*1.00</Form_cal>
+    <Cotisable>false</Cotisable>
+    <Imposable>false</Imposable>
+    <Form_base />
+    <Form_taux />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>204</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Observation>Calcul de l'allocation familliale avec major</Observation>
+    <Brut_Net_Incluse>0</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>29</OptimisticLockField>
+    <GCRecord>1165415002</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>SDB</Cod_indem_interne>
+    <Cod_indem>SDB</Cod_indem>
+    <Lib_indem>Salaire de base</Lib_indem>
+    <Lib_indem_Ar>ر.قاعدي</Lib_indem_Ar>
+    <Lib_indem_cour>SDB</Lib_indem_cour>
+    <Form_cal>SDB*1.00</Form_cal>
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base />
+    <Form_taux />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>1</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Observation>Calcul le SDB du C.O selon le bareme</Observation>
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>37</OptimisticLockField>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>NET</Cod_indem_interne>
+    <Cod_indem>NET</Cod_indem>
+    <Lib_indem>NET</Lib_indem>
+    <Lib_indem_Ar>الصافي للدفع</Lib_indem_Ar>
+    <Lib_indem_cour>NET</Lib_indem_cour>
+    <Form_cal>NET*1.00</Form_cal>
+    <Cotisable>false</Cotisable>
+    <Imposable>false</Imposable>
+    <Form_base />
+    <Form_taux />
+    <Ordre_Affichage>300</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Observation>Calcul le net à payer</Observation>
+    <Brut_Net_Incluse>2</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <OptimisticLockField>32</OptimisticLockField>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>Prime_Transport</Cod_indem_interne>
+    <Cod_indem>TRS</Cod_indem>
+    <Lib_indem>Prime de transport</Lib_indem>
+    <Lib_indem_Ar>منحة النقل</Lib_indem_Ar>
+    <Form_cal>TAUX* Nbr_Jour_Tra_Prime * 1.00</Form_cal>
+    <Cotisable>false</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base />
+    <Form_nbr>Nbr_Jour_Tra_Prime - Nbr_jour_abs_prime*1.00</Form_nbr>
+    <Form_taux />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>111</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>44</OptimisticLockField>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>Indem3</Cod_indem_interne>
+    <Cod_indem>Ind mission</Cod_indem>
+    <Lib_indem>Ind mission</Lib_indem>
+    <Form_cal />
+    <Cotisable>false</Cotisable>
+    <Imposable>true</Imposable>
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>114</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>13</OptimisticLockField>
+    <GCRecord>11307721</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>SDB</Cod_indem_interne>
+    <Cod_indem>Salaire de Base_T</Cod_indem>
+    <Lib_indem>Salaire de Base_T</Lib_indem>
+    <Lib_indem_Ar />
+    <Form_cal>SDB*1.00</Form_cal>
+    <Cotisable>false</Cotisable>
+    <Imposable>true</Imposable>
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>100</Ordre_Affichage>
+    <Mod_cal_irg>1</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Observation>Calcul le SDB du C.O selon le  TAUX</Observation>
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>2</OptimisticLockField>
+    <GCRecord>50721947</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>HSUP_100</Cod_indem_interne>
+    <Cod_indem>HS 100%</Cod_indem>
+    <Lib_indem>Heures Supp 100%</Lib_indem>
+    <Form_cal>TAUX*NBR</Form_cal>
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base />
+    <Form_nbr />
+    <Form_taux>Taux_HS*2</Form_taux>
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>22</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Observation />
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>24</OptimisticLockField>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>HSUP_50</Cod_indem_interne>
+    <Cod_indem>HS 50%</Cod_indem>
+    <Lib_indem>Heures Supp 50%</Lib_indem>
+    <Lib_indem_Ar />
+    <Form_cal>TAUX*NBR</Form_cal>
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base />
+    <Form_nbr />
+    <Form_taux>Taux_HS*1.5</Form_taux>
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>20</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Observation />
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>13</OptimisticLockField>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>IRG</Cod_indem_interne>
+    <Cod_indem>IRG</Cod_indem>
+    <Lib_indem>IRG</Lib_indem>
+    <Lib_indem_Ar>الضريبة</Lib_indem_Ar>
+    <Form_cal>IRG*1.00</Form_cal>
+    <Cotisable>false</Cotisable>
+    <Imposable>false</Imposable>
+    <Form_base>Brute_imposable_Abs</Form_base>
+    <Form_taux />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>200</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Observation>Calcul IRG</Observation>
+    <Brut_Net_Incluse>0</Brut_Net_Incluse>
+    <Retenue>true</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>36</OptimisticLockField>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>Indem4</Cod_indem_interne>
+    <Cod_indem>IFRI</Cod_indem>
+    <Form_cal>NBR*TAUX</Form_cal>
+    <Cotisable>false</Cotisable>
+    <Imposable>false</Imposable>
+    <Form_base />
+    <Form_nbr>(Nbr_jour_tra-Nbr_jour_abs)*1.00</Form_nbr>
+    <Form_taux />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>205</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>0</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>0</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>27</OptimisticLockField>
+    <GCRecord>1322478627</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>Encourag</Cod_indem_interne>
+    <Cod_indem>Encourag</Cod_indem>
+    <Lib_indem>Encouragement</Lib_indem>
+    <Lib_indem_Ar>التشجيع</Lib_indem_Ar>
+    <Form_cal>BASE*TAUX/100</Form_cal>
+    <Cotisable>false</Cotisable>
+    <Imposable>false</Imposable>
+    <Form_base>SDB</Form_base>
+    <Form_taux />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>207</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>0</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>15</OptimisticLockField>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>Indem2</Cod_indem_interne>
+    <Cod_indem>SP.Allow</Cod_indem>
+    <Form_cal>BASE*TAUX/100</Form_cal>
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base>SDB</Form_base>
+    <Form_taux>5.00</Form_taux>
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>107</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>0</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>5</OptimisticLockField>
+    <GCRecord>1757927045</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>IFSP</Cod_indem_interne>
+    <Cod_indem>IFSP</Cod_indem>
+    <Form_cal>BASE*TAUX/100</Form_cal>
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base>SDB</Form_base>
+    <Form_taux>20.00</Form_taux>
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>5</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>8</OptimisticLockField>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>HSUP_150</Cod_indem_interne>
+    <Cod_indem>HSUP_150</Cod_indem>
+    <Lib_indem>HSUP_150</Lib_indem>
+    <Lib_indem_Ar />
+    <Form_cal>TAUX*NBR</Form_cal>
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base />
+    <Form_nbr />
+    <Form_taux>Taux_HS*2.5</Form_taux>
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>52</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Observation />
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>2</OptimisticLockField>
+    <GCRecord>1178305401</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>Prime_Pannier</Cod_indem_interne>
+    <Cod_indem>PPN</Cod_indem>
+    <Lib_indem>Prime de panier</Lib_indem>
+    <Lib_indem_Ar>منحة السلة</Lib_indem_Ar>
+    <Form_cal>TAUX* Nbr_Jour_Tra_Prime * 1.00</Form_cal>
+    <Cotisable>false</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base />
+    <Form_nbr>Nbr_Jour_Tra_Prime - Nbr_jour_abs_prime*1.00</Form_nbr>
+    <Form_taux />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>110</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>22</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>42</OptimisticLockField>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>HSUP_75</Cod_indem_interne>
+    <Cod_indem>HS 75%</Cod_indem>
+    <Lib_indem>Heures Supp 75%</Lib_indem>
+    <Form_cal>TAUX*NBR</Form_cal>
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base />
+    <Form_taux>Taux_HS*1.75</Form_taux>
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>20</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>0</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>6</OptimisticLockField>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>NUIS</Cod_indem_interne>
+    <Cod_indem>NUIS</Cod_indem>
+    <Lib_indem>Indemnité de nuisance</Lib_indem>
+    <Form_cal>BASE*TAUX/100</Form_cal>
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base>SDB</Form_base>
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>4</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>0</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>0</OptimisticLockField>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>CONTAG</Cod_indem_interne>
+    <Cod_indem>CONTAG</Cod_indem>
+    <Lib_indem>Indemnité de risque et contagion</Lib_indem>
+    <Lib_indem_Ar>تعويض خطر العدوى</Lib_indem_Ar>
+    <Form_cal>BASE*TAUX/100</Form_cal>
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base>SDB</Form_base>
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>16</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>0</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>21</OptimisticLockField>
+    <GCRecord>835152305</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>NUIS</Cod_indem_interne>
+    <Cod_indem>NUIS</Cod_indem>
+    <Lib_indem>Indemnité de nuisance</Lib_indem>
+    <Lib_indem_Ar>منحة الضرر</Lib_indem_Ar>
+    <Lib_indem_cour>NUIS</Lib_indem_cour>
+    <Form_cal>NBR*TAUX</Form_cal>
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base />
+    <Form_nbr>(Nbr_jour_tra-Nbr_jour_abs)*1.00</Form_nbr>
+    <Form_taux />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>13</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Observation>Calculer selon (la Catégorie Section C.O  du bareme + IEP ) X Taux</Observation>
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>33</OptimisticLockField>
+    <GCRecord>1650704417</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>Bonif_Resp</Cod_indem_interne>
+    <Cod_indem>Bonif Resp</Cod_indem>
+    <Lib_indem>Bonif responsabilité</Lib_indem>
+    <Lib_indem_Ar>منحة المسؤولية</Lib_indem_Ar>
+    <Form_cal>(BASE*TAUX/100)+NBR</Form_cal>
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base>SDB</Form_base>
+    <Form_taux />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>9</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Observation>Selon le nombre de points d'indice X montant du point indiciaire</Observation>
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>38</OptimisticLockField>
+    <GCRecord>1286483687</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>Imposable_bareme</Cod_indem_interne>
+    <Cod_indem>Brut imposable_Bar</Cod_indem>
+    <Lib_indem>Brut imposable_Bar</Lib_indem>
+    <Lib_indem_Ar>الخام الخاضع لضريبة الجدول</Lib_indem_Ar>
+    <Form_cal>Imposable_bareme*1.00</Form_cal>
+    <Cotisable>false</Cotisable>
+    <Imposable>false</Imposable>
+    <Form_base>SDB</Form_base>
+    <Form_taux />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>198</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>0</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>16</OptimisticLockField>
+    <GCRecord>378670007</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>RISQUE</Cod_indem_interne>
+    <Cod_indem>RISQUE</Cod_indem>
+    <Lib_indem>Risque</Lib_indem>
+    <Lib_indem_Ar>منحة الخطر</Lib_indem_Ar>
+    <Form_cal />
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base />
+    <Form_taux />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>17</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Observation>Calculer selon (la Catégorie Section C.O  du bareme + IEP ) X Taux</Observation>
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>34</OptimisticLockField>
+    <GCRecord>794871216</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>IEP_Ext</Cod_indem_interne>
+    <Cod_indem>IEP_Ext</Cod_indem>
+    <Lib_indem>Indemnité d'experience hors secteur</Lib_indem>
+    <Lib_indem_Ar>منحة الأقدمية خارج القطاع</Lib_indem_Ar>
+    <Form_cal>IEP_Ext*1.00</Form_cal>
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base>SDB</Form_base>
+    <Form_taux>TAUX_IEP_Ext</Form_taux>
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>3</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>14</OptimisticLockField>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>Incapacite_Perman</Cod_indem_interne>
+    <Cod_indem>Incapacite_Perman</Cod_indem>
+    <Lib_indem>Incapacite Permanente</Lib_indem>
+    <Form_cal>BASE*TAUX/100</Form_cal>
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base>SDB</Form_base>
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>14</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>7</OptimisticLockField>
+    <GCRecord>67392119</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>PRI</Cod_indem_interne>
+    <Cod_indem>PRI</Cod_indem>
+    <Lib_indem>La prime de rendement</Lib_indem>
+    <Lib_indem_Ar>منحة المردودية</Lib_indem_Ar>
+    <Form_cal>BASE*TAUX/100</Form_cal>
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base>SDB</Form_base>
+    <Form_taux />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>6</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>0</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>40</OptimisticLockField>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>Prime_Km</Cod_indem_interne>
+    <Cod_indem>Prime_Km</Cod_indem>
+    <Lib_indem>Prime_Km</Lib_indem>
+    <Lib_indem_Ar>منحة المسافة</Lib_indem_Ar>
+    <Cotisable>false</Cotisable>
+    <Imposable>false</Imposable>
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>206</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>0</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>12</OptimisticLockField>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>Variable</Cod_indem_interne>
+    <Cod_indem>VAR</Cod_indem>
+    <Lib_indem>Variable</Lib_indem>
+    <Lib_indem_Ar>النجاعة</Lib_indem_Ar>
+    <Form_cal>BASE*TAUX/100</Form_cal>
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base>SDB</Form_base>
+    <Form_taux />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>10</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>19</OptimisticLockField>
+    <GCRecord>1514574652</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>Indem2</Cod_indem_interne>
+    <Cod_indem>Indemnité utilisation vehicule</Cod_indem>
+    <Form_cal />
+    <Cotisable>false</Cotisable>
+    <Imposable>true</Imposable>
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>113</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>0</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>0</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>13</OptimisticLockField>
+    <GCRecord>1046229075</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>SS</Cod_indem_interne>
+    <Cod_indem>SS</Cod_indem>
+    <Lib_indem>Sécurité Sociale</Lib_indem>
+    <Lib_indem_Ar />
+    <Lib_indem_cour>SS</Lib_indem_cour>
+    <Form_cal>SS*1.00</Form_cal>
+    <Cotisable>false</Cotisable>
+    <Imposable>false</Imposable>
+    <Form_base>Brute_cotisableAbsence</Form_base>
+    <Form_taux />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>105</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Observation>Calcul la Sécurité Sociale du brut cotisable</Observation>
+    <Brut_Net_Incluse>0</Brut_Net_Incluse>
+    <Retenue>true</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>47</OptimisticLockField>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>Brute_cotisable</Cod_indem_interne>
+    <Cod_indem>BrutCotis</Cod_indem>
+    <Lib_indem>Brut Cotisable</Lib_indem>
+    <Form_cal>Brute_cotisable*1.00</Form_cal>
+    <Cotisable>false</Cotisable>
+    <Imposable>false</Imposable>
+    <Form_base />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>101</Ordre_Affichage>
+    <Mod_cal_irg>2</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>2</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>0</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>13</OptimisticLockField>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>VRet</Cod_indem_interne>
+    <Cod_indem>VRET</Cod_indem>
+    <Lib_indem>Retenu de voiture</Lib_indem>
+    <Lib_indem_Ar>خصومات السيارة</Lib_indem_Ar>
+    <Form_cal />
+    <Cotisable>false</Cotisable>
+    <Imposable>false</Imposable>
+    <Form_base />
+    <Form_taux />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>252</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>0</Brut_Net_Incluse>
+    <Retenue>true</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>22</OptimisticLockField>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>Sujétion</Cod_indem_interne>
+    <Cod_indem>SUJ</Cod_indem>
+    <Lib_indem>Sujétion</Lib_indem>
+    <Lib_indem_Ar>الخضوع</Lib_indem_Ar>
+    <Form_cal>(BASE*TAUX/100)+NBR</Form_cal>
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base>SDB</Form_base>
+    <Form_taux />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>8</Ordre_Affichage>
+    <Mod_cal_irg>1</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>22</OptimisticLockField>
+    <GCRecord>1551013004</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>BRUT</Cod_indem_interne>
+    <Cod_indem>BRUT</Cod_indem>
+    <Lib_indem>Brut</Lib_indem>
+    <Lib_indem_Ar>خام الراتب</Lib_indem_Ar>
+    <Lib_indem_cour>Brut</Lib_indem_cour>
+    <Form_cal>BRUT*1.00</Form_cal>
+    <Cotisable>false</Cotisable>
+    <Imposable>false</Imposable>
+    <Form_base>SDB</Form_base>
+    <Form_taux />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>100</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Observation>Calcul le brut cotisable</Observation>
+    <Brut_Net_Incluse>0</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>39</OptimisticLockField>
+    <GCRecord>959687547</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>AF</Cod_indem_interne>
+    <Cod_indem>AF_M10</Cod_indem>
+    <Lib_indem>Allocation familiale</Lib_indem>
+    <Lib_indem_Ar>منحة الأطفال</Lib_indem_Ar>
+    <Form_cal>AF*1.00</Form_cal>
+    <Cotisable>false</Cotisable>
+    <Imposable>false</Imposable>
+    <Form_base />
+    <Form_taux />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>202</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Observation />
+    <Brut_Net_Incluse>0</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>34</OptimisticLockField>
+    <GCRecord>1790746448</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>SU</Cod_indem_interne>
+    <Cod_indem>SU</Cod_indem>
+    <Lib_indem>Salaire unique</Lib_indem>
+    <Lib_indem_Ar>الأجر الوحيد</Lib_indem_Ar>
+    <Form_cal />
+    <Cotisable>false</Cotisable>
+    <Imposable>false</Imposable>
+    <Form_base />
+    <Form_taux />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>205</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Observation>Calcul du salaire unique</Observation>
+    <Brut_Net_Incluse>0</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>0</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>36</OptimisticLockField>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>Indem3</Cod_indem_interne>
+    <Cod_indem>CP &amp; Recup</Cod_indem>
+    <Form_cal>Brute_cotisable/2.00</Form_cal>
+    <Cotisable>false</Cotisable>
+    <Imposable>false</Imposable>
+    <Form_base />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>201</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>0</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>8</OptimisticLockField>
+    <GCRecord>327114404</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>Prime_Victime</Cod_indem_interne>
+    <Cod_indem>Prime_Victime</Cod_indem>
+    <Lib_indem>Prime victimes terrorisme</Lib_indem>
+    <Lib_indem_Ar>منحة ضحايا الارهاب</Lib_indem_Ar>
+    <Form_cal>BASE*TAUX/100</Form_cal>
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base>SDB</Form_base>
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>15</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>8</OptimisticLockField>
+    <GCRecord>107717580</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>HSUP_200</Cod_indem_interne>
+    <Cod_indem>HSUP_200</Cod_indem>
+    <Lib_indem>HSUP_200</Lib_indem>
+    <Lib_indem_Ar />
+    <Form_cal>TAUX*NBR</Form_cal>
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base />
+    <Form_nbr />
+    <Form_taux>Taux_HS*3</Form_taux>
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>53</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Observation />
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>2</OptimisticLockField>
+    <GCRecord>1618395604</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>Astreinte</Cod_indem_interne>
+    <Cod_indem>Astreinte</Cod_indem>
+    <Lib_indem>Astreinte</Lib_indem>
+    <Lib_indem_Ar>الإلزام</Lib_indem_Ar>
+    <Form_cal>BASE*TAUX/100</Form_cal>
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base>SDB</Form_base>
+    <Form_taux />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>12</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>0</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>19</OptimisticLockField>
+    <GCRecord>1892128245</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>DRet</Cod_indem_interne>
+    <Cod_indem>DRET</Cod_indem>
+    <Lib_indem>Divers retenus</Lib_indem>
+    <Lib_indem_Ar>خصومات مختلفة</Lib_indem_Ar>
+    <Form_cal />
+    <Cotisable>false</Cotisable>
+    <Imposable>false</Imposable>
+    <Form_base />
+    <Form_taux />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>251</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Observation>Valeur à saisir</Observation>
+    <Brut_Net_Incluse>0</Brut_Net_Incluse>
+    <Retenue>true</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>31</OptimisticLockField>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>AF_Majoration</Cod_indem_interne>
+    <Cod_indem>AF_P10</Cod_indem>
+    <Lib_indem>Allocation familiale plus de 10 ans</Lib_indem>
+    <Lib_indem_Ar>المنحة العائلية لأكبر من 10 سنوات</Lib_indem_Ar>
+    <Form_cal>AF_Majoration*1.00</Form_cal>
+    <Cotisable>false</Cotisable>
+    <Imposable>false</Imposable>
+    <Form_base />
+    <Form_taux />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>203</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>0</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>33</OptimisticLockField>
+    <GCRecord>1303093301</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>Indem1</Cod_indem_interne>
+    <Cod_indem>Travel</Cod_indem>
+    <Form_cal>BASE*TAUX/100</Form_cal>
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base>SDB</Form_base>
+    <Form_taux>10.00</Form_taux>
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>106</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>0</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>3</OptimisticLockField>
+    <GCRecord>385889843</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>HSUP_200</Cod_indem_interne>
+    <Cod_indem>HS 200%</Cod_indem>
+    <Lib_indem>Heures Supp 200 %</Lib_indem>
+    <Form_cal>TAUX*NBR</Form_cal>
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base />
+    <Form_taux>Taux_HS*3</Form_taux>
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>24</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>19</OptimisticLockField>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>Prime_Caisse</Cod_indem_interne>
+    <Cod_indem>Caisse</Cod_indem>
+    <Lib_indem>Indemnité de caisse</Lib_indem>
+    <Lib_indem_Ar>الصندوق</Lib_indem_Ar>
+    <Form_cal />
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base>SDB</Form_base>
+    <Form_taux />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>13</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Observation>Prime_Caisse*1.00</Observation>
+    <Brut_Net_Incluse>0</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>22</OptimisticLockField>
+    <GCRecord>2118254170</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>Prime_Except</Cod_indem_interne>
+    <Cod_indem>Prime_Except</Cod_indem>
+    <Lib_indem>Prime Exceptionnelle</Lib_indem>
+    <Form_cal />
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>11</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>8</OptimisticLockField>
+    <GCRecord>111847830</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>IFSP</Cod_indem_interne>
+    <Cod_indem>IFSP_Taux</Cod_indem>
+    <Form_cal>BASE*TAUX/100</Form_cal>
+    <Cotisable>false</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base>SDB</Form_base>
+    <Form_taux>20.00</Form_taux>
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>111</Ordre_Affichage>
+    <Mod_cal_irg>1</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>2</OptimisticLockField>
+    <GCRecord>1707416103</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>HSUP_150</Cod_indem_interne>
+    <Cod_indem>HS 150%</Cod_indem>
+    <Lib_indem>Heures Supp 150%</Lib_indem>
+    <Form_cal>TAUX*NBR</Form_cal>
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base />
+    <Form_taux>Taux_HS*2.5</Form_taux>
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>23</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>15</OptimisticLockField>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>Indem1</Cod_indem_interne>
+    <Cod_indem>Prime de l'Aide</Cod_indem>
+    <Lib_indem>Prime de l'Aide</Lib_indem>
+    <Form_cal />
+    <Cotisable>false</Cotisable>
+    <Imposable>true</Imposable>
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>112</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>0</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>10</OptimisticLockField>
+    <GCRecord>13207835</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>Brute_imposable</Cod_indem_interne>
+    <Cod_indem>BrutImpos</Cod_indem>
+    <Lib_indem>Brut Imposable</Lib_indem>
+    <Lib_indem_Ar>الخام الخاضع للضريبة</Lib_indem_Ar>
+    <Form_cal>Brute_imposable*1.00</Form_cal>
+    <Cotisable>false</Cotisable>
+    <Imposable>false</Imposable>
+    <Form_base />
+    <Form_taux />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>199</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>2</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>31</OptimisticLockField>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>Retenu_Global</Cod_indem_interne>
+    <Cod_indem>Retenu_Global</Cod_indem>
+    <Lib_indem>Retenu global</Lib_indem>
+    <Lib_indem_Ar>مجموع  الخصومات</Lib_indem_Ar>
+    <Cotisable>false</Cotisable>
+    <Imposable>false</Imposable>
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>319</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Brut_Net_Incluse>0</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>17</OptimisticLockField>
+    <GCRecord>595072216</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>ITP</Cod_indem_interne>
+    <Cod_indem>ITP</Cod_indem>
+    <Lib_indem>ITP</Lib_indem>
+    <Lib_indem_Ar>تعويض دعم المنصب</Lib_indem_Ar>
+    <Form_cal>BASE*TAUX/100</Form_cal>
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base>SDB</Form_base>
+    <Form_taux />
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>7</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Observation>Calculer selon (la Catégorie Section E.S  du bareme ) X Taux</Observation>
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>29</OptimisticLockField>
+    <GCRecord>1879312428</GCRecord>
+  </Indem>
+  <Indem>
+    <Cod_indem_interne>HSUP_100</Cod_indem_interne>
+    <Cod_indem>HSUP_100</Cod_indem>
+    <Lib_indem>HSUP_100</Lib_indem>
+    <Lib_indem_Ar />
+    <Form_cal>TAUX*NBR</Form_cal>
+    <Cotisable>true</Cotisable>
+    <Imposable>true</Imposable>
+    <Form_base />
+    <Form_nbr />
+    <Form_taux>Taux_HS*2</Form_taux>
+    <Pour_tous>false</Pour_tous>
+    <Taux_par_pou>false</Taux_par_pou>
+    <nbr_dec>0</nbr_dec>
+    <Ordre_Affichage>51</Ordre_Affichage>
+    <Mod_cal_irg>0</Mod_cal_irg>
+    <parametres>034a7145-eb7f-432f-8cfb-26dba4a7491f</parametres>
+    <Observation />
+    <Brut_Net_Incluse>1</Brut_Net_Incluse>
+    <Retenue>false</Retenue>
+    <Mode_Calcul_Absence>30</Mode_Calcul_Absence>
+    <Compte_Debit>false</Compte_Debit>
+    <Compte_Credit>false</Compte_Credit>
+    <Valeur_Min>0.0000</Valeur_Min>
+    <Valeur_Max>0.0000</Valeur_Max>
+    <Valeur_Minimale>false</Valeur_Minimale>
+    <Valeur_Maximale>false</Valeur_Maximale>
+    <OptimisticLockField>2</OptimisticLockField>
+    <GCRecord>960048580</GCRecord>
+  </Indem>
+</MaPayeData>
